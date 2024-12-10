@@ -1,0 +1,11 @@
+[00:01:08] [Netty Worker IO Thread #3/INFO]: [Ultimate_C] disconnected with: Proxy lost connection to server.
+[00:01:08] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:59892|Ultimate_C] <-> DownstreamBridge <-> [lobby] has disconnected
+[00:01:08] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:59892|Ultimate_C] -> UpstreamBridge has disconnected
+[00:01:40] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56118]: Connected via websocket
+[00:01:40] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56118]: Origin header is null
+[00:01:40] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56118]: Logged in as 'Ultimate_C'
+[00:01:40] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:56118|Ultimate_C] -> UpstreamBridge has connected
+[00:01:40] [Netty Worker IO Thread #0/INFO]: [Ultimate_C|/[0:0:0:0:0:0:0:1%0]:56118] <-> ServerConnector [lobby] has connected
+[00:06:08] [Netty Worker IO Thread #0/INFO]: [Ultimate_C] disconnected with: Proxy lost connection to server.
+[00:06:08] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:56118|Ultimate_C] <-> DownstreamBridge <-> [lobby] has disconnected
+[00:06:08] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:56118|Ultimate_C] -> UpstreamBridge has disconnected
