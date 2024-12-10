@@ -1,407 +1,2549 @@
-[16:42:31] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[16:42:31] [Server thread/INFO]: Loading properties
-[16:42:31] [Server thread/INFO]: Default game type: SURVIVAL
-[16:42:31] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
-[16:42:31] [Server thread/INFO]: Debug logging is disabled
-[16:42:31] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
-[16:42:31] [Server thread/INFO]: Server Ping Player Sample Count: 12
-
-[16:42:31] [Server thread/INFO]: Using 4 threads for Netty based IO
-[16:42:31] [Server thread/INFO]: Data value allowed items: 
-[16:42:31] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
-
-[16:42:31] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
-
-[16:42:31] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
-
-[16:42:31] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-
-[16:42:31] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-
-[16:42:31] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
-
-[16:42:31] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
-
-[16:42:31] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
-
-[16:42:31] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
-
-[16:42:31] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-
-[16:42:31] [Server thread/INFO]: Generating keypair
-[16:42:32] [Server thread/INFO]: Starting Minecraft server on localhost:25565
-[16:42:32] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
-[16:42:32] [Server thread/INFO]: Using default channel type
-[16:42:32] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[16:42:32] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
-[16:42:32] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
-[16:42:32] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
-[16:42:32] [Server thread/INFO]: [freemannlifesteal] Loading freemannlifesteal v1.0
-[16:42:32] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
-[16:42:32] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[16:42:32] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[16:42:32] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[16:42:32] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
-[16:42:32] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[16:42:32] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[16:42:32] [Server thread/INFO]: Preparing level "world"
-[16:42:32] [Server thread/INFO]: -------- World Settings For [world] --------
-[16:42:32] [Server thread/INFO]: Anti X-Ray: true
-[16:42:32] [Server thread/INFO]: 	Engine Mode: 1
-[16:42:32] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[16:42:32] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[16:42:32] [Server thread/INFO]: Mob Spawn Range: 4
-[16:42:32] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:42:32] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:42:32] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:42:32] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:42:32] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:42:32] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:42:32] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:42:32] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:42:32] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:42:32] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[16:42:32] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[16:42:32] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[16:42:32] [Server thread/INFO]: Random Lighting Updates: false
-[16:42:32] [Server thread/INFO]: Structure Info Saving: true
-[16:42:32] [Server thread/INFO]: Sending up to 10 chunks per packet
-[16:42:32] [Server thread/INFO]: Max Entity Collisions: 8
-[16:42:32] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[16:42:32] [Server thread/INFO]: Max TNT Explosions: 100
-[16:42:32] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:42:32] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:42:32] [Server thread/INFO]: Item Merge Radius: 2.5
-[16:42:32] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:42:32] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[16:42:32] [Server thread/INFO]: View Distance: 4
-[16:42:32] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:42:32] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[16:42:32] [Server thread/INFO]: Clear tick list: false
-[16:42:32] [Server thread/INFO]: Experience Merge Radius: 3.0
-[16:42:32] [Server thread/INFO]: -------- World Settings For [world] --------
-[16:42:32] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[16:42:32] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[16:42:32] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[16:42:32] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[16:42:32] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[16:42:32] [Server thread/INFO]: Water over lava flow speed: 5
-[16:42:32] [Server thread/INFO]: Fix TNT cannons: false
-[16:42:32] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[16:42:32] [Server thread/INFO]: Keep spawn chunk loaded: true
-[16:42:32] [Server thread/INFO]: World async lighting: false
-[16:42:32] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[16:42:32] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[16:42:32] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[16:42:32] [Server thread/INFO]: Anti X-Ray: true
-[16:42:32] [Server thread/INFO]: 	Engine Mode: 1
-[16:42:32] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[16:42:32] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[16:42:32] [Server thread/INFO]: Mob Spawn Range: 4
-[16:42:32] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:42:32] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:42:32] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:42:32] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:42:32] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:42:32] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:42:32] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:42:32] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:42:32] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:42:32] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[16:42:32] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[16:42:32] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[16:42:32] [Server thread/INFO]: Random Lighting Updates: false
-[16:42:32] [Server thread/INFO]: Structure Info Saving: true
-[16:42:32] [Server thread/INFO]: Sending up to 10 chunks per packet
-[16:42:32] [Server thread/INFO]: Max Entity Collisions: 8
-[16:42:32] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[16:42:32] [Server thread/INFO]: Max TNT Explosions: 100
-[16:42:32] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:42:32] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:42:32] [Server thread/INFO]: Item Merge Radius: 2.5
-[16:42:32] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:42:32] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[16:42:32] [Server thread/INFO]: View Distance: 4
-[16:42:32] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:42:32] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[16:42:32] [Server thread/INFO]: Clear tick list: false
-[16:42:32] [Server thread/INFO]: Experience Merge Radius: 3.0
-[16:42:32] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[16:42:32] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[16:42:32] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[16:42:32] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[16:42:32] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[16:42:32] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[16:42:32] [Server thread/INFO]: Water over lava flow speed: 5
-[16:42:32] [Server thread/INFO]: Fix TNT cannons: false
-[16:42:32] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[16:42:32] [Server thread/INFO]: Keep spawn chunk loaded: true
-[16:42:32] [Server thread/INFO]: World async lighting: false
-[16:42:32] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[16:42:32] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[16:42:32] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[16:42:32] [Server thread/INFO]: Anti X-Ray: true
-[16:42:32] [Server thread/INFO]: 	Engine Mode: 1
-[16:42:32] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[16:42:32] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[16:42:32] [Server thread/INFO]: Mob Spawn Range: 4
-[16:42:32] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:42:32] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:42:32] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:42:32] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:42:32] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:42:32] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:42:32] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:42:32] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:42:32] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:42:32] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[16:42:32] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[16:42:32] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[16:42:32] [Server thread/INFO]: Random Lighting Updates: false
-[16:42:32] [Server thread/INFO]: Structure Info Saving: true
-[16:42:32] [Server thread/INFO]: Sending up to 10 chunks per packet
-[16:42:32] [Server thread/INFO]: Max Entity Collisions: 8
-[16:42:32] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[16:42:32] [Server thread/INFO]: Max TNT Explosions: 100
-[16:42:32] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:42:32] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:42:32] [Server thread/INFO]: Item Merge Radius: 2.5
-[16:42:32] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:42:32] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[16:42:32] [Server thread/INFO]: View Distance: 4
-[16:42:32] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:42:32] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[16:42:32] [Server thread/INFO]: Clear tick list: false
-[16:42:32] [Server thread/INFO]: Experience Merge Radius: 3.0
-[16:42:32] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[16:42:32] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[16:42:32] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[16:42:32] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[16:42:32] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[16:42:32] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[16:42:32] [Server thread/INFO]: Water over lava flow speed: 5
-[16:42:32] [Server thread/INFO]: Fix TNT cannons: false
-[16:42:32] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[16:42:32] [Server thread/INFO]: Keep spawn chunk loaded: true
-[16:42:32] [Server thread/INFO]: World async lighting: false
-[16:42:32] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[16:42:32] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[16:42:32] [Server thread/INFO]: Preparing start region for level 0 (Seed: 4136846832910641527)
-[16:42:33] [Server thread/INFO]: Preparing spawn area: 80%
-[16:42:33] [Server thread/INFO]: Preparing start region for level 1 (Seed: 4136846832910641527)
-[16:42:34] [Server thread/INFO]: Preparing spawn area: 53%
-[16:42:35] [Server thread/INFO]: Preparing start region for level 2 (Seed: 4136846832910641527)
-[16:42:35] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
-[16:42:35] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
-
-[16:42:35] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
-
-[16:42:35] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
-[16:42:35] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
-[16:42:35] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
-[16:42:35] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[16:42:35] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
-[16:42:35] [Server thread/INFO]: [freemannlifesteal] Enabling freemannlifesteal v1.0
-[16:42:35] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
-[16:42:35] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[16:42:35] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
-[16:42:36] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[16:42:36] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[16:42:36] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[16:42:36] [Server thread/INFO]: Done (3.863s)! For help, type "help" or "?"
-[16:42:36] [Server thread/INFO]: Timings Reset
-[16:42:36] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
-
-[16:42:36] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
-
-[16:42:36] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
-
-[16:42:48] [Thread-7/INFO]: UUID of player qh5678 is e01a55ef-f931-318c-8b7f-9ffe2712a35e
-[16:42:48] [Server thread/INFO]: qh5678[/[0:0:0:0:0:0:0:1]:51730] logged in with entity id 620 at ([world]-589.523377798133, 12.0, 214.1855967862131)
-[16:42:49] [Thread-8/INFO]: UUID of player SpookyScarySkely is b3f1d37a-c71f-31f8-9e29-a3e1b3f2aef4
-[16:42:49] [Server thread/INFO]: SpookyScarySkely[/[0:0:0:0:0:0:0:1]:60460] logged in with entity id 713 at ([world]66.30000001192093, 70.12308476270435, 273.6628696721808)
-[16:42:54] [Thread-9/INFO]: UUID of player Ultimate_C is f412305d-74d0-3911-b252-d2a07b348820
-[16:42:54] [Server thread/INFO]: Ultimate_C[/[0:0:0:0:0:0:0:1]:60476] logged in with entity id 991 at ([world]69.4507718337286, 70.0, 270.72939744460723)
-[16:42:57] [Thread-10/INFO]: UUID of player SOCKSTER12 is ae21b9e8-cc05-3df1-9a49-196f16621723
-[16:42:57] [Server thread/INFO]: SOCKSTER12[/[0:0:0:0:0:0:0:1]:60490] logged in with entity id 1280 at ([world]134.71066879636922, 55.0, 196.27243453015987)
-[16:43:12] [Async Chat Thread - #0/INFO]: <Ultimate_C> does everones hearts back to noraml?[m
-
-[16:43:15] [Server thread/INFO]: SpookyScarySkely issued server command: /tell Ultimate_C give me 3 hearst
-[16:43:18] [Async Chat Thread - #0/INFO]: <qh5678> no[m
-
-[16:43:22] [Server thread/INFO]: Ultimate_C issued server command: /help
-[16:43:25] [Async Chat Thread - #0/INFO]: <SpookyScarySkely> I have 7[m
-
-[16:43:30] [Async Chat Thread - #0/INFO]: <SpookyScarySkely> quincy has 14[m
-
-[16:43:31] [Async Chat Thread - #0/INFO]: <SOCKSTER12> no i have 6[m
-
-[16:43:33] [Server thread/INFO]: Ultimate_C issued server command: /giveheart
-[16:43:34] [Server thread/INFO]: Ultimate_C issued server command: /giveheart
-[16:43:42] [Async Chat Thread - #0/INFO]: <SpookyScarySkely> noah does not have 6 because of the spawn[m
-
-[16:43:45] [Server thread/INFO]: SOCKSTER12 issued server command: /withdraw
-[16:43:45] [Async Chat Thread - #0/INFO]: <Ultimate_C> eveone to spawnn box now[m
-
-[16:43:48] [Server thread/INFO]: SOCKSTER12 issued server command: /withdraw
-[16:43:55] [Async Chat Thread - #0/INFO]: <Ultimate_C> killers will be beanned[m
-
-[16:43:55] [Async Chat Thread - #0/INFO]: <SOCKSTER12> t[m
-
-[16:43:56] [Server thread/INFO]: SpookyScarySkely issued server command: /give me
-[16:43:57] [Async Chat Thread - #0/INFO]: <Ultimate_C> banned[m
-
-[16:43:59] [Async Chat Thread - #0/INFO]: <SOCKSTER12> t[m
-
-[16:44:01] [Async Chat Thread - #0/INFO]: <SpookyScarySkely> givee me[m
-
-[16:44:02] [Server thread/INFO]: Ultimate_C issued server command: /giveheart
-[16:44:03] [Server thread/INFO]: qh5678 issued server command: /home <Villagers>
-[16:44:03] [Server thread/INFO]: Ultimate_C issued server command: /giveheart
-[16:44:04] [Server thread/INFO]: Ultimate_C issued server command: /giveheart
-[16:44:07] [Async Chat Thread - #0/INFO]: <Ultimate_C> just wait[m
-
-[16:44:13] [Async Chat Thread - #0/INFO]: <SOCKSTER12> nvm i have five[m
-
-[16:44:14] [Async Chat Thread - #0/INFO]: <SpookyScarySkely> I did not kill anyone[m
-
-[16:44:19] [Async Chat Thread - #0/INFO]: <qh5678> top is blocked[m
-
-[16:44:23] [Async Chat Thread - #0/INFO]: <qh5678> im up here[m
-
-[16:44:29] [Server thread/INFO]: Ultimate_C issued server command: /tp qh5678 Ultimate_C
-[16:44:29] [Server thread/INFO]: [Ultimate_C: Teleported qh5678 to Ultimate_C]
-[16:44:31] [Async Chat Thread - #0/INFO]: <SpookyScarySkely> can I have a piece of bread to gain hunger back[m
-
-[16:44:32] [Async Chat Thread - #0/INFO]: <Ultimate_C> set a home[m
-
-[16:44:35] [Async Chat Thread - #0/INFO]: <Ultimate_C> please[m
-
-[16:44:36] [Async Chat Thread - #0/INFO]: <SpookyScarySkely> killer[m
-
-[16:44:44] [Server thread/INFO]: qh5678 issued server command: /delHome <Villagers>
-[16:44:50] [Async Chat Thread - #0/INFO]: <Ultimate_C> quiny give me your hearrs please[m
-
-[16:44:50] [Server thread/INFO]: qh5678 issued server command: /setHome <Spawn>
-[16:44:54] [Async Chat Thread - #0/INFO]: <qh5678> how[m
-
-[16:44:55] [Thread-11/INFO]: UUID of player TJ_BLUMIE is b4240b5e-dee3-37a0-be27-0c06c3df78a6
-[16:44:55] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@3eae9d3e[id=b4240b5e-dee3-37a0-be27-0c06c3df78a6,name=TJ_BLUMIE,properties={textures=[com.mojang.authlib.properties.Property@126db409], isEaglerPlayer=[com.mojang.authlib.properties.Property@13a37d74]},legacy=false] (/[0:0:0:0:0:0:0:1]:49476): You are not whitelisted on this server!
-[16:44:55] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@3eae9d3e[id=b4240b5e-dee3-37a0-be27-0c06c3df78a6,name=TJ_BLUMIE,properties={textures=[com.mojang.authlib.properties.Property@126db409], isEaglerPlayer=[com.mojang.authlib.properties.Property@13a37d74]},legacy=false] (/[0:0:0:0:0:0:0:1]:49476): You are not whitelisted on this server!
-[16:44:55] [Server thread/INFO]: com.mojang.authlib.GameProfile@3eae9d3e[id=b4240b5e-dee3-37a0-be27-0c06c3df78a6,name=TJ_BLUMIE,properties={textures=[com.mojang.authlib.properties.Property@126db409], isEaglerPlayer=[com.mojang.authlib.properties.Property@13a37d74]},legacy=false] (/[0:0:0:0:0:0:0:1]:49476) lost connection: You are not whitelisted on this server!
-[16:44:58] [Async Chat Thread - #0/INFO]: <Ultimate_C> im removing lifesteal[m
-
-[16:45:00] [Server thread/INFO]: [@: Teleported SpookyScarySkely to 75.87893215413159, 81.0, 375.11807659386403]
-[16:45:03] [Async Chat Thread - #0/INFO]: <SOCKSTER12> no pls[m
-
-[16:45:05] [Async Chat Thread - #0/INFO]: <qh5678> how do i[m
-
-[16:45:06] [Async Chat Thread - #0/INFO]: <Ultimate_C> uuuhhh /withdrawheart[m
-
-[16:45:07] [Thread-12/INFO]: UUID of player TJ_BLUMIE is b4240b5e-dee3-37a0-be27-0c06c3df78a6
-[16:45:07] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@522dcc90[id=b4240b5e-dee3-37a0-be27-0c06c3df78a6,name=TJ_BLUMIE,properties={textures=[com.mojang.authlib.properties.Property@3db7d7bd], isEaglerPlayer=[com.mojang.authlib.properties.Property@1444bd1]},legacy=false] (/[0:0:0:0:0:0:0:1]:54512): You are not whitelisted on this server!
-[16:45:07] [Server thread/INFO]: com.mojang.authlib.GameProfile@522dcc90[id=b4240b5e-dee3-37a0-be27-0c06c3df78a6,name=TJ_BLUMIE,properties={textures=[com.mojang.authlib.properties.Property@3db7d7bd], isEaglerPlayer=[com.mojang.authlib.properties.Property@1444bd1]},legacy=false] (/[0:0:0:0:0:0:0:1]:54512) lost connection: You are not whitelisted on this server!
-[16:45:14] [Async Chat Thread - #0/INFO]: <SOCKSTER12> just do a differnt one[m
-
-[16:45:16] [Server thread/INFO]: qh5678 issued server command: /withdrawheart
-[16:45:18] [Async Chat Thread - #0/INFO]: <Ultimate_C> nvm its just /withdraw[m
-
-[16:45:21] [Server thread/INFO]: qh5678 issued server command: /withdraw
-[16:45:27] [Server thread/INFO]: SpookyScarySkely issued server command: /wihdrawheart
-[16:45:28] [Server thread/INFO]: qh5678 issued server command: /withdraw
-[16:45:29] [Async Chat Thread - #0/INFO]: <Ultimate_C> do you have 10?[m
-
-[16:45:35] [Server thread/INFO]: qh5678 issued server command: /withdraw
-[16:45:36] [Server thread/INFO]: SpookyScarySkely issued server command: /withdrawheart
-[16:45:40] [Async Chat Thread - #0/INFO]: <SOCKSTER12> who?[m
-
-[16:45:40] [Server thread/INFO]: qh5678 issued server command: /withdraw
-[16:45:41] [Server thread/INFO]: SpookyScarySkely issued server command: /withdraw
-[16:45:44] [Async Chat Thread - #0/INFO]: <qh5678> 10[m
-
-[16:45:46] [Async Chat Thread - #0/INFO]: <Ultimate_C> k[m
-
-[16:45:48] [Async Chat Thread - #0/INFO]: <Ultimate_C> thank[m
-
-[16:45:50] [Server thread/INFO]: [@: Object successfully summoned]
-[16:45:51] [Server thread/INFO]: [@: Object successfully summoned]
-[16:46:06] [Server thread/INFO]: Ultimate_C issued server command: /give qh5678 minecraft:diamond 4 0
-[16:46:06] [Server thread/INFO]: [Ultimate_C: Given [Diamond] * 4 to qh5678]
-[16:46:19] [Async Chat Thread - #0/INFO]: <Ultimate_C> if you dont have 10 hears come to spawn[m
-
-[16:46:21] [Async Chat Thread - #0/INFO]: <Ultimate_C> now[m
-
-[16:46:22] [Server thread/INFO]: qh5678 issued server command: /tell Ultimate_C ?
-[16:46:30] [Server thread/INFO]: SOCKSTER12 issued server command: /home 2
-[16:46:31] [Server thread/INFO]: Ultimate_C issued server command: /tell qh5678 for each heart
-[16:46:34] [Async Chat Thread - #0/INFO]: <SpookyScarySkely> we have choir today[m
-
-[16:46:38] [Server thread/INFO]: SOCKSTER12 issued server command: /home 11
-[16:46:38] [Async Chat Thread - #0/INFO]: <Ultimate_C> quincy you can leave[m
-
-[16:46:40] [Server thread/INFO]: SOCKSTER12 issued server command: /home 1
-[16:46:40] [Async Chat Thread - #0/INFO]: <SpookyScarySkely> we cant come in ao[m
-
-[16:46:46] [Async Chat Thread - #0/INFO]: <SpookyScarySkely> everyone on right now[m
-
-[16:46:51] [Async Chat Thread - #0/INFO]: <Ultimate_C> come now[m
-
-[16:46:51] [Async Chat Thread - #0/INFO]: <qh5678> a lot of us are gone during ao btw[m
-
-[16:46:51] [Server thread/INFO]: SOCKSTER12 issued server command: /tell here
-[16:46:54] [Async Chat Thread - #0/INFO]: <Ultimate_C> k[m
-
-[16:46:58] [Server thread/INFO]: qh5678 issued server command: /home <Base>
-[16:46:58] [Async Chat Thread - #0/INFO]: <SOCKSTER12> pls[m
-
-[16:47:01] [Async Chat Thread - #0/INFO]: <Ultimate_C> noah how manny herts u need[m
-
-[16:47:03] [Async Chat Thread - #0/INFO]: <SpookyScarySkely> everryone on is gone[m
-
-[16:47:05] [Async Chat Thread - #0/INFO]: <SOCKSTER12> five pls[m
-
-[16:47:11] [Async Chat Thread - #0/INFO]: <SOCKSTER12> thank u[m
-
-[16:47:16] [Async Chat Thread - #0/INFO]: <SpookyScarySkely> noah died because of naural causes[m
-
-[16:47:18] [Async Chat Thread - #0/INFO]: <Ultimate_C> fisher how manny herts[m
-
-[16:47:24] [Async Chat Thread - #0/INFO]: <SpookyScarySkely> not because of spawn[m
-
-[16:47:24] [Server thread/INFO]: qh5678 issued server command: /home <1>
-[16:47:26] [Async Chat Thread - #0/INFO]: <Ultimate_C> oh he not on[m
-
-[16:47:26] [Async Chat Thread - #0/INFO]: <SOCKSTER12> thank u so very much[m
-
-[16:47:37] [Async Chat Thread - #0/INFO]: <SOCKSTER12> do they work?[m
-
-[16:47:37] [Async Chat Thread - #0/INFO]: <SpookyScarySkely> noah died lagit[m
-
-[16:47:43] [Async Chat Thread - #0/INFO]: <Ultimate_C> yes[m
-
-[16:47:47] [Async Chat Thread - #0/INFO]: <SpookyScarySkely> he shouuld not get hearts[m
-
-[16:47:54] [Server thread/INFO]: SOCKSTER12 issued server command: /tell did u give me anothe rheart?
-[16:47:54] [Server thread/INFO]: [SOCKSTER12: That player cannot be found]
-[16:47:55] [Server thread/INFO]: SpookyScarySkely lost connection: Disconnected
-[16:47:55] [Server thread/INFO]: SpookyScarySkely left the game.
-[16:47:56] [Async Chat Thread - #0/INFO]: <Ultimate_C> lifeteal is being removed[m
-
-[16:48:05] [Server thread/INFO]: SOCKSTER12 issued server command: /tell Ultimate_C did u give another heart to me?
-[16:48:10] [Async Chat Thread - #0/INFO]: <Ultimate_C> no?[m
-
-[16:48:14] [Async Chat Thread - #0/INFO]: <SOCKSTER12> ok here[m
-
-[16:48:15] [Async Chat Thread - #0/INFO]: <Ultimate_C> you should have 110[m
-
-[16:48:16] [Async Chat Thread - #0/INFO]: <Ultimate_C> 10[m
-
-[16:48:18] [Server thread/INFO]: SOCKSTER12 issued server command: /withdraw
-[16:48:28] [Async Chat Thread - #0/INFO]: <SOCKSTER12> thanks[m
-
-[16:48:37] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to SOCKSTER12 for 10 seconds]
-[16:48:41] [Async Chat Thread - #0/INFO]: <qh5678> is lifesteal still active[m
-
-[16:48:42] [Server thread/INFO]: [@: Object successfully summoned]
-[16:48:42] [Server thread/INFO]: [@: Object successfully summoned]
-[16:48:43] [Server thread/INFO]: [@: Object successfully summoned]
+[16:52:02] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[16:52:02] [Server thread/INFO]: Loading properties
+[16:52:02] [Server thread/INFO]: Default game type: SURVIVAL
+[16:52:02] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[16:52:02] [Server thread/INFO]: Debug logging is disabled
+[16:52:02] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[16:52:02] [Server thread/INFO]: Server Ping Player Sample Count: 12
+
+[16:52:02] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:52:02] [Server thread/INFO]: Data value allowed items: 
+[16:52:02] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+
+[16:52:02] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+
+[16:52:02] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+
+[16:52:02] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+[16:52:02] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+[16:52:02] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+
+[16:52:02] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+
+[16:52:02] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+
+[16:52:02] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[16:52:02] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[16:52:02] [Server thread/INFO]: Generating keypair
+[16:52:02] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[16:52:03] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[16:52:03] [Server thread/INFO]: Using default channel type
+[16:52:03] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[16:52:03] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[16:52:03] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[16:52:03] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[16:52:03] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[16:52:03] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:52:03] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:52:03] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[16:52:03] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[16:52:03] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:52:03] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[16:52:03] [Server thread/INFO]: Preparing level "world"
+[16:52:03] [Server thread/INFO]: -------- World Settings For [world] --------
+[16:52:03] [Server thread/INFO]: Mob Spawn Range: 4
+[16:52:03] [Server thread/INFO]: Anti X-Ray: true
+[16:52:03] [Server thread/INFO]: 	Engine Mode: 1
+[16:52:03] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[16:52:03] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[16:52:03] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:52:03] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:52:03] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:52:03] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:52:03] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:52:03] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:52:03] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:52:03] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:52:03] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:52:03] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[16:52:03] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:52:03] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[16:52:03] [Server thread/INFO]: Random Lighting Updates: false
+[16:52:03] [Server thread/INFO]: Structure Info Saving: true
+[16:52:03] [Server thread/INFO]: Sending up to 10 chunks per packet
+[16:52:03] [Server thread/INFO]: Max Entity Collisions: 8
+[16:52:03] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[16:52:03] [Server thread/INFO]: Max TNT Explosions: 100
+[16:52:03] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:52:03] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:52:03] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:52:03] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:52:03] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:52:03] [Server thread/INFO]: View Distance: 4
+[16:52:03] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:52:03] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[16:52:03] [Server thread/INFO]: Clear tick list: false
+[16:52:03] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:52:03] [Server thread/INFO]: -------- World Settings For [world] --------
+[16:52:03] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[16:52:03] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[16:52:03] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[16:52:03] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[16:52:03] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[16:52:03] [Server thread/INFO]: Water over lava flow speed: 5
+[16:52:03] [Server thread/INFO]: Fix TNT cannons: false
+[16:52:03] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[16:52:03] [Server thread/INFO]: Keep spawn chunk loaded: true
+[16:52:03] [Server thread/INFO]: World async lighting: false
+[16:52:03] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[16:52:03] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[16:52:03] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[16:52:03] [Server thread/INFO]: Mob Spawn Range: 4
+[16:52:03] [Server thread/INFO]: Anti X-Ray: true
+[16:52:03] [Server thread/INFO]: 	Engine Mode: 1
+[16:52:03] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[16:52:03] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[16:52:03] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:52:03] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:52:03] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:52:03] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:52:03] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:52:03] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:52:03] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:52:03] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:52:03] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:52:03] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[16:52:03] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:52:03] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[16:52:03] [Server thread/INFO]: Random Lighting Updates: false
+[16:52:03] [Server thread/INFO]: Structure Info Saving: true
+[16:52:03] [Server thread/INFO]: Sending up to 10 chunks per packet
+[16:52:03] [Server thread/INFO]: Max Entity Collisions: 8
+[16:52:03] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[16:52:03] [Server thread/INFO]: Max TNT Explosions: 100
+[16:52:03] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:52:03] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:52:03] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:52:03] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:52:03] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:52:03] [Server thread/INFO]: View Distance: 4
+[16:52:03] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:52:03] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[16:52:03] [Server thread/INFO]: Clear tick list: false
+[16:52:03] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:52:03] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[16:52:03] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[16:52:03] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[16:52:03] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[16:52:03] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[16:52:03] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[16:52:03] [Server thread/INFO]: Water over lava flow speed: 5
+[16:52:03] [Server thread/INFO]: Fix TNT cannons: false
+[16:52:03] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[16:52:03] [Server thread/INFO]: Keep spawn chunk loaded: true
+[16:52:03] [Server thread/INFO]: World async lighting: false
+[16:52:03] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[16:52:03] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[16:52:03] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[16:52:03] [Server thread/INFO]: Mob Spawn Range: 4
+[16:52:03] [Server thread/INFO]: Anti X-Ray: true
+[16:52:03] [Server thread/INFO]: 	Engine Mode: 1
+[16:52:03] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[16:52:03] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[16:52:03] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:52:03] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:52:03] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:52:03] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:52:03] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:52:03] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:52:03] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:52:03] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:52:03] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:52:03] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[16:52:03] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:52:03] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[16:52:03] [Server thread/INFO]: Random Lighting Updates: false
+[16:52:03] [Server thread/INFO]: Structure Info Saving: true
+[16:52:03] [Server thread/INFO]: Sending up to 10 chunks per packet
+[16:52:03] [Server thread/INFO]: Max Entity Collisions: 8
+[16:52:03] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[16:52:03] [Server thread/INFO]: Max TNT Explosions: 100
+[16:52:03] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:52:03] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:52:03] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:52:03] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:52:03] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:52:03] [Server thread/INFO]: View Distance: 4
+[16:52:03] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:52:03] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[16:52:03] [Server thread/INFO]: Clear tick list: false
+[16:52:03] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:52:03] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[16:52:03] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[16:52:03] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[16:52:03] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[16:52:03] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[16:52:03] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[16:52:03] [Server thread/INFO]: Water over lava flow speed: 5
+[16:52:03] [Server thread/INFO]: Fix TNT cannons: false
+[16:52:03] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[16:52:03] [Server thread/INFO]: Keep spawn chunk loaded: true
+[16:52:03] [Server thread/INFO]: World async lighting: false
+[16:52:03] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[16:52:03] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[16:52:03] [Server thread/INFO]: Preparing start region for level 0 (Seed: 4136846832910641527)
+[16:52:04] [Server thread/INFO]: Preparing spawn area: 13%
+[16:52:05] [Server thread/INFO]: Preparing spawn area: 34%
+[16:52:06] [Server thread/INFO]: Preparing spawn area: 65%
+[16:52:07] [Server thread/INFO]: Preparing start region for level 1 (Seed: 4136846832910641527)
+[16:52:08] [Server thread/INFO]: Preparing spawn area: 4%
+[16:52:09] [Server thread/INFO]: Preparing spawn area: 29%
+[16:52:10] [Server thread/INFO]: Preparing spawn area: 44%
+[16:52:11] [Server thread/INFO]: Preparing spawn area: 78%
+[16:52:13] [Server thread/INFO]: Preparing spawn area: 78%
+[16:52:13] [Server thread/INFO]: Preparing start region for level 2 (Seed: 4136846832910641527)
+[16:52:13] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[16:52:13] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[16:52:13] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+
+[16:52:14] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[16:52:14] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[16:52:14] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[16:52:15] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[16:52:15] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[16:52:15] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[16:52:15] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[16:52:15] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[16:52:15] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[16:52:15] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[16:52:15] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:52:15] [Server thread/INFO]: Done (12.474s)! For help, type "help" or "?"
+[16:52:15] [Server thread/INFO]: Timings Reset
+[16:52:18] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+
+[16:52:18] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+
+[16:52:18] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+
+[16:52:29] [Thread-7/INFO]: UUID of player qh5678 is e01a55ef-f931-318c-8b7f-9ffe2712a35e
+[16:52:29] [Server thread/INFO]: qh5678[/[0:0:0:0:0:0:0:1]:54922] logged in with entity id 500 at ([world]-62.30288004144957, 61.0, 277.69999998807907)
+[16:52:30] [Thread-8/INFO]: UUID of player Ultimate_C is f412305d-74d0-3911-b252-d2a07b348820
+[16:52:31] [Server thread/INFO]: Ultimate_C[/[0:0:0:0:0:0:0:1]:54934] logged in with entity id 551 at ([world]68.46710048970628, 70.0, 259.6220508348729)
+[16:52:42] [Thread-9/INFO]: UUID of player Paytons_Man is 22a2ca9b-8310-30b2-841b-2f570393832f
+[16:52:42] [Server thread/INFO]: Paytons_Man[/[0:0:0:0:0:0:0:1]:44732] logged in with entity id 915 at ([world]87.40933674273471, 72.92159999847412, 265.0744102014436)
+[16:52:45] [Thread-10/INFO]: UUID of player madmax is 2d293e6d-f8e8-3576-837e-8ee6ba0da811
+[16:52:45] [Server thread/INFO]: madmax[/[0:0:0:0:0:0:0:1]:44734] logged in with entity id 1299 at ([world]205.42557780120487, 69.0, 318.98038080525663)
+[16:52:53] [Server thread/INFO]: Ultimate_C issued server command: /whitelist off
+[16:52:53] [Server thread/INFO]: [Ultimate_C: Turned off the whitelist]
+[16:52:56] [Thread-11/INFO]: UUID of player SpookyScarySkely is b3f1d37a-c71f-31f8-9e29-a3e1b3f2aef4
+[16:52:56] [Server thread/INFO]: SpookyScarySkely[/[0:0:0:0:0:0:0:1]:52636] logged in with entity id 1537 at ([world]34.879500988395634, 72.0, 209.39696460819368)
+[16:53:02] [Async Chat Thread - #0/INFO]: <madmax> add milo[m
+
+[16:53:03] [Thread-12/INFO]: UUID of player SOCKSTER12 is ae21b9e8-cc05-3df1-9a49-196f16621723
+[16:53:03] [Server thread/INFO]: SOCKSTER12[/[0:0:0:0:0:0:0:1]:34790] logged in with entity id 2302 at ([world]77.61735735726782, 71.0, 273.8196905635422)
+[16:53:13] [Async Chat Thread - #0/INFO]: <SOCKSTER12> broooooooooooooo[m
+
+[16:53:17] [Server thread/INFO]: SOCKSTER12 issued server command: /list
+[16:53:18] [Server thread/INFO]: Ultimate_C issued server command: /whitelist reload
+[16:53:18] [Server thread/INFO]: [Ultimate_C: Reloaded the whitelist]
+[16:53:20] [Server thread/INFO]: qh5678 issued server command: /home <Spawn>
+[16:53:21] [Async Chat Thread - #0/INFO]: <SpookyScarySkely> Cedar you gave me and extra heart by mistake[m
+
+[16:53:21] [Server thread/INFO]: Ultimate_C issued server command: /whitelist off
+[16:53:21] [Server thread/INFO]: [Ultimate_C: Turned off the whitelist]
+[16:53:24] [Server thread/INFO]: [@: Object successfully summoned]
+[16:53:24] [Server thread/INFO]: [@: Object successfully summoned]
+[16:53:25] [Server thread/INFO]: [@: Object successfully summoned]
+[16:53:26] [Server thread/INFO]: [@: Object successfully summoned]
+[16:53:27] [Server thread/INFO]: [@: Object successfully summoned]
+[16:53:28] [Server thread/INFO]: [@: Object successfully summoned]
+[16:53:28] [Server thread/INFO]: [@: Object successfully summoned]
+[16:53:28] [Async Chat Thread - #0/INFO]: <Ultimate_C> yes[m
+
+[16:53:30] [Server thread/INFO]: SpookyScarySkely has just earned the achievement [Getting Wood]
+[16:53:30] [Server thread/INFO]: [@: Object successfully summoned]
+[16:53:31] [Server thread/INFO]: [@: Object successfully summoned]
+[16:53:32] [Async Chat Thread - #0/INFO]: <Paytons_Man> im stuck in the bedrock[m
+
+[16:53:40] [Async Chat Thread - #0/INFO]: <SpookyScarySkely> I give back for my stuff like you promised[m
+
+[16:53:41] [Server thread/INFO]: Ultimate_C issued server command: /tp Paytons_Man Ultimate_C
+[16:53:41] [Server thread/INFO]: [Ultimate_C: Teleported Paytons_Man to Ultimate_C]
+[16:53:43] [Async Chat Thread - #0/INFO]: <Ultimate_C> yes[m
+
+[16:53:48] [Async Chat Thread - #0/INFO]: <Ultimate_C> who isnt at 10 hearts[m
+
+[16:53:59] [Async Chat Thread - #0/INFO]: <SOCKSTER12> me[m
+
+[16:54:03] [Async Chat Thread - #0/INFO]: <SOCKSTER12> jk[m
+
+[16:54:03] [Async Chat Thread - #0/INFO]: <Ultimate_C> how manny you at?[m
+
+[16:54:04] [Async Chat Thread - #0/INFO]: <SpookyScarySkely> he is[m
+
+[16:54:04] [Thread-13/INFO]: UUID of player TJ_BLUMIE is b4240b5e-dee3-37a0-be27-0c06c3df78a6
+[16:54:04] [Server thread/INFO]: TJ_BLUMIE[/[0:0:0:0:0:0:0:1]:35796] logged in with entity id 3351 at ([world]35.5, 72.0, 233.5)
+[16:54:06] [Server thread/INFO]: SOCKSTER12 issued server command: /home 3
+[16:54:07] [Async Chat Thread - #0/INFO]: <qh5678> he has extra[m
+
+[16:54:10] [Async Chat Thread - #0/INFO]: <Ultimate_C> is everone at 10 hearts[m
+
+[16:54:10] [Async Chat Thread - #0/INFO]: <SpookyScarySkely> NOAH HAS 11[m
+
+[16:54:12] [Async Chat Thread - #0/INFO]: <qh5678> he has 11[m
+
+[16:54:15] [Async Chat Thread - #0/INFO]: <SpookyScarySkely> NOAH HAS 11[m
+
+[16:54:16] [Server thread/INFO]: SOCKSTER12 lost connection: Disconnected
+[16:54:16] [Server thread/INFO]: SOCKSTER12 left the game.
+[16:54:25] [Async Chat Thread - #0/INFO]: <Ultimate_C> one sec chris[m
+
+[16:54:28] [Async Chat Thread - #0/INFO]: <SpookyScarySkely> he is a big fat lyer[m
+
+[16:54:39] [Async Chat Thread - #0/INFO]: <SpookyScarySkely> BAN HIM[m
+
+[16:54:45] [Async Chat Thread - #0/INFO]: <SpookyScarySkely> BAN HIM[m
+
+[16:54:59] [Thread-14/INFO]: UUID of player Fishyboi6879 is 286244fb-ee9b-3fe3-8b72-a1f3ca29fd8b
+[16:54:59] [Server thread/INFO]: Fishyboi6879[/[0:0:0:0:0:0:0:1]:60348] logged in with entity id 4831 at ([world]71.08121612984652, 70.0, 270.7034451601871)
+[16:55:07] [Server thread/INFO]: madmax has just earned the achievement [Taking Inventory]
+[16:55:10] [Async Chat Thread - #0/INFO]: <SpookyScarySkely> cedar[m
+
+[16:55:14] [Thread-15/INFO]: UUID of player MiloIsSigma is b9f0a523-f67f-3d19-83f2-2da709742dd8
+[16:55:14] [Server thread/INFO]: MiloIsSigma[/[0:0:0:0:0:0:0:1]:33544] logged in with entity id 5510 at ([world]110.5, 51.0, 298.5)
+[16:55:14] [Async Chat Thread - #0/INFO]: <Ultimate_C> yes?[m
+
+[16:55:16] [Async Chat Thread - #0/INFO]: <Fishyboi6879> van i get my hearts back[m
+
+[16:55:16] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to Fishyboi6879 for 10 seconds]
+[16:55:17] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to qh5678 for 10 seconds]
+[16:55:20] [Async Chat Thread - #0/INFO]: <Ultimate_C> yes[m
+
+[16:55:23] [Server thread/INFO]: SpookyScarySkely has just earned the achievement [Benchmarking]
+[16:55:32] [Async Chat Thread - #0/INFO]: <Ultimate_C> come[m
+
+[16:55:35] [Server thread/WARN]: TJ_BLUMIE moved wrongly!
+[16:55:36] [Server thread/INFO]: SpookyScarySkely has just earned the achievement [Time to Mine!]
+[16:55:42] [Server thread/INFO]: [@: Teleported Paytons_Man to 177.4222672736111, 81.0, 275.6112785678064]
+[16:55:44] [Server thread/INFO]: MiloIsSigma lost connection: Login timed out!
+[16:55:44] [Server thread/INFO]: MiloIsSigma left the game.
+[16:55:44] [Server thread/WARN]: handleDisconnection() called twice
+[16:55:48] [Thread-16/INFO]: UUID of player MiloIsSigma is b9f0a523-f67f-3d19-83f2-2da709742dd8
+[16:55:48] [Server thread/INFO]: MiloIsSigma[/[0:0:0:0:0:0:0:1]:42740] logged in with entity id 6271 at ([world]110.44879365292078, 51.82760949039319, 298.9969232525359)
+[16:55:50] [Async Chat Thread - #0/INFO]: <SpookyScarySkely> cedar give me my stuff back please[m
+
+[16:55:53] [Async Chat Thread - #0/INFO]: <qh5678> he had 9[m
+
+[16:55:56] [Async Chat Thread - #0/INFO]: <Ultimate_C> yes[m
+
+[16:55:56] [Async Chat Thread - #0/INFO]: <Fishyboi6879> he killed me three times[m
+
+[16:55:57] [Async Chat Thread - #0/INFO]: <qh5678> hes at 11 now[m
+
+[16:56:06] [Async Chat Thread - #0/INFO]: <SpookyScarySkely> he killed fisher once[m
+
+[16:56:07] [Async Chat Thread - #0/INFO]: <qh5678> did not i was at 14[m
+
+[16:56:09] [Server thread/INFO]: Ultimate_C issued server command: /tp SpookyScarySkely Ultimate_C
+[16:56:09] [Server thread/INFO]: [Ultimate_C: Teleported SpookyScarySkely to Ultimate_C]
+[16:56:09] [Async Chat Thread - #0/INFO]: <Fishyboi6879> how do i use them[m
+
+[16:56:13] [Async Chat Thread - #0/INFO]: <Ultimate_C> place[m
+
+[16:56:13] [Async Chat Thread - #0/INFO]: <qh5678> and gabe had 8[m
+
+[16:56:17] [Async Chat Thread - #0/INFO]: <Fishyboi6879> he killed me twice[m
+
+[16:56:18] [Async Chat Thread - #0/INFO]: <qh5678> and fisher killed gabe[m
+
+[16:56:22] [Async Chat Thread - #0/INFO]: <SpookyScarySkely> I have extra[m
+
+[16:56:24] [Async Chat Thread - #0/INFO]: <qh5678> fisher has 11[m
+
+[16:56:24] [Async Chat Thread - #0/INFO]: <Fishyboi6879> ill send you screen shot[m
+
+[16:56:33] [Async Chat Thread - #0/INFO]: <Ultimate_C> can you use hearts?[m
+
+[16:56:35] [Thread-17/INFO]: UUID of player SOCKSTER12 is ae21b9e8-cc05-3df1-9a49-196f16621723
+[16:56:35] [Server thread/INFO]: SOCKSTER12[/[0:0:0:0:0:0:0:1]:46466] logged in with entity id 6886 at ([world]168.26417666363116, 85.0, 260.55023472605194)
+[16:56:37] [Async Chat Thread - #0/INFO]: <SpookyScarySkely> no[m
+
+[16:56:39] [Async Chat Thread - #0/INFO]: <SpookyScarySkely> cant use[m
+
+[16:56:40] [Async Chat Thread - #0/INFO]: <Ultimate_C> good[m
+
+[16:56:44] [Async Chat Thread - #0/INFO]: <Ultimate_C> eveone[m
+
+[16:56:48] [Server thread/INFO]: Paytons_Man has just earned the achievement [Getting Wood]
+[16:56:49] [Async Chat Thread - #0/INFO]: <SpookyScarySkely> give items now[m
+
+[16:56:51] [Server thread/INFO]: SOCKSTER12 issued server command: /withdraw
+[16:57:00] [Async Chat Thread - #0/INFO]: <SpookyScarySkely> I sent you list this morning[m
+
+[16:57:11] [Async Chat Thread - #0/INFO]: <SpookyScarySkely> like I also said last night[m
+
+[16:57:11] [Async Chat Thread - #0/INFO]: <Fishyboi6879> i sent oyu screenshot[m
+
+[16:57:13] [Async Chat Thread - #0/INFO]: <Ultimate_C> EVERONW WITHOUT 10 HEARTS MAKE AN CHEST AND PUT ALL OF YOUR ITEMS THEN MAKE AN ALT[m
+
+[16:57:16] [Server thread/WARN]: qh5678 moved wrongly!
+[16:57:25] [Async Chat Thread - #0/INFO]: <Ultimate_C> ALTS ARE ALLOWED[m
+
+[16:57:31] [Async Chat Thread - #0/INFO]: <Ultimate_C> LIFESTEAL IS OFF[m
+
+[16:57:39] [Server thread/INFO]: Paytons_Man has just earned the achievement [Benchmarking]
+[16:57:39] [Async Chat Thread - #0/INFO]: <Ultimate_C> gabe i work on it now[m
+
+[16:57:52] [Async Chat Thread - #0/INFO]: <SpookyScarySkely> they are going to steal if here[m
+
+[16:57:56] [Async Chat Thread - #0/INFO]: <Fishyboi6879> yeah[m
+
+[16:58:01] [Async Chat Thread - #0/INFO]: <Fishyboi6879> how do i use the heats[m
+
+[16:58:02] [Async Chat Thread - #0/INFO]: <SpookyScarySkely> teleport us away to give items back[m
+
+[16:58:09] [Server thread/INFO]: TJ_BLUMIE has just earned the achievement [Taking Inventory]
+[16:58:15] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to Fishyboi6879 for 10 seconds]
+[16:58:15] [Server thread/INFO]: qh5678 issued server command: /home <Base>
+[16:58:21] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to Fishyboi6879 for 10 seconds]
+[16:58:28] [Server thread/INFO]: madmax has just earned the achievement [Getting Wood]
+[16:58:28] [Server thread/INFO]: TJ_BLUMIE has just earned the achievement [Getting Wood]
+[16:58:29] [Async Chat Thread - #0/INFO]: <Ultimate_C> if you are not at 10 hearts make and permantly use an alt[m
+
+[16:58:31] [Async Chat Thread - #0/INFO]: <Fishyboi6879> how do i use the hearts[m
+
+[16:58:38] [Async Chat Thread - #0/INFO]: <SpookyScarySkely> you ccant he turned it off[m
+
+[16:58:42] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to Fishyboi6879 for 10 seconds]
+[16:58:43] [Server thread/INFO]: MiloIsSigma has just earned the achievement [Taking Inventory]
+[16:58:47] [Async Chat Thread - #0/INFO]: <Fishyboi6879> oh[m
+
+[16:58:50] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to Fishyboi6879 for 10 seconds]
+[16:58:54] [Server thread/INFO]: qh5678 issued server command: /homes
+[16:58:54] [Server thread/INFO]: [@: Teleported Fishyboi6879 to 177.45112164717767, 81.0, 275.36566572637]
+[16:59:04] [Server thread/INFO]: qh5678 issued server command: /home <1>
+[16:59:10] [Async Chat Thread - #0/INFO]: <SpookyScarySkely> cedar what are you doing?[m
+
+[16:59:12] [Server thread/INFO]: SOCKSTER12 has just earned the achievement [Acquire Hardware]
+[16:59:17] [Server thread/INFO]: Fishyboi6879 has just earned the achievement [Getting Wood]
+[16:59:19] [Server thread/INFO]: SpookyScarySkely issued server command: /gamemode c
+[16:59:21] [Server thread/INFO]: TJ_BLUMIE starved to death
+[16:59:26] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to TJ_BLUMIE for 10 seconds]
+[16:59:41] [Async Chat Thread - #0/INFO]: <SpookyScarySkely> CEDAR?[m
+
+[16:59:43] [Server thread/INFO]: Fishyboi6879 has just earned the achievement [Benchmarking]
+[16:59:46] [Async Chat Thread - #0/INFO]: <SpookyScarySkely> earth to cedar[m
+
+[16:59:49] [Async Chat Thread - #0/INFO]: <Ultimate_C> yeah?[m
+
+[16:59:53] [Async Chat Thread - #0/INFO]: <SpookyScarySkely> ?[m
+
+[16:59:57] [Server thread/INFO]: [@: Teleported TJ_BLUMIE to 177.4984745101296, 81.0, 275.69999998807907]
+[16:59:58] [Server thread/INFO]: Fishyboi6879 has just earned the achievement [Time to Mine!]
+[17:00:00] [Async Chat Thread - #0/INFO]: <SpookyScarySkely> you stopped for like a minute[m
+
+[17:00:06] [Async Chat Thread - #0/INFO]: <Ultimate_C> i know[m
+
+[17:00:18] [Async Chat Thread - #0/INFO]: <Ultimate_C> noah i can open server during school now :)[m
+
+[17:00:23] [Server thread/INFO]: Ultimate_C issued server command: /whitelist off
+[17:00:23] [Server thread/INFO]: [Ultimate_C: Turned off the whitelist]
+[17:00:23] [Async Chat Thread - #0/INFO]: <SpookyScarySkely> how?[m
+
+[17:00:25] [Async Chat Thread - #0/INFO]: <qh5678> how[m
+
+[17:00:27] [Async Chat Thread - #0/INFO]: <Ultimate_C> im better[m
+
+[17:00:30] [Async Chat Thread - #0/INFO]: <Ultimate_C> thats how[m
+
+[17:00:34] [Async Chat Thread - #0/INFO]: <Ultimate_C> my brain is mazzive[m
+
+[17:00:49] [Async Chat Thread - #0/INFO]: <SpookyScarySkely> can I get stuff?[m
+
+[17:00:49] [Async Chat Thread - #0/INFO]: <Fishyboi6879> guess what else is massive[m
+
+[17:00:56] [Async Chat Thread - #0/INFO]: <Ultimate_C> gabe im working n it[m
+
+[17:00:59] [Async Chat Thread - #0/INFO]: <SpookyScarySkely> ok[m
+
+[17:01:02] [Async Chat Thread - #0/INFO]: <Paytons_Man> THE LOW TAPER FADE MEME[m
+
+[17:01:13] [Async Chat Thread - #0/INFO]: <Ultimate_C> how manny actual diamonds gabe>?[m
+
+[17:01:15] [Async Chat Thread - #0/INFO]: <SpookyScarySkely> not really[m
+
+[17:01:17] [Async Chat Thread - #0/INFO]: <SpookyScarySkely> 68[m
+
+[17:01:31] [Async Chat Thread - #0/INFO]: <Ultimate_C> without the blocks?[m
+
+[17:01:38] [Async Chat Thread - #0/INFO]: <Fishyboi6879> Nigger[m
+
+[17:01:44] [Async Chat Thread - #0/INFO]: <SpookyScarySkely> yeah I had 68 diamonds no blocks[m
+
+[17:01:48] [Async Chat Thread - #0/INFO]: <Fishyboi6879> sorry chris[m
+
+[17:01:50] [Async Chat Thread - #0/INFO]: <Ultimate_C> okay...[m
+
+[17:02:27] [Async Chat Thread - #0/INFO]: <Ultimate_C> gabe when i break all your items come back[m
+
+[17:02:33] [Async Chat Thread - #0/INFO]: <SpookyScarySkely> wow that cool[m
+
+[17:02:42] [Async Chat Thread - #0/INFO]: <Fishyboi6879> Cedar this is blake what is game websites[m
+
+[17:02:44] [Async Chat Thread - #0/INFO]: <SpookyScarySkely> if you can do it[m
+
+[17:02:51] [Server thread/INFO]: SOCKSTER12 lost connection: Disconnected
+[17:02:51] [Server thread/INFO]: SOCKSTER12 left the game.
+[17:02:59] [Async Chat Thread - #0/INFO]: <Ultimate_C> i have no game sites[m
+
+[17:03:00] [Thread-19/INFO]: UUID of player SOCKSTER12 is ae21b9e8-cc05-3df1-9a49-196f16621723
+[17:03:00] [Server thread/INFO]: SOCKSTER12[/[0:0:0:0:0:0:0:1]:36110] logged in with entity id 9848 at ([world]172.50063649518452, 83.0, 260.35076860693107)
+[17:03:02] [Async Chat Thread - #0/INFO]: <Ultimate_C> im brooke[m
+
+[17:03:05] [Async Chat Thread - #0/INFO]: <Ultimate_C> broke[m
+
+[17:03:07] [Async Chat Thread - #0/INFO]: <Fishyboi6879> what!![m
+
+[17:03:17] [Async Chat Thread - #0/INFO]: <SpookyScarySkely> noahs base is within 300 blocsk[m
+
+[17:03:34] [Async Chat Thread - #0/INFO]: <Ultimate_C> im not done yet gabe[m
+
+[17:03:47] [Async Chat Thread - #0/INFO]: <SpookyScarySkely> yeah Im gonna go and put this in a chest somewhere[m
+
+[17:04:03] [Server thread/INFO]: [@: Teleported SpookyScarySkely to 177.67672428534917, 81.0, 275.47088074999294]
+[17:04:14] [Server thread/INFO]: qh5678 was blown up by Creeper
+[17:04:17] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to qh5678 for 10 seconds]
+[17:04:19] [Server thread/INFO]: qh5678 issued server command: /back
+[17:04:20] [Async Chat Thread - #0/INFO]: <Fishyboi6879> dumas[m
+
+[17:04:30] [Server thread/INFO]: qh5678 was slain by SOCKSTER12
+[17:04:39] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to qh5678 for 10 seconds]
+[17:04:39] [Server thread/INFO]: Fishyboi6879 has just earned the achievement [Hot Topic]
+[17:04:41] [Server thread/INFO]: qh5678 issued server command: /back
+[17:04:44] [Server thread/INFO]: madmax issued server command: /set home
+[17:04:50] [Server thread/INFO]: madmax issued server command: /home
+[17:04:50] [Server thread/INFO]: qh5678 was slain by Zombie
+[17:04:58] [Async Chat Thread - #0/INFO]: <Ultimate_C> are you loing hearts?[m
+
+[17:05:01] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to qh5678 for 10 seconds]
+[17:05:02] [Server thread/INFO]: SpookyScarySkely issued server command: /sethome Stuff
+[17:05:03] [Server thread/WARN]: qh5678 was kicked for floating too long!
+[17:05:03] [Server thread/INFO]: qh5678 lost connection: Flying is not enabled on this server
+[17:05:03] [Server thread/INFO]: qh5678 left the game.
+[17:05:03] [Server thread/WARN]: handleDisconnection() called twice
+[17:05:06] [Thread-20/INFO]: UUID of player qh5678 is e01a55ef-f931-318c-8b7f-9ffe2712a35e
+[17:05:06] [Server thread/INFO]: qh5678[/[0:0:0:0:0:0:0:1]:52746] logged in with entity id 10655 at ([world]75.5, 72.0, 265.5)
+[17:05:08] [Server thread/INFO]: Fishyboi6879 has just earned the achievement [Getting an Upgrade]
+[17:05:12] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to qh5678 for 10 seconds]
+[17:05:14] [Server thread/INFO]: SpookyScarySkely issued server command: /
+[17:05:16] [Async Chat Thread - #0/INFO]: <qh5678> stop spawnkill[m
+
+[17:05:20] [Server thread/INFO]: qh5678 issued server command: /back
+[17:05:24] [Async Chat Thread - #0/INFO]: <Ultimate_C> how[m
+
+[17:05:25] [Async Chat Thread - #0/INFO]: <Fishyboi6879> shut up quincy[m
+
+[17:05:26] [Server thread/INFO]: SpookyScarySkely issued server command: /tpa Ultimate_C
+[17:05:31] [Server thread/INFO]: Ultimate_C issued server command: /tpaccept
+[17:05:32] [Async Chat Thread - #0/INFO]: <SpookyScarySkely> back to spawn[m
+
+[17:05:33] [Async Chat Thread - #0/INFO]: <qh5678> someone spawn killed me and stole my stuff[m
+
+[17:05:35] [Server thread/INFO]: SOCKSTER12 was slain by Zombie
+[17:05:37] [Async Chat Thread - #0/INFO]: <Fishyboi6879> good[m
+
+[17:05:37] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to SOCKSTER12 for 10 seconds]
+[17:05:40] [Server thread/INFO]: SOCKSTER12 issued server command: /home 3
+[17:05:41] [Server thread/INFO]: SpookyScarySkely issued server command: /sethome Spawn
+[17:05:46] [Server thread/INFO]: madmax issued server command: /tp miloissigma madmax
+[17:06:08] [Server thread/INFO]: MiloIsSigma issued server command: /tp MiloIsSigma MadMax
+[17:06:22] [Server thread/INFO]: [@: Teleported qh5678 to 177.2533439620191, 81.0, 274.94250542681914]
+[17:06:37] [Server thread/INFO]: MiloIsSigma was slain by Spider
+[17:06:41] [Async Chat Thread - #1/INFO]: <Ultimate_C> gabe is that it?[m
+
+[17:06:44] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to MiloIsSigma for 10 seconds]
+[17:06:56] [Async Chat Thread - #1/INFO]: <SpookyScarySkely> sadle horse armer, and good gear with enchants[m
+
+[17:06:59] [Async Chat Thread - #1/INFO]: <Ultimate_C> besiedes main[m
+
+[17:07:01] [Async Chat Thread - #1/INFO]: <Ultimate_C> yeah[m
+
+[17:07:03] [Async Chat Thread - #1/INFO]: <Ultimate_C> i get that later[m
+
+[17:07:10] [Server thread/INFO]: SOCKSTER12 was slain by qh5678
+[17:07:12] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to SOCKSTER12 for 10 seconds]
+[17:07:12] [Async Chat Thread - #1/INFO]: <SpookyScarySkely> sadle and horse armer[m
+
+[17:07:14] [Server thread/INFO]: SOCKSTER12 issued server command: /home 3
+[17:07:15] [Server thread/INFO]: [@: Teleported MiloIsSigma to 177.13892475606707, 81.0, 275.09881130169765]
+[17:07:22] [Async Chat Thread - #1/INFO]: <MiloIsSigma> we[m
+
+[17:07:29] [Async Chat Thread - #1/INFO]: <Ultimate_C> yes?[m
+
+[17:07:40] [Async Chat Thread - #1/INFO]: <SpookyScarySkely> e[m
+
+[17:07:41] [Server thread/INFO]: qh5678 issued server command: /home <1>
+[17:07:49] [Server thread/INFO]: qh5678 fell from a high place
+[17:07:50] [Async Chat Thread - #1/INFO]: <SpookyScarySkely> thx[m
+
+[17:07:57] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to qh5678 for 10 seconds]
+[17:08:00] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to qh5678 for 10 seconds]
+[17:08:01] [Server thread/INFO]: qh5678 issued server command: /back
+[17:08:04] [Async Chat Thread - #1/INFO]: <SpookyScarySkely> just need enchanted gear, tell me when that is done[m
+
+[17:08:10] [Server thread/INFO]: SpookyScarySkely issued server command: /home Stuf
+[17:08:13] [Server thread/INFO]: SpookyScarySkely issued server command: /home Stuff
+[17:08:21] [Server thread/INFO]: qh5678 suffocated in a wall
+[17:08:24] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to qh5678 for 10 seconds]
+[17:08:25] [Server thread/INFO]: qh5678 issued server command: /back
+[17:08:28] [Server thread/INFO]: Ultimate_C issued server command: /give @p iron_sword 1 0 {ench:[{id:19, lvl:10}], Unbreakable:1}
+[17:08:28] [Server thread/INFO]: [Ultimate_C: Given [Iron Sword] * 1 to Ultimate_C]
+[17:08:36] [Server thread/INFO]: MiloIsSigma has just earned the achievement [Getting Wood]
+[17:08:44] [Async Chat Thread - #1/INFO]: <qh5678> bro[m
+
+[17:08:45] [Server thread/INFO]: qh5678 suffocated in a wall
+[17:08:47] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to qh5678 for 10 seconds]
+[17:08:54] [Server thread/INFO]: [@: Teleported qh5678 to -26.222839164068333, 81.0, 275.3842198385709]
+[17:09:11] [Server thread/INFO]: SpookyScarySkely issued server command: /home
+[17:09:20] [Server thread/INFO]: Fishyboi6879 lost connection: Disconnected
+[17:09:20] [Server thread/INFO]: Fishyboi6879 left the game.
+[17:09:30] [Server thread/INFO]: TJ_BLUMIE fell from a high place
+[17:09:33] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to TJ_BLUMIE for 10 seconds]
+[17:09:34] [Server thread/INFO]: TJ_BLUMIE lost connection: Disconnected
+[17:09:34] [Server thread/INFO]: TJ_BLUMIE left the game.
+[17:09:37] [Server thread/INFO]: Paytons_Man lost connection: Disconnected
+[17:09:37] [Server thread/INFO]: Paytons_Man left the game.
+[17:09:41] [Server thread/INFO]: SOCKSTER12 lost connection: Disconnected
+[17:09:41] [Server thread/INFO]: SOCKSTER12 left the game.
+[17:10:03] [Server thread/INFO]: MiloIsSigma lost connection: Disconnected
+[17:10:03] [Server thread/INFO]: MiloIsSigma left the game.
+[17:10:04] [Server thread/INFO]: madmax lost connection: Disconnected
+[17:10:04] [Server thread/INFO]: madmax left the game.
+[17:10:17] [Server thread/INFO]: SpookyScarySkely lost connection: Disconnected
+[17:10:17] [Server thread/INFO]: SpookyScarySkely left the game.
+[17:10:18] [Server thread/INFO]: qh5678 lost connection: Disconnected
+[17:10:18] [Server thread/INFO]: qh5678 left the game.
+[17:13:50] [Server thread/INFO]: Ultimate_C issued server command: /give Ultimate_C minecraft:command_block
+[17:13:50] [Server thread/INFO]: [Ultimate_C: Given [Command Block] * 1 to Ultimate_C]
+[17:14:48] [Server thread/INFO]: [@: Block placed]
+[17:15:05] [Server thread/INFO]: [@: Block placed]
+[17:15:42] [Server thread/INFO]: Ultimate_C issued server command: /give @p iron_pickaxe 1 0 {ench:[{id:35, lvl:2}], Unbreakable:1}
+[17:15:42] [Server thread/INFO]: [Ultimate_C: Given [Iron Pickaxe] * 1 to Ultimate_C]
+[17:15:44] [Thread-21/INFO]: UUID of player NXTRND11 is 78bd3f94-2fa9-373a-831c-c85a643110a7
+[17:15:44] [Server thread/INFO]: NXTRND11[/[0:0:0:0:0:0:0:1]:39976] logged in with entity id 16094 at ([world]44.5, 61.0, 281.5)
+[17:15:50] [Server thread/INFO]: Ultimate_C issued server command: /tp NXTRND11 Ultimate_C
+[17:15:50] [Server thread/INFO]: [Ultimate_C: Teleported NXTRND11 to Ultimate_C]
+[17:15:53] [Async Chat Thread - #2/INFO]: <Ultimate_C> teag[m
+
+[17:16:08] [Async Chat Thread - #2/INFO]: <Ultimate_C> sendd me item recovery item list[m
+
+[17:16:14] [Async Chat Thread - #2/INFO]: <NXTRND11> i did[m
+
+[17:16:17] [Async Chat Thread - #2/INFO]: <Ultimate_C> okay[m
+
+[17:16:17] [Async Chat Thread - #2/INFO]: <NXTRND11> in email[m
+
+[17:16:28] [Thread-22/INFO]: UUID of player RED_BLOOB is 765b407a-5a07-360d-857b-5680d5a9cd9b
+[17:16:28] [Server thread/INFO]: RED_BLOOB[/[0:0:0:0:0:0:0:1]:53096] logged in with entity id 16771 at ([world]115.5, 67.0, 252.5)
+[17:17:23] [Async Chat Thread - #3/INFO]: <RED_BLOOB> hi i am new[m
+
+[17:17:30] [Async Chat Thread - #3/INFO]: <NXTRND11> who are you[m
+
+[17:17:30] [Async Chat Thread - #3/INFO]: <Ultimate_C> helo[m
+
+[17:17:33] [Async Chat Thread - #3/INFO]: <Ultimate_C> logan[m
+
+[17:17:34] [Async Chat Thread - #3/INFO]: <RED_BLOOB> logan[m
+
+[17:17:38] [Async Chat Thread - #3/INFO]: <NXTRND11> nice[m
+
+[17:17:41] [Thread-23/INFO]: UUID of player gestapo is ec2d5698-c720-3eb9-a0eb-591ae2879a6e
+[17:17:41] [Async Chat Thread - #3/INFO]: <RED_BLOOB> cedar[m
+
+[17:17:41] [Server thread/INFO]: gestapo[/[0:0:0:0:0:0:0:1]:52296] logged in with entity id 17584 at ([world]112.5, 68.0, 233.5)
+[17:17:43] [Async Chat Thread - #3/INFO]: <Ultimate_C> teag can you resend it>[m
+
+[17:17:46] [Async Chat Thread - #3/INFO]: <NXTRND11> ok[m
+
+[17:18:18] [Async Chat Thread - #3/INFO]: <NXTRND11> resent it[m
+
+[17:18:41] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to NXTRND11 for 10 seconds]
+[17:18:43] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to NXTRND11 for 10 seconds]
+[17:18:49] [Server thread/INFO]: RED_BLOOB has just earned the achievement [Taking Inventory]
+[17:18:51] [Server thread/INFO]: gestapo has just earned the achievement [Taking Inventory]
+[17:18:54] [Server thread/INFO]: NXTRND11 has just earned the achievement [Taking Inventory]
+[17:18:58] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to NXTRND11 for 10 seconds]
+[17:19:06] [Async Chat Thread - #3/INFO]: <Ultimate_C> waht you think of spawn teag?[m
+
+[17:19:13] [Async Chat Thread - #3/INFO]: <NXTRND11> i think it is awesome[m
+
+[17:19:21] [Server thread/INFO]: gestapo has just earned the achievement [Getting Wood]
+[17:19:22] [Async Chat Thread - #3/INFO]: <NXTRND11> great Idea for the box[m
+
+[17:19:27] [Server thread/INFO]: RED_BLOOB has just earned the achievement [Getting Wood]
+[17:19:32] [Async Chat Thread - #3/INFO]: <gestapo> i diddent spawn in it[m
+
+[17:19:40] [Server thread/INFO]: RED_BLOOB has just earned the achievement [Benchmarking]
+[17:19:42] [Server thread/INFO]: Ultimate_C issued server command: /tp gestapo
+[17:19:42] [Server thread/INFO]: [Ultimate_C: Teleported Ultimate_C to gestapo]
+[17:19:49] [Server thread/INFO]: Ultimate_C issued server command: /home spawn
+[17:19:57] [Async Chat Thread - #3/INFO]: <NXTRND11> wait i forot who u are gestaop[m
+
+[17:19:58] [Server thread/INFO]: Ultimate_C issued server command: /tp gestapo Ultimate_C
+[17:19:58] [Server thread/INFO]: [Ultimate_C: Teleported gestapo to Ultimate_C]
+[17:20:08] [Async Chat Thread - #3/INFO]: <Ultimate_C> can yall sethome in here?[m
+
+[17:20:13] [Async Chat Thread - #3/INFO]: <NXTRND11> yeah[m
+
+[17:20:15] [Server thread/INFO]: RED_BLOOB has just earned the achievement [Time to Mine!]
+[17:20:16] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to NXTRND11 for 10 seconds]
+[17:20:18] [Async Chat Thread - #3/INFO]: <gestapo> sure[m
+
+[17:20:23] [Server thread/INFO]: NXTRND11 issued server command: /sethome <5>
+[17:20:25] [Server thread/INFO]: gestapo issued server command: /sethome spawn
+[17:20:35] [Server thread/INFO]: RED_BLOOB tried to swim in lava
+[17:20:39] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to gestapo for 10 seconds]
+[17:20:45] [Async Chat Thread - #3/INFO]: <NXTRND11> yikes[m
+
+[17:20:51] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to NXTRND11 for 10 seconds]
+[17:20:53] [Async Chat Thread - #3/INFO]: <gestapo> jeepers[m
+
+[17:21:02] [Async Chat Thread - #3/INFO]: <Ultimate_C> teag send enchatments[m
+
+[17:21:05] [Server thread/INFO]: [@: Teleported gestapo to 75.50511555168472, 81.0, 375.192828670491]
+[17:21:06] [Async Chat Thread - #3/INFO]: <NXTRND11> who are u gestapo[m
+
+[17:21:08] [Async Chat Thread - #3/INFO]: <NXTRND11> ok[m
+
+[17:21:17] [Async Chat Thread - #3/INFO]: <Ultimate_C> its gable[m
+
+[17:21:47] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to RED_BLOOB for 10 seconds]
+[17:21:58] [Server thread/INFO]: [@: Teleported RED_BLOOB to -26.408025102136747, 81.0, 275.2968166750852]
+[17:22:03] [Server thread/INFO]: gestapo issued server command: /gohome spawn
+[17:22:11] [Async Chat Thread - #3/INFO]: <Ultimate_C> logan u know how to set home[m
+
+[17:22:17] [Async Chat Thread - #3/INFO]: <RED_BLOOB> nope[m
+
+[17:22:21] [Async Chat Thread - #3/INFO]: <gestapo> whats the go home command[m
+
+[17:22:31] [Async Chat Thread - #3/INFO]: <Ultimate_C> its /home "homename"[m
+
+[17:22:34] [Async Chat Thread - #3/INFO]: <Ultimate_C> no quotes[m
+
+[17:22:41] [Server thread/INFO]: gestapo issued server command: /home spawn
+[17:22:52] [Server thread/INFO]: gestapo issued server command: /home spawn
+[17:23:15] [Server thread/INFO]: gestapo issued server command: /home spawn
+[17:23:29] [Server thread/INFO]: RED_BLOOB issued server command: /trade
+[17:23:32] [Async Chat Thread - #3/INFO]: <gestapo> cedar can you tp me to spawn[m
+
+[17:23:39] [Server thread/INFO]: Ultimate_C issued server command: /tp gestapo Ultimate_C
+[17:23:39] [Server thread/INFO]: [Ultimate_C: Teleported gestapo to Ultimate_C]
+[17:23:44] [Async Chat Thread - #3/INFO]: <gestapo> thanks[m
+
+[17:23:46] [Async Chat Thread - #3/INFO]: <Ultimate_C> chin check[m
+
+[17:23:59] [Async Chat Thread - #3/INFO]: <gestapo> 100 blocks forawrd sends you into a ocean[m
+
+[17:24:00] [Server thread/INFO]: RED_BLOOB issued server command: /home wolf
+[17:24:03] [Async Chat Thread - #3/INFO]: <NXTRND11> love the little smile[m
+
+[17:24:03] [Async Chat Thread - #3/INFO]: <Ultimate_C> i know[m
+
+[17:24:06] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to NXTRND11 for 10 seconds]
+[17:24:07] [Server thread/INFO]: RED_BLOOB issued server command: /home
+[17:24:09] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to NXTRND11 for 10 seconds]
+[17:24:11] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to NXTRND11 for 10 seconds]
+[17:24:12] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to NXTRND11 for 10 seconds]
+[17:24:15] [Server thread/INFO]: RED_BLOOB issued server command: /home dog
+[17:24:18] [Async Chat Thread - #3/INFO]: <RED_BLOOB> dog[m
+
+[17:24:21] [Server thread/INFO]: [@: Teleported gestapo to 177.318508171931, 81.0, 275.0216168992861]
+[17:24:21] [Server thread/INFO]: RED_BLOOB issued server command: /home
+[17:24:24] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to NXTRND11 for 10 seconds]
+[17:24:26] [Server thread/INFO]: RED_BLOOB issued server command: /set home dog
+[17:24:28] [Async Chat Thread - #3/INFO]: <NXTRND11> wolf[m
+
+[17:24:31] [Server thread/INFO]: RED_BLOOB issued server command: /help
+[17:24:39] [Async Chat Thread - #3/INFO]: <NXTRND11> cedar did u get them[m
+
+[17:24:46] [Async Chat Thread - #3/INFO]: <Ultimate_C> working on it[m
+
+[17:24:47] [Server thread/INFO]: [@: Teleported NXTRND11 to -26.499931630479352, 81.0, 275.63656084239693]
+[17:24:55] [Server thread/INFO]: NXTRND11 issued server command: /home <5>
+[17:25:00] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to NXTRND11 for 10 seconds]
+[17:25:05] [Async Chat Thread - #3/INFO]: <RED_BLOOB> SimleHomes[m
+
+[17:25:18] [Server thread/INFO]: RED_BLOOB issued server command: /help SimpleHomes
+[17:25:25] [Async Chat Thread - #3/INFO]: <NXTRND11> jsut so u know cedar if you o right u hit the ground and lose 6 and 1/2 heartss[m
+
+[17:25:29] [Server thread/INFO]: RED_BLOOB issued server command: /sethome DOG
+[17:25:34] [Async Chat Thread - #3/INFO]: <Ultimate_C> k[m
+
+[17:25:36] [Server thread/INFO]: RED_BLOOB issued server command: /home DOG
+[17:25:36] [Async Chat Thread - #3/INFO]: <Ultimate_C> ill fit it[m
+
+[17:25:39] [Async Chat Thread - #3/INFO]: <NXTRND11> ol[m
+
+[17:25:42] [Async Chat Thread - #3/INFO]: <NXTRND11> ok[m
+
+[17:25:56] [Server thread/INFO]: [@: Teleported NXTRND11 to 177.77324202863278, 81.0, 275.4058037495692]
+[17:26:02] [Async Chat Thread - #3/INFO]: <Ultimate_C> teag stand on this chest[m
+
+[17:26:08] [Thread-24/INFO]: UUID of player Fishyboi6879 is 286244fb-ee9b-3fe3-8b72-a1f3ca29fd8b
+[17:26:08] [Server thread/INFO]: Fishyboi6879[/[0:0:0:0:0:0:0:1]:55512] logged in with entity id 19198 at ([world]522.5708089498344, 63.0, 430.0623557573424)
+[17:26:08] [Server thread/INFO]: NXTRND11 issued server command: /home <5>
+[17:26:12] [Server thread/INFO]: Ultimate_C issued server command: /tp NXTRND11 Ultimate_C
+[17:26:12] [Server thread/INFO]: [Ultimate_C: Teleported NXTRND11 to Ultimate_C]
+[17:26:15] [Async Chat Thread - #3/INFO]: <Ultimate_C> this one[m
+
+[17:26:19] [Async Chat Thread - #3/INFO]: <Ultimate_C> take[m
+
+[17:26:24] [Async Chat Thread - #3/INFO]: <NXTRND11> thanks[m
+
+[17:26:33] [Async Chat Thread - #3/INFO]: <Ultimate_C> fisher you at 100 hearts?[m
+
+[17:26:36] [Async Chat Thread - #3/INFO]: <Ultimate_C> i meant 10[m
+
+[17:26:37] [Async Chat Thread - #3/INFO]: <Fishyboi6879> can i have my stuff back[m
+
+[17:26:44] [Async Chat Thread - #3/INFO]: <Ultimate_C> yeah[m
+
+[17:26:48] [Async Chat Thread - #3/INFO]: <Ultimate_C> let me work on it[m
+
+[17:26:52] [Async Chat Thread - #3/INFO]: <Fishyboi6879> hi pookies[m
+
+[17:26:58] [Async Chat Thread - #3/INFO]: <NXTRND11> cedar can i have some food rq i lost a lot of health[m
+
+[17:27:00] [Async Chat Thread - #3/INFO]: <Fishyboi6879> Nigger[m
+
+[17:27:01] [Async Chat Thread - #3/INFO]: <gestapo> can i have my 1000 hearts back[m
+
+[17:27:01] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to NXTRND11 for 10 seconds]
+[17:27:13] [Async Chat Thread - #3/INFO]: <Fishyboi6879> Faggot[m
+
+[17:27:19] [Async Chat Thread - #3/INFO]: <Ultimate_C> who>[m
+
+[17:27:20] [Async Chat Thread - #3/INFO]: <Fishyboi6879> Sluty whores peg me[m
+
+[17:27:28] [Async Chat Thread - #3/INFO]: <NXTRND11> me[m
+
+[17:27:29] [Async Chat Thread - #3/INFO]: <Fishyboi6879> im horny and gay[m
+
+[17:27:35] [Async Chat Thread - #3/INFO]: <NXTRND11> yo fisher shut up[m
+
+[17:27:37] [Async Chat Thread - #3/INFO]: <Fishyboi6879> that wass logan[m
+
+[17:27:40] [Server thread/INFO]: RED_BLOOB has just earned the achievement [Hot Topic]
+[17:27:44] [Async Chat Thread - #3/INFO]: <NXTRND11> i dont think that is fisher[m
+
+[17:27:47] [Server thread/INFO]: RED_BLOOB has just earned the achievement [Getting an Upgrade]
+[17:27:54] [Async Chat Thread - #3/INFO]: <Fishyboi6879> its not[m
+
+[17:27:59] [Async Chat Thread - #3/INFO]: <NXTRND11> can i have some food[m
+
+[17:28:00] [Async Chat Thread - #3/INFO]: <Fishyboi6879> logon halverson[m
+
+[17:28:02] [Server thread/INFO]: RED_BLOOB has just earned the achievement [Time to Strike!]
+[17:28:06] [Async Chat Thread - #3/INFO]: <NXTRND11> coo[m
+
+[17:28:09] [Async Chat Thread - #3/INFO]: <NXTRND11> cool[m
+
+[17:28:41] [Async Chat Thread - #3/INFO]: <NXTRND11> cedar?[m
+
+[17:28:58] [Server thread/INFO]: [@: Teleported NXTRND11 to 177.34544100012863, 81.0, 275.6999999880791]
+[17:30:13] [Async Chat Thread - #4/INFO]: <Ultimate_C> fisher[m
+
+[17:30:16] [Async Chat Thread - #4/INFO]: <Fishyboi6879> what[m
+
+[17:30:19] [Async Chat Thread - #4/INFO]: <Ultimate_C> and yes teag?[m
+
+[17:30:23] [Async Chat Thread - #4/INFO]: <Ultimate_C> come to spawn[m
+
+[17:30:35] [Async Chat Thread - #4/INFO]: <NXTRND11> can i have some food i almost died from teleporting left[m
+
+[17:30:37] [Async Chat Thread - #4/INFO]: <Fishyboi6879> no im 1000 blocks away[m
+
+[17:30:45] [Async Chat Thread - #4/INFO]: <Ultimate_C> then sethome[m
+
+[17:30:47] [Async Chat Thread - #4/INFO]: <Fishyboi6879> and i dont have it as home[m
+
+[17:31:02] [Async Chat Thread - #4/INFO]: <Ultimate_C> set homw where you at and ill tp you[m
+
+[17:31:16] [Server thread/INFO]: RED_BLOOB issued server command: /sethome Home
+[17:31:16] [Server thread/INFO]: NXTRND11 issued server command: /sethome <1>
+[17:31:19] [Server thread/INFO]: Fishyboi6879 issued server command: /sethome 1
+[17:31:22] [Server thread/INFO]: NXTRND11 issued server command: /home <5>
+[17:31:23] [Async Chat Thread - #4/INFO]: <Fishyboi6879> ok im ready[m
+
+[17:31:27] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to NXTRND11 for 10 seconds]
+[17:31:37] [Server thread/INFO]: Ultimate_C issued server command: /tp Fishyboi6879 Ultimate_C
+[17:31:37] [Server thread/INFO]: [Ultimate_C: Teleported Fishyboi6879 to Ultimate_C]
+[17:31:48] [Async Chat Thread - #4/INFO]: <Ultimate_C> teag back up[m
+
+[17:31:52] [Async Chat Thread - #4/INFO]: <NXTRND11> ok[m
+
+[17:31:54] [Async Chat Thread - #4/INFO]: <Ultimate_C> fiseher stand here[m
+
+[17:31:59] [Async Chat Thread - #4/INFO]: <Fishyboi6879> i cant use my hearts[m
+
+[17:32:09] [Async Chat Thread - #4/INFO]: <Ultimate_C> al of your loot[m
+
+[17:32:20] [Async Chat Thread - #4/INFO]: <NXTRND11> ceadr can I have some food[m
+
+[17:32:28] [Async Chat Thread - #4/INFO]: <Ultimate_C> maybe..[m
+
+[17:32:36] [Async Chat Thread - #4/INFO]: <Ultimate_C> yall wanna do contest[m
+
+[17:32:37] [Async Chat Thread - #4/INFO]: <Fishyboi6879> how can I use my hearts[m
+
+[17:32:41] [Async Chat Thread - #4/INFO]: <Ultimate_C> you cant[m
+
+[17:32:44] [Async Chat Thread - #4/INFO]: <Ultimate_C> lifesteal is oof[m
+
+[17:32:45] [Async Chat Thread - #4/INFO]: <NXTRND11> i lost 7 heart from going left and yes[m
+
+[17:32:52] [Async Chat Thread - #4/INFO]: <RED_BLOOB> what contest[m
+
+[17:33:23] [Async Chat Thread - #4/INFO]: <NXTRND11> what are you doing[m
+
+[17:33:24] [Async Chat Thread - #4/INFO]: <Ultimate_C> hey guys[m
+
+[17:33:28] [Async Chat Thread - #4/INFO]: <Fishyboi6879> nigg[m
+
+[17:33:36] [Async Chat Thread - #4/INFO]: <RED_BLOOB> making a home[m
+
+[17:33:41] [Async Chat Thread - #4/INFO]: <Fishyboi6879> sorry[m
+
+[17:33:46] [Async Chat Thread - #4/INFO]: <Ultimate_C> you wanna go on a three women[m
+
+[17:33:46] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to Fishyboi6879 for 10 seconds]
+[17:33:47] [Async Chat Thread - #4/INFO]: <NXTRND11> u better be[m
+
+[17:33:51] [Async Chat Thread - #4/INFO]: <Fishyboi6879> yeah[m
+
+[17:33:58] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to Fishyboi6879 for 10 seconds]
+[17:34:00] [Async Chat Thread - #4/INFO]: <Ultimate_C> good boy[m
+
+[17:34:09] [Server thread/INFO]: RED_BLOOB issued server command: /
+[17:34:29] [Server thread/INFO]: Fishyboi6879 issued server command: /home 1
+[17:34:45] [Async Chat Thread - #4/INFO]: <Ultimate_C> cedars gone so im kellen spooner playing rn[m
+
+[17:34:59] [Async Chat Thread - #4/INFO]: <NXTRND11> will u give me some food he was going to[m
+
+[17:35:06] [Async Chat Thread - #4/INFO]: <Ultimate_C> no[m
+
+[17:35:09] [Server thread/INFO]: gestapo has just earned the achievement [Benchmarking]
+[17:35:10] [Async Chat Thread - #4/INFO]: <NXTRND11> why[m
+
+[17:35:17] [Async Chat Thread - #4/INFO]: <NXTRND11> he said he would[m
+
+[17:35:33] [Server thread/INFO]: gestapo has just earned the achievement [Time to Mine!]
+[17:35:33] [Server thread/INFO]: gestapo has just earned the achievement [Getting an Upgrade]
+[17:35:34] [Async Chat Thread - #4/INFO]: <Ultimate_C> wait maybe i will i think your my dog[m
+
+[17:35:43] [Async Chat Thread - #4/INFO]: <NXTRND11> huh?[m
+
+[17:35:56] [Async Chat Thread - #4/INFO]: <NXTRND11> i am at 2 hearts and 1 food[m
+
+[17:36:00] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to NXTRND11 for 10 seconds]
+[17:36:09] [Async Chat Thread - #4/INFO]: <Ultimate_C> okay guys im back[m
+
+[17:36:16] [Async Chat Thread - #4/INFO]: <NXTRND11> i need some food[m
+
+[17:36:23] [Async Chat Thread - #4/INFO]: <NXTRND11> please[m
+
+[17:36:34] [Async Chat Thread - #4/INFO]: <Ultimate_C> that was landon talking it was not Kellen[m
+
+[17:36:36] [Server thread/INFO]: RED_BLOOB issued server command: /home Home
+[17:36:43] [Async Chat Thread - #4/INFO]: <Ultimate_C> okay im back[m
+
+[17:36:47] [Async Chat Thread - #4/INFO]: <Ultimate_C> for real this time[m
+
+[17:36:47] [Async Chat Thread - #4/INFO]: <NXTRND11> ok :)[m
+
+[17:37:04] [Async Chat Thread - #4/INFO]: <NXTRND11> thanks[m
+
+[17:37:16] [Async Chat Thread - #4/INFO]: <RED_BLOOB> can i have a food[m
+
+[17:37:17] [Server thread/INFO]: [@: Teleported NXTRND11 to 177.5946817202382, 81.0, 274.84697271224644]
+[17:37:27] [Async Chat Thread - #4/INFO]: <RED_BLOOB> the tp hurts[m
+
+[17:37:33] [Async Chat Thread - #4/INFO]: <Ultimate_C> if anyone isnt at 10 total hearts make an alt account[m
+
+[17:37:47] [Server thread/INFO]: NXTRND11 has just earned the achievement [Getting Wood]
+[17:37:47] [Async Chat Thread - #4/INFO]: <Ultimate_C> and transfer your items over via chest[m
+
+[17:38:07] [Server thread/INFO]: NXTRND11 has just earned the achievement [Benchmarking]
+[17:38:12] [Server thread/INFO]: RED_BLOOB has just earned the achievement [Acquire Hardware]
+[17:38:51] [Async Chat Thread - #5/INFO]: <Ultimate_C> guys spin the wheel for a raffle!!!!![m
+
+[17:38:58] [Server thread/INFO]: NXTRND11 issued server command: /home <5>
+[17:39:03] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to NXTRND11 for 10 seconds]
+[17:39:06] [Async Chat Thread - #5/INFO]: <Ultimate_C> ill do elimation[m
+
+[17:39:07] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to NXTRND11 for 10 seconds]
+[17:39:11] [Server thread/INFO]: RED_BLOOB lost connection: Disconnected
+[17:39:11] [Server thread/INFO]: RED_BLOOB left the game.
+[17:39:18] [Async Chat Thread - #5/INFO]: <Ultimate_C> teag your out[m
+
+[17:39:22] [Async Chat Thread - #5/INFO]: <gestapo> ha[m
+
+[17:39:24] [Async Chat Thread - #5/INFO]: <NXTRND11> whaaaat[m
+
+[17:39:28] [Async Chat Thread - #5/INFO]: <NXTRND11> that is sad[m
+
+[17:39:29] [Server thread/INFO]: NXTRND11 lost connection: Disconnected
+[17:39:29] [Server thread/INFO]: NXTRND11 left the game.
+[17:39:32] [Async Chat Thread - #5/INFO]: <Ultimate_C> logan is out[m
+
+[17:39:34] [Server thread/INFO]: Fishyboi6879 lost connection: Disconnected
+[17:39:34] [Server thread/INFO]: Fishyboi6879 left the game.
+[17:39:46] [Async Chat Thread - #5/INFO]: <Ultimate_C> GABLE IS WINNER[m
+
+[17:39:51] [Async Chat Thread - #5/INFO]: <gestapo> lets goooo[m
+
+[17:40:03] [Async Chat Thread - #5/INFO]: <gestapo> whats my prize[m
+
+[17:40:09] [Async Chat Thread - #5/INFO]: <Ultimate_C> ill give later[m
+
+[17:40:13] [Server thread/INFO]: Ultimate_C lost connection: Disconnected
+[17:40:13] [Server thread/INFO]: Ultimate_C left the game.
+[17:41:54] [Server thread/INFO]: gestapo lost connection: Disconnected
+[17:41:54] [Server thread/INFO]: gestapo left the game.
+[17:42:33] [Thread-26/INFO]: UUID of player SpookyScarySkely is b3f1d37a-c71f-31f8-9e29-a3e1b3f2aef4
+[17:42:33] [Server thread/INFO]: SpookyScarySkely[/[0:0:0:0:0:0:0:1]:60230] logged in with entity id 27931 at ([world]186.30000001192093, 72.0, 277.5729639079348)
+[17:42:58] [Thread-27/INFO]: UUID of player Fishyboi6879 is 286244fb-ee9b-3fe3-8b72-a1f3ca29fd8b
+[17:42:58] [Server thread/INFO]: Fishyboi6879[/[0:0:0:0:0:0:0:1]:47812] logged in with entity id 28155 at ([world]950.6999999880791, 66.0, 699.3943539383625)
+[17:43:00] [Thread-28/INFO]: UUID of player qh5678 is e01a55ef-f931-318c-8b7f-9ffe2712a35e
+[17:43:00] [Server thread/INFO]: qh5678[/[0:0:0:0:0:0:0:1]:47816] logged in with entity id 28506 at ([world]-62.47095498490067, 58.0, 274.69999998807907)
+[17:43:02] [Thread-29/INFO]: UUID of player SOCKSTER12 is ae21b9e8-cc05-3df1-9a49-196f16621723
+[17:43:02] [Server thread/INFO]: SOCKSTER12[/[0:0:0:0:0:0:0:1]:47822] logged in with entity id 28687 at ([world]146.23921599293845, 71.0, 259.6333415620671)
+[17:43:24] [Server thread/INFO]: SOCKSTER12 issued server command: /home 3
+[17:43:47] [Server thread/INFO]: qh5678 issued server command: /home <Base>
+[17:44:57] [Thread-30/INFO]: UUID of player Ultimate_C is f412305d-74d0-3911-b252-d2a07b348820
+[17:44:57] [Server thread/INFO]: Ultimate_C[/[0:0:0:0:0:0:0:1]:36978] logged in with entity id 30216 at ([world]70.267383634529, 70.0, 256.83531254367995)
+[17:45:04] [Async Chat Thread - #6/INFO]: <SOCKSTER12> can i pls have my carrot?[m
+
+[17:45:09] [Async Chat Thread - #6/INFO]: <SOCKSTER12> pls[m
+
+[17:45:09] [Async Chat Thread - #6/INFO]: <Ultimate_C> yes[m
+
+[17:45:12] [Async Chat Thread - #6/INFO]: <SOCKSTER12> thank you[m
+
+[17:45:13] [Server thread/INFO]: [@: Teleported Ultimate_C to 177.34121021919213, 81.0, 275.3441732708702]
+[17:45:14] [Async Chat Thread - #6/INFO]: <SpookyScarySkely> is my enchanted gear done yet?[m
+
+[17:45:14] [Server thread/INFO]: SOCKSTER12 issued server command: /home 1
+[17:45:20] [Async Chat Thread - #6/INFO]: <Ultimate_C> yes gabe[m
+
+[17:45:23] [Server thread/INFO]: SOCKSTER12 issued server command: /home 2
+[17:45:26] [Server thread/INFO]: SOCKSTER12 issued server command: /home 3
+[17:45:28] [Async Chat Thread - #6/INFO]: <Ultimate_C> wait a lil ill do noah rq[m
+
+[17:45:33] [Async Chat Thread - #6/INFO]: <SpookyScarySkely> ok[m
+
+[17:45:33] [Async Chat Thread - #6/INFO]: <SOCKSTER12> sorry i wnt to the spawn[m
+
+[17:45:40] [Server thread/INFO]: SOCKSTER12 issued server command: /home 3
+[17:45:41] [Server thread/INFO]: Ultimate_C issued server command: /give Ultimate_C minecraft:command_block_minecart
+[17:45:41] [Server thread/INFO]: [Ultimate_C: Given [Minecart with Command Block] * 1 to Ultimate_C]
+[17:45:44] [Async Chat Thread - #6/INFO]: <SOCKSTER12> i cmoe bakc[m
+
+[17:45:46] [Server thread/INFO]: Ultimate_C issued server command: /give Ultimate_C minecraft:command_block
+[17:45:46] [Server thread/INFO]: [Ultimate_C: Given [Command Block] * 1 to Ultimate_C]
+[17:45:47] [Thread-31/INFO]: UUID of player Madden_humes_ is 8fe50fda-a2e3-39a2-90c1-0f1e9bb7f604
+[17:45:48] [Server thread/INFO]: Madden_humes_[/[0:0:0:0:0:0:0:1]:58578] logged in with entity id 30874 at ([world]56.5, 64.0, 281.5)
+[17:45:50] [Async Chat Thread - #6/INFO]: <SOCKSTER12> hi!!![m
+
+[17:46:11] [Server thread/INFO]: qh5678 lost connection: Disconnected
+[17:46:11] [Server thread/INFO]: qh5678 left the game.
+[17:46:12] [Server thread/INFO]: [@: Block placed]
+[17:46:18] [Async Chat Thread - #6/INFO]: <Ultimate_C> good?[m
+
+[17:46:20] [Async Chat Thread - #6/INFO]: <SOCKSTER12> thanks!![m
+
+[17:46:22] [Server thread/INFO]: Ultimate_C issued server command: /home spawn
+[17:46:27] [Server thread/INFO]: Ultimate_C issued server command: /tp Madden_humes_
+[17:46:27] [Server thread/INFO]: [Ultimate_C: Teleported Ultimate_C to Madden_humes_]
+[17:46:48] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to Madden_humes_ for 10 seconds]
+[17:47:05] [Server thread/INFO]: Madden_humes_ issued server command: /sethome spawn
+[17:47:17] [Server thread/INFO]: SpookyScarySkely issued server command: /home Spawn
+[17:47:21] [Async Chat Thread - #7/INFO]: <Ultimate_C> gabe i ready[m
+
+[17:47:24] [Async Chat Thread - #7/INFO]: <Ultimate_C> be quick[m
+
+[17:47:31] [Async Chat Thread - #7/INFO]: <Ultimate_C> other way[m
+
+[17:47:39] [Async Chat Thread - #7/INFO]: <Ultimate_C> ok[m
+
+[17:47:42] [Async Chat Thread - #7/INFO]: <Ultimate_C> good?[m
+
+[17:47:58] [Server thread/INFO]: SpookyScarySkely issued server command: /good
+[17:48:00] [Async Chat Thread - #7/INFO]: <SpookyScarySkely> goood[m
+
+[17:48:13] [Server thread/INFO]: SOCKSTER12 issued server command: /tell Ultimate_C can i have my regular carrot and pumpkin from other world pls?
+[17:48:14] [Async Chat Thread - #7/INFO]: <SpookyScarySkely> I screwed up , I forgot to set home where my stuff is[m
+
+[17:48:18] [Server thread/INFO]: [@: Teleported SpookyScarySkely to 177.53132933900844, 81.0, 275.1628859522359]
+[17:48:23] [Async Chat Thread - #7/INFO]: <SOCKSTER12> its ok if u don't want to bviously[m
+
+[17:48:44] [Server thread/INFO]: [@: Teleported Madden_humes_ to 75.4623495807733, 81.0, 375.2398098651619]
+[17:50:02] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to Madden_humes_ for 10 seconds]
+[17:50:15] [Server thread/INFO]: [@: Teleported Madden_humes_ to 177.2511907592355, 81.0, 275.0624970478354]
+[17:50:28] [Server thread/INFO]: Madden_humes_ has just earned the achievement [Taking Inventory]
+[17:50:29] [Server thread/INFO]: SpookyScarySkely lost connection: Disconnected
+[17:50:29] [Server thread/INFO]: SpookyScarySkely left the game.
+[17:50:30] [Server thread/INFO]: SOCKSTER12 lost connection: Disconnected
+[17:50:30] [Server thread/INFO]: SOCKSTER12 left the game.
+[17:50:32] [Server thread/INFO]: Madden_humes_ lost connection: Disconnected
+[17:50:32] [Server thread/INFO]: Madden_humes_ left the game.
+[17:51:06] [Async Chat Thread - #8/INFO]: <Ultimate_C> why everone leave?[m
+
+[17:51:17] [Thread-32/INFO]: UUID of player SpookyScarySkely is b3f1d37a-c71f-31f8-9e29-a3e1b3f2aef4
+[17:51:17] [Server thread/INFO]: SpookyScarySkely[/[0:0:0:0:0:0:0:1]:40066] logged in with entity id 36044 at ([world]460.57114053597047, 71.0, 240.05713296811263)
+[17:51:21] [Thread-33/INFO]: UUID of player Madden_humes_ is 8fe50fda-a2e3-39a2-90c1-0f1e9bb7f604
+[17:51:21] [Server thread/INFO]: Madden_humes_[/[0:0:0:0:0:0:0:1]:40070] logged in with entity id 36128 at ([world]186.8036075623591, 79.0, 272.3165556157626)
+[17:51:41] [Async Chat Thread - #8/INFO]: <SpookyScarySkely> found my stuff again ![m
+
+[17:51:43] [Async Chat Thread - #8/INFO]: <Ultimate_C> nice[m
+
+[17:51:47] [Server thread/INFO]: Madden_humes_ has just earned the achievement [Getting Wood]
+[17:51:50] [Async Chat Thread - #8/INFO]: <Ultimate_C> do i just fully restart?[m
+
+[17:51:57] [Server thread/INFO]: SpookyScarySkely issued server command: /sethome HOME
+[17:51:58] [Async Chat Thread - #8/INFO]: <Ultimate_C> i think i do[m
+
+[17:51:59] [Async Chat Thread - #8/INFO]: <SpookyScarySkely> no[m
+
+[17:52:06] [Async Chat Thread - #8/INFO]: <SpookyScarySkely> Dont restart[m
+
+[17:52:08] [Async Chat Thread - #8/INFO]: <Ultimate_C> i want to restart[m
+
+[17:52:12] [Async Chat Thread - #8/INFO]: <Ultimate_C> not the whole server[m
+
+[17:52:13] [Async Chat Thread - #8/INFO]: <SpookyScarySkely> why[m
+
+[17:52:17] [Async Chat Thread - #8/INFO]: <Ultimate_C> just my progress[m
+
+[17:52:29] [Thread-34/INFO]: UUID of player SOCKSTER12 is ae21b9e8-cc05-3df1-9a49-196f16621723
+[17:52:29] [Server thread/INFO]: SOCKSTER12[/[0:0:0:0:0:0:0:1]:40108] logged in with entity id 36350 at ([world]139.12824559729705, 51.0, 235.6477027923846)
+[17:52:32] [Async Chat Thread - #8/INFO]: <SpookyScarySkely> I dont care if you restart your progress[m
+
+[17:52:34] [Server thread/INFO]: Madden_humes_ has just earned the achievement [Benchmarking]
+[17:52:38] [Async Chat Thread - #8/INFO]: <Ultimate_C> i think i will[m
+
+[17:52:42] [Async Chat Thread - #8/INFO]: <SpookyScarySkely> or you could just start wher eyou left off[m
+
+[17:52:51] [Server thread/INFO]: Madden_humes_ has just earned the achievement [Time to Mine!]
+[17:52:56] [Async Chat Thread - #8/INFO]: <Ultimate_C> GABLE WON RAFFLE AND WILL BE REWARED ONCE HE LOGS BACK ON[m
+
+[17:53:09] [Server thread/INFO]: Madden_humes_ lost connection: Disconnected
+[17:53:09] [Server thread/INFO]: Madden_humes_ left the game.
+[17:53:14] [Server thread/INFO]: SpookyScarySkely issued server command: /home Stuff
+[17:53:16] [Thread-35/INFO]: UUID of player Paytons_Man is 22a2ca9b-8310-30b2-841b-2f570393832f
+[17:53:16] [Server thread/INFO]: Paytons_Man[/[0:0:0:0:0:0:0:1]:54518] logged in with entity id 36428 at ([world]237.3098541635246, 64.0, 328.3233580392139)
+[17:53:19] [Async Chat Thread - #8/INFO]: <SpookyScarySkely> congrates gable[m
+
+[17:53:21] [Async Chat Thread - #8/INFO]: <Ultimate_C> we have to do notes byeeeeeeee[m
+
+[17:53:26] [Server thread/INFO]: Ultimate_C lost connection: Disconnected
+[17:53:26] [Server thread/INFO]: Ultimate_C left the game.
+[17:53:36] [Server thread/INFO]: SpookyScarySkely issued server command: /home Spawn
+[17:53:54] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to SpookyScarySkely for 10 seconds]
+[17:54:03] [Server thread/INFO]: SpookyScarySkely issued server command: /home HOME
+[17:54:46] [Server thread/INFO]: SOCKSTER12 issued server command: /home 3
+[17:55:18] [Server thread/INFO]: Paytons_Man lost connection: Disconnected
+[17:55:18] [Server thread/INFO]: Paytons_Man left the game.
+[17:56:09] [Server thread/INFO]: SpookyScarySkely issued server command: /home Stuff
+[17:56:34] [Server thread/INFO]: SpookyScarySkely issued server command: /home Home
+[17:56:37] [Server thread/INFO]: SpookyScarySkely issued server command: /home HOME
+[17:57:02] [Server thread/INFO]: SpookyScarySkely issued server command: /home Spawn
+[17:57:49] [Server thread/INFO]: SpookyScarySkely issued server command: /home HOME
+[17:58:22] [Server thread/INFO]: SpookyScarySkely lost connection: Disconnected
+[17:58:22] [Server thread/INFO]: SpookyScarySkely left the game.
+[17:58:29] [Thread-37/INFO]: UUID of player SpookyScarySkely is b3f1d37a-c71f-31f8-9e29-a3e1b3f2aef4
+[17:58:29] [Server thread/INFO]: SpookyScarySkely[/[0:0:0:0:0:0:0:1]:39808] logged in with entity id 37284 at ([world]488.3375271284512, 81.0, 239.69101876990516)
+[17:59:24] [Server thread/INFO]: SpookyScarySkely lost connection: Disconnected
+[17:59:24] [Server thread/INFO]: SpookyScarySkely left the game.
+[18:00:20] [Server thread/INFO]: SOCKSTER12 issued server command: /sethome mine
+[18:00:31] [Server thread/INFO]: SOCKSTER12 issued server command: /home 3
+[18:00:54] [Server thread/INFO]: SOCKSTER12 lost connection: Disconnected
+[18:00:54] [Server thread/INFO]: SOCKSTER12 left the game.
+[18:05:38] [Thread-38/INFO]: UUID of player qh5678 is e01a55ef-f931-318c-8b7f-9ffe2712a35e
+[18:05:38] [Server thread/INFO]: qh5678[/[0:0:0:0:0:0:0:1]:59216] logged in with entity id 38184 at ([world]-589.5053716316102, 13.0, 223.62925828948136)
+[18:06:18] [Server thread/INFO]: qh5678 issued server command: /home <1>
+[18:06:23] [Thread-39/INFO]: UUID of player Ultimate_C is f412305d-74d0-3911-b252-d2a07b348820
+[18:06:23] [Server thread/INFO]: Ultimate_C[/[0:0:0:0:0:0:0:1]:49878] logged in with entity id 38322 at ([world]67.57781147972683, 70.0, 258.1321631040111)
+[18:06:37] [Async Chat Thread - #9/INFO]: <Ultimate_C> where is gable?[m
+
+[18:07:06] [Server thread/INFO]: Ultimate_C issued server command: /gamemode s
+[18:07:06] [Server thread/INFO]: [Ultimate_C: Set own game mode to Survival Mode]
+[18:07:08] [Server thread/INFO]: [@: Teleported Ultimate_C to 75.85234924322356, 81.0, 374.93170930317115]
+[18:07:16] [Server thread/INFO]: Ultimate_C issued server command: /home spawn
+[18:07:22] [Server thread/INFO]: [@: Teleported Ultimate_C to -26.502777651731265, 81.0, 275.0072484879734]
+[18:07:28] [Server thread/INFO]: Ultimate_C issued server command: /home spawn
+[18:07:34] [Server thread/INFO]: Ultimate_C issued server command: /gamemode c
+[18:07:34] [Server thread/INFO]: [Ultimate_C: Set own game mode to Creative Mode]
+[18:07:47] [Server thread/INFO]: Ultimate_C issued server command: /gamemode s
+[18:07:47] [Server thread/INFO]: [Ultimate_C: Set own game mode to Survival Mode]
+[18:07:56] [Server thread/INFO]: Ultimate_C issued server command: /gamemode c
+[18:07:56] [Server thread/INFO]: [Ultimate_C: Set own game mode to Creative Mode]
+[18:07:59] [Server thread/INFO]: Ultimate_C issued server command: /gamemode s
+[18:07:59] [Server thread/INFO]: [Ultimate_C: Set own game mode to Survival Mode]
+[18:08:01] [Server thread/INFO]: [@: Teleported Ultimate_C to -26.60919324837964, 76.0, 275.3106022773546]
+[18:08:18] [Thread-40/INFO]: UUID of player NXTRND11 is 78bd3f94-2fa9-373a-831c-c85a643110a7
+[18:08:18] [Server thread/INFO]: NXTRND11[/[0:0:0:0:0:0:0:1]:45890] logged in with entity id 39688 at ([world]68.43166528702405, 70.0, 258.5042291094776)
+[18:08:29] [Thread-41/INFO]: UUID of player Madden_humes_ is 8fe50fda-a2e3-39a2-90c1-0f1e9bb7f604
+[18:08:29] [Server thread/INFO]: Madden_humes_[/[0:0:0:0:0:0:0:1]:55844] logged in with entity id 39699 at ([world]195.37006325719807, 61.0, 301.30000001192093)
+[18:08:40] [Server thread/INFO]: NXTRND11 issued server command: /home <1>
+[18:08:51] [Server thread/INFO]: NXTRND11 issued server command: /home <1>
+[18:09:01] [Async Chat Thread - #10/INFO]: <qh5678> no killaura btw teag[m
+
+[18:09:10] [Async Chat Thread - #10/INFO]: <Ultimate_C> yeah no killaura[m
+
+[18:09:12] [Async Chat Thread - #10/INFO]: <Ultimate_C> plz[m
+
+[18:09:20] [Async Chat Thread - #10/INFO]: <NXTRND11> i dont have any hacks on[m
+
+[18:09:32] [Async Chat Thread - #10/INFO]: <Ultimate_C> good[m
+
+[18:09:39] [Server thread/INFO]: Fishyboi6879 lost connection: Disconnected
+[18:09:39] [Server thread/INFO]: Fishyboi6879 left the game.
+[18:09:49] [Server thread/INFO]: qh5678 lost connection: Disconnected
+[18:09:49] [Server thread/INFO]: qh5678 left the game.
+[18:09:53] [Server thread/INFO]: Ultimate_C lost connection: Disconnected
+[18:09:53] [Server thread/INFO]: Ultimate_C left the game.
+[18:09:53] [Server thread/INFO]: Madden_humes_ lost connection: Disconnected
+[18:09:53] [Server thread/INFO]: Madden_humes_ left the game.
+[18:09:55] [Server thread/INFO]: NXTRND11 lost connection: Disconnected
+[18:09:55] [Server thread/INFO]: NXTRND11 left the game.
+[18:17:26] [Thread-42/INFO]: UUID of player Thediddler_ is 650691d1-7661-3486-9a53-f4c8b96b384a
+[18:17:26] [Server thread/INFO]: Thediddler_[/[0:0:0:0:0:0:0:1]:55680] logged in with entity id 41156 at ([world]94.5, 68.0, 266.5)
+[18:18:00] [Server thread/INFO]: Thediddler_ lost connection: Disconnected
+[18:18:00] [Server thread/INFO]: Thediddler_ left the game.
+[18:20:35] [Thread-43/INFO]: UUID of player ____ is 623ec6ac-d56e-3c6f-b05a-671288517d3a
+[18:20:36] [Server thread/INFO]: ____[/[0:0:0:0:0:0:0:1]:54514] logged in with entity id 41370 at ([world]115.5, 66.0, 266.5)
+[18:21:02] [Server thread/INFO]: ____ lost connection: Disconnected
+[18:21:02] [Server thread/INFO]: ____ left the game.
+[18:35:53] [Thread-45/INFO]: UUID of player Thediddler_ is 650691d1-7661-3486-9a53-f4c8b96b384a
+[18:35:53] [Server thread/INFO]: Thediddler_[/[0:0:0:0:0:0:0:1]:42820] logged in with entity id 41566 at ([world]56.69999998807907, 69.0, 259.30000001192093)
+[18:35:57] [Server thread/INFO]: Thediddler_ lost connection: Disconnected
+[18:35:57] [Server thread/INFO]: Thediddler_ left the game.
+[18:42:14] [Thread-46/INFO]: UUID of player qh5678 is e01a55ef-f931-318c-8b7f-9ffe2712a35e
+[18:42:14] [Server thread/INFO]: qh5678[/[0:0:0:0:0:0:0:1]:59648] logged in with entity id 41577 at ([world]74.81631010182231, 64.0, 135.39905070794424)
+[18:42:34] [Thread-47/INFO]: UUID of player NXTRND11 is 78bd3f94-2fa9-373a-831c-c85a643110a7
+[18:42:34] [Server thread/INFO]: NXTRND11[/[0:0:0:0:0:0:0:1]:45504] logged in with entity id 41669 at ([world]414.601134511363, 62.0, 176.69999998807907)
+[18:42:37] [Thread-48/INFO]: UUID of player Fishyboi6879 is 286244fb-ee9b-3fe3-8b72-a1f3ca29fd8b
+[18:42:37] [Server thread/INFO]: Fishyboi6879[/[0:0:0:0:0:0:0:1]:46546] logged in with entity id 41745 at ([world]1216.699999988079, 62.0, 1175.5316627248444)
+[18:42:38] [Thread-49/INFO]: UUID of player Madden_humes_ is 8fe50fda-a2e3-39a2-90c1-0f1e9bb7f604
+[18:42:38] [Server thread/INFO]: Madden_humes_[/[0:0:0:0:0:0:0:1]:46548] logged in with entity id 41835 at ([world]200.05248614813294, 41.0, 298.73793342118404)
+[18:42:50] [Thread-50/INFO]: UUID of player Ultimate_C is f412305d-74d0-3911-b252-d2a07b348820
+[18:42:50] [Server thread/INFO]: Ultimate_C[/[0:0:0:0:0:0:0:1]:50864] logged in with entity id 41878 at ([world]-98.22671754671882, 73.0, 356.2309495993018)
+[18:43:04] [Thread-51/INFO]: UUID of player SpookyScarySkely is b3f1d37a-c71f-31f8-9e29-a3e1b3f2aef4
+[18:43:04] [Server thread/INFO]: SpookyScarySkely[/[0:0:0:0:0:0:0:1]:54824] logged in with entity id 42050 at ([world]490.35213242483564, 81.0, 240.6947071510132)
+[18:43:14] [Server thread/INFO]: Ultimate_C has just earned the achievement [Benchmarking]
+[18:43:17] [Server thread/INFO]: Madden_humes_ issued server command: /home
+[18:43:20] [Server thread/INFO]: Madden_humes_ issued server command: /
+[18:43:25] [Server thread/INFO]: Ultimate_C has just earned the achievement [Time to Strike!]
+[18:43:40] [Async Chat Thread - #11/INFO]: <SpookyScarySkely> cedar put me in creative so I can make parkor[m
+
+[18:43:43] [Async Chat Thread - #11/INFO]: <Ultimate_C> now[m
+
+[18:43:45] [Async Chat Thread - #11/INFO]: <Ultimate_C> no[m
+
+[18:43:47] [Async Chat Thread - #11/INFO]: <Ultimate_C> no[m
+
+[18:43:53] [Async Chat Thread - #11/INFO]: <Ultimate_C> maybe tonight[m
+
+[18:44:02] [Async Chat Thread - #11/INFO]: <Fishyboi6879> bad boy[m
+
+[18:44:03] [Async Chat Thread - #11/INFO]: <SpookyScarySkely> I cant get on tonight[m
+
+[18:44:04] [Thread-52/INFO]: UUID of player Paytons_Man is 22a2ca9b-8310-30b2-841b-2f570393832f
+[18:44:04] [Server thread/INFO]: Paytons_Man[/[0:0:0:0:0:0:0:1]:60830] logged in with entity id 42775 at ([world]237.4881929574739, 64.0, 328.56643087904223)
+[18:44:06] [Server thread/INFO]: Madden_humes_ issued server command: /home <madden>
+[18:44:08] [Async Chat Thread - #11/INFO]: <Ultimate_C> tommrow[m
+
+[18:44:10] [Thread-53/INFO]: UUID of player madmax is 2d293e6d-f8e8-3576-837e-8ee6ba0da811
+[18:44:10] [Server thread/INFO]: madmax[/[0:0:0:0:0:0:0:1]:45126] logged in with entity id 42903 at ([world]534.5886523176865, 60.0, 648.0526984751881)
+[18:44:14] [Async Chat Thread - #11/INFO]: <SpookyScarySkely> ok, tommorrow[m
+
+[18:44:15] [Async Chat Thread - #11/INFO]: <Fishyboi6879> put in login security[m
+
+[18:44:23] [Async Chat Thread - #11/INFO]: <Ultimate_C> it wont update[m
+
+[18:44:27] [Async Chat Thread - #11/INFO]: <SpookyScarySkely> yeah we kinda need login security[m
+
+[18:44:31] [Server thread/INFO]: qh5678 issued server command: /home <Spawn>
+[18:44:37] [Async Chat Thread - #11/INFO]: <Ultimate_C> ok fineQ[m
+
+[18:44:38] [Thread-54/INFO]: UUID of player Thediddler_ is 650691d1-7661-3486-9a53-f4c8b96b384a
+[18:44:38] [Server thread/INFO]: Thediddler_[/[0:0:0:0:0:0:0:1]:40298] logged in with entity id 43393 at ([world]56.69999998807907, 69.0, 259.30000001192093)
+[18:44:47] [Async Chat Thread - #11/INFO]: <qh5678> what is login security[m
+
+[18:44:53] [Server thread/INFO]: Thediddler_ issued server command: /tpa Fishyboi6879
+[18:45:01] [Server thread/INFO]: Fishyboi6879 issued server command: /tpaccept
+[18:45:05] [Server thread/INFO]: [@: Teleported qh5678 to 75.38011862767708, 81.0, 375.2239525263118]
+[18:45:08] [Server thread/INFO]: Thediddler_ issued server command: /tpa Fishyboi6879
+[18:45:09] [Server thread/INFO]: Madden_humes_ fell from a high place
+[18:45:12] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to Madden_humes_ for 10 seconds]
+[18:45:14] [Server thread/INFO]: Fishyboi6879 issued server command: /tpaccept
+[18:45:16] [Server thread/INFO]: [@: Teleported Madden_humes_ to 177.38188099269814, 81.0, 275.2452617407716]
+[18:45:19] [Server thread/INFO]: SpookyScarySkely issued server command: /kill Ultimate_C
+[18:45:28] [Server thread/INFO]: SpookyScarySkely has just earned the achievement [Hot Topic]
+[18:45:31] [Server thread/INFO]: Fishyboi6879 issued server command: /tell Thediddler did you get the goods
+[18:45:31] [Server thread/INFO]: [Fishyboi6879: That player cannot be found]
+[18:45:39] [Server thread/INFO]: Thediddler_ issued server command: /sethome <1>
+[18:45:41] [Server thread/INFO]: Thediddler_ has just earned the achievement [Taking Inventory]
+[18:45:45] [Server thread/INFO]: Madden_humes_ has just earned the achievement [Time to Strike!]
+[18:45:45] [Thread-55/INFO]: UUID of player SOCKSTER12 is ae21b9e8-cc05-3df1-9a49-196f16621723
+[18:45:45] [Server thread/INFO]: SOCKSTER12[/[0:0:0:0:0:0:0:1]:57326] logged in with entity id 44787 at ([world]171.80192328296883, 84.0, 259.10682137897976)
+[18:45:48] [Server thread/INFO]: Fishyboi6879 issued server command: /tell Thediddler_ did you get the goods
+[18:45:55] [Async Chat Thread - #12/INFO]: <Ultimate_C> noah how do i do it again?[m
+
+[18:45:57] [Async Chat Thread - #12/INFO]: <Thediddler_> No[m
+
+[18:46:03] [Async Chat Thread - #12/INFO]: <Ultimate_C> what do i look up[m
+
+[18:46:11] [Async Chat Thread - #12/INFO]: <Thediddler_> Do yoou have any food I literally don't have anything[m
+
+[18:46:24] [Server thread/INFO]: SOCKSTER12 lost connection: Disconnected
+[18:46:24] [Server thread/INFO]: SOCKSTER12 left the game.
+[18:46:25] [Async Chat Thread - #12/INFO]: <Ultimate_C> no one has anything really[m
+
+[18:46:41] [Server thread/INFO]: Madden_humes_ lost connection: Disconnected
+[18:46:41] [Server thread/INFO]: Madden_humes_ left the game.
+[18:46:42] [Thread-56/INFO]: UUID of player SOCKSTER12 is ae21b9e8-cc05-3df1-9a49-196f16621723
+[18:46:42] [Server thread/INFO]: SOCKSTER12[/[0:0:0:0:0:0:0:1]:43018] logged in with entity id 46015 at ([world]169.74711818212214, 85.0, 258.7585019592041)
+[18:46:44] [Async Chat Thread - #12/INFO]: <Ultimate_C> goota go[m
+
+[18:46:48] [Server thread/INFO]: Ultimate_C lost connection: Disconnected
+[18:46:48] [Server thread/INFO]: Ultimate_C left the game.
+[18:46:48] [Server thread/INFO]: NXTRND11 lost connection: Disconnected
+[18:46:48] [Server thread/INFO]: NXTRND11 left the game.
+[18:46:54] [Async Chat Thread - #12/INFO]: <Thediddler_> How are we going to get up[m
+
+[18:47:11] [Server thread/INFO]: SOCKSTER12 issued server command: /home 1
+[18:47:22] [Server thread/INFO]: SOCKSTER12 issued server command: /home 3
+[18:47:37] [Server thread/INFO]: SOCKSTER12 lost connection: Disconnected
+[18:47:37] [Server thread/INFO]: SOCKSTER12 left the game.
+[18:47:57] [Server thread/INFO]: Paytons_Man lost connection: Disconnected
+[18:47:57] [Server thread/INFO]: Paytons_Man left the game.
+[18:47:58] [Async Chat Thread - #13/INFO]: <SpookyScarySkely> use SOCKSTER12 as a username and then turn on cords[m
+
+[18:48:05] [Async Chat Thread - #13/INFO]: <SpookyScarySkely> you can find his cords that way[m
+
+[18:48:21] [Thread-57/INFO]: UUID of player Paytons_Man is 22a2ca9b-8310-30b2-841b-2f570393832f
+[18:48:21] [Server thread/INFO]: Paytons_Man[/[0:0:0:0:0:0:0:1]:51690] logged in with entity id 46860 at ([world]328.36501704042803, 64.0, 107.55807348413357)
+[18:48:22] [Async Chat Thread - #13/INFO]: <SpookyScarySkely> noah has infinite food[m
+
+[18:49:02] [Server thread/INFO]: Paytons_Man issued server command: /sethome 1
+[18:49:19] [Server thread/INFO]: Paytons_Man issued server command: /home 1
+[18:49:28] [Server thread/INFO]: SpookyScarySkely issued server command: /give @s diamond_sword
+[18:50:17] [Async Chat Thread - #14/INFO]: <SpookyScarySkely> use SOCKSTER12 to get infinite food[m
+
+[18:50:24] [Thread-58/INFO]: UUID of player SOCKSTER12 is ae21b9e8-cc05-3df1-9a49-196f16621723
+[18:50:24] [Server thread/INFO]: SOCKSTER12[/[0:0:0:0:0:0:0:1]:47290] logged in with entity id 48470 at ([world]171.30000001192093, 84.0, 259.14125128413315)
+[18:50:31] [Async Chat Thread - #14/INFO]: <qh5678> cords?[m
+
+[18:50:44] [Server thread/INFO]: SOCKSTER12 issued server command: /home mine
+[18:50:46] [Async Chat Thread - #14/INFO]: <SpookyScarySkely> I havnt yet , I am just trying to help people[m
+
+[18:50:49] [Async Chat Thread - #14/INFO]: <Thediddler_> Fisher I need a pickaxe and some wood[m
+
+[18:50:55] [Server thread/INFO]: SpookyScarySkely issued server command: /home HOME
+[18:50:59] [Server thread/INFO]: SOCKSTER12 lost connection: Disconnected
+[18:50:59] [Server thread/INFO]: SOCKSTER12 left the game.
+[18:51:04] [Async Chat Thread - #14/INFO]: <Thediddler_> Is cedar in here?[m
+
+[18:51:07] [Async Chat Thread - #14/INFO]: <SpookyScarySkely> no[m
+
+[18:51:12] [Server thread/INFO]: Paytons_Man drowned
+[18:51:19] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to Paytons_Man for 10 seconds]
+[18:51:21] [Server thread/INFO]: Fishyboi6879 issued server command: /tpa Thediddler_
+[18:51:30] [Server thread/INFO]: Thediddler_ issued server command: /tpaccept
+[18:51:36] [Server thread/INFO]: Paytons_Man issued server command: /back
+[18:51:47] [Async Chat Thread - #14/INFO]: <Fishyboi6879> there is iron in the chest[m
+
+[18:51:47] [Server thread/INFO]: Paytons_Man issued server command: /home 1\
+[18:51:47] [Thread-59/INFO]: UUID of player SOCKSTER12 is ae21b9e8-cc05-3df1-9a49-196f16621723
+[18:51:48] [Server thread/INFO]: SOCKSTER12[/[0:0:0:0:0:0:0:1]:37460] logged in with entity id 50383 at ([world]158.33232983650905, 11.0, 200.69999998807907)
+[18:51:52] [Async Chat Thread - #14/INFO]: <Thediddler_> Alr[m
+
+[18:51:53] [Async Chat Thread - #14/INFO]: <SpookyScarySkely> what if you used a tnt cannon to break spawn?[m
+
+[18:51:56] [Server thread/INFO]: Paytons_Man issued server command: /home 1
+[18:52:11] [Server thread/INFO]: qh5678 issued server command: /homes
+[18:52:14] [Server thread/INFO]: Paytons_Man issued server command: /home 1
+[18:52:18] [Server thread/INFO]: qh5678 issued server command: /delHome <Mine>
+[18:52:25] [Server thread/INFO]: qh5678 issued server command: /setHome <Spawner>
+[18:52:30] [Server thread/INFO]: qh5678 issued server command: /home <Base>
+[18:52:39] [Thread-60/INFO]: UUID of player TJ_BLUMIE is b4240b5e-dee3-37a0-be27-0c06c3df78a6
+[18:52:39] [Server thread/INFO]: TJ_BLUMIE[/[0:0:0:0:0:0:0:1]:35702] logged in with entity id 52885 at ([world]75.5, 70.0, 265.5)
+[18:52:47] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to TJ_BLUMIE for 10 seconds]
+[18:52:53] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to TJ_BLUMIE for 10 seconds]
+[18:52:58] [Server thread/INFO]: [@: Teleported TJ_BLUMIE to 75.47346814437631, 81.0, 375.3709093698844]
+[18:53:40] [Server thread/INFO]: SpookyScarySkely has just earned the achievement [Time to Farm!]
+[18:53:54] [Server thread/INFO]: SOCKSTER12 lost connection: Disconnected
+[18:53:54] [Server thread/INFO]: SOCKSTER12 left the game.
+[18:54:30] [Server thread/INFO]: Fishyboi6879 lost connection: Disconnected
+[18:54:30] [Server thread/INFO]: Fishyboi6879 left the game.
+[18:54:36] [Thread-61/INFO]: UUID of player Fishyboi6879 is 286244fb-ee9b-3fe3-8b72-a1f3ca29fd8b
+[18:54:36] [Server thread/INFO]: Fishyboi6879[/[0:0:0:0:0:0:0:1]:33570] logged in with entity id 53702 at ([world]1216.574999988079, 6.0, 1175.4695341474664)
+[18:54:38] [Server thread/INFO]: Thediddler_ lost connection: Disconnected
+[18:54:38] [Server thread/INFO]: Thediddler_ left the game.
+[18:54:46] [Server thread/INFO]: TJ_BLUMIE issued server command: /tpa Paytons_Man
+[18:54:55] [Server thread/INFO]: Paytons_Man issued server command: /tpaccept
+[18:55:04] [Async Chat Thread - #15/INFO]: <SpookyScarySkely> does anyone have coal[m
+
+[18:55:14] [Async Chat Thread - #15/INFO]: <Fishyboi6879> for a price[m
+
+[18:55:16] [Server thread/INFO]: qh5678 issued server command: /homes
+[18:55:22] [Async Chat Thread - #15/INFO]: <SpookyScarySkely> I will trade for 1 iron per[m
+
+[18:55:26] [Server thread/INFO]: qh5678 issued server command: /home <Spawner>
+[18:55:31] [Async Chat Thread - #15/INFO]: <Fishyboi6879> no[m
+
+[18:55:39] [Thread-62/INFO]: UUID of player Thediddler_ is 650691d1-7661-3486-9a53-f4c8b96b384a
+[18:55:39] [Server thread/INFO]: Thediddler_[/[0:0:0:0:0:0:0:1]:56582] logged in with entity id 54584 at ([world]1191.3318536123652, 6.0, 1173.458816992817)
+[18:55:39] [Async Chat Thread - #15/INFO]: <SpookyScarySkely> fine then[m
+
+[18:55:49] [Async Chat Thread - #15/INFO]: <SpookyScarySkely> Im not giving diamonds for coal[m
+
+[18:55:55] [Server thread/INFO]: madmax was blown up by Creeper
+[18:55:56] [Async Chat Thread - #15/INFO]: <Fishyboi6879> bookshelves[m
+
+[18:55:58] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to madmax for 10 seconds]
+[18:56:00] [Async Chat Thread - #15/INFO]: <SpookyScarySkely> nope[m
+
+[18:56:00] [Server thread/INFO]: madmax issued server command: /back'
+[18:56:03] [Async Chat Thread - #15/INFO]: <Fishyboi6879> ok[m
+
+[18:56:04] [Server thread/INFO]: madmax issued server command: /back
+[18:56:08] [Thread-63/INFO]: UUID of player SOCKSTER12 is ae21b9e8-cc05-3df1-9a49-196f16621723
+[18:56:08] [Server thread/INFO]: SOCKSTER12[/[0:0:0:0:0:0:0:1]:33002] logged in with entity id 55930 at ([world]158.63945948870432, 11.0, 196.22963013330556)
+[18:56:10] [Async Chat Thread - #15/INFO]: <SpookyScarySkely> your an idiot if you think you woulld have got that[m
+
+[18:56:27] [Async Chat Thread - #15/INFO]: <Fishyboi6879> you to[m
+
+[18:56:38] [Thread-64/INFO]: UUID of player MiloIsSigma is b9f0a523-f67f-3d19-83f2-2da709742dd8
+[18:56:38] [Server thread/INFO]: MiloIsSigma[/[0:0:0:0:0:0:0:1]:60258] logged in with entity id 56241 at ([world]400.93566112625876, 63.0, 328.9888708129039)
+[18:56:50] [Async Chat Thread - #15/INFO]: <SpookyScarySkely> that makes no sense[m
+
+[18:56:59] [Async Chat Thread - #15/INFO]: <SpookyScarySkely> can you read fisher?[m
+
+[18:57:03] [Server thread/INFO]: TJ_BLUMIE was slain by Zombie
+[18:57:04] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to TJ_BLUMIE for 10 seconds]
+[18:57:10] [Server thread/INFO]: [@: Teleported TJ_BLUMIE to 178.11370586019973, 81.0, 275.69999998807907]
+[18:57:18] [Server thread/INFO]: TJ_BLUMIE issued server command: /back
+[18:57:20] [Server thread/INFO]: SOCKSTER12 has just earned the achievement [DIAMONDS!]
+[18:57:26] [Server thread/INFO]: SpookyScarySkely issued server command: /home HOME
+[18:57:52] [Server thread/INFO]: MiloIsSigma has just earned the achievement [Benchmarking]
+[18:57:53] [Server thread/INFO]: TJ_BLUMIE issued server command: /sethome Sigma
+[18:58:05] [Async Chat Thread - #16/INFO]: <madmax> i love /back[m
+
+[18:58:16] [Async Chat Thread - #16/INFO]: <MiloIsSigma> whats it do[m
+
+[18:58:31] [Async Chat Thread - #16/INFO]: <SpookyScarySkely> goes back to where you die[m
+
+[18:58:41] [Async Chat Thread - #16/INFO]: <SpookyScarySkely> I have iron noah[m
+
+[18:58:48] [Server thread/INFO]: Paytons_Man has just earned the achievement [Time to Mine!]
+[18:58:48] [Server thread/INFO]: Paytons_Man has just earned the achievement [Getting an Upgrade]
+[18:58:57] [Async Chat Thread - #16/INFO]: <Thediddler_> Fisher i've gotten a half stack of iron so far[m
+
+[18:59:02] [Async Chat Thread - #16/INFO]: <Fishyboi6879> nice[m
+
+[18:59:31] [Server thread/INFO]: SOCKSTER12 issued server command: /homes
+[18:59:57] [Server thread/INFO]: SpookyScarySkely issued server command: /home HOME
+[19:00:07] [Async Chat Thread - #17/INFO]: <qh5678> anyone have pearls?[m
+
+[19:00:16] [Async Chat Thread - #17/INFO]: <Fishyboi6879> one[m
+
+[19:00:27] [Async Chat Thread - #17/INFO]: <qh5678> price?[m
+
+[19:00:33] [Async Chat Thread - #17/INFO]: <Fishyboi6879> nothing[m
+
+[19:00:55] [Async Chat Thread - #17/INFO]: <SpookyScarySkely> that is suspicious[m
+
+[19:01:07] [Async Chat Thread - #17/INFO]: <qh5678> what is[m
+
+[19:01:12] [Async Chat Thread - #17/INFO]: <SpookyScarySkely> the price[m
+
+[19:01:15] [Async Chat Thread - #17/INFO]: <Thediddler_> We need coal fisher?[m
+
+[19:01:21] [Async Chat Thread - #17/INFO]: <qh5678> that he doesnt want to trade?[m
+
+[19:01:24] [Async Chat Thread - #17/INFO]: <Fishyboi6879> yeah get everythign[m
+
+[19:01:25] [Async Chat Thread - #17/INFO]: <SpookyScarySkely> guess who has coal now[m
+
+[19:02:02] [Server thread/INFO]: SpookyScarySkely issued server command: /home Stuf
+[19:02:06] [Server thread/INFO]: SpookyScarySkely issued server command: /home Stuff
+[19:02:33] [Server thread/INFO]: SOCKSTER12 issued server command: /delhome mine
+[19:02:35] [Server thread/INFO]: SpookyScarySkely issued server command: /home Spawn
+[19:02:37] [Server thread/INFO]: SOCKSTER12 issued server command: /sethome mine
+[19:02:39] [Server thread/INFO]: SOCKSTER12 issued server command: /home 3
+[19:02:45] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to SpookyScarySkely for 10 seconds]
+[19:03:06] [Server thread/INFO]: SpookyScarySkely issued server command: /home HOME
+[19:03:15] [Server thread/WARN]: SpookyScarySkely moved wrongly!
+[19:03:39] [Server thread/INFO]: TJ_BLUMIE issued server command: /home 1
+[19:03:46] [Server thread/INFO]: TJ_BLUMIE issued server command: /home Sigma
+[19:03:50] [Server thread/INFO]: SOCKSTER12 issued server command: /home 3
+[19:04:24] [Server thread/INFO]: Paytons_Man issued server command: /tpa madmax
+[19:04:30] [Async Chat Thread - #18/INFO]: <SpookyScarySkely> does anyone want diamond sword?[m
+
+[19:04:34] [Async Chat Thread - #18/INFO]: <SOCKSTER12> yes[m
+
+[19:04:37] [Async Chat Thread - #18/INFO]: <Thediddler_> yes[m
+
+[19:04:37] [Async Chat Thread - #18/INFO]: <qh5678> for what[m
+
+[19:04:40] [Async Chat Thread - #18/INFO]: <SpookyScarySkely> what is your offer?[m
+
+[19:04:46] [Server thread/INFO]: Fishyboi6879 issued server command: /tpa madmax
+[19:04:48] [Async Chat Thread - #18/INFO]: <qh5678> did u make 2[m
+
+[19:04:48] [Async Chat Thread - #18/INFO]: <SOCKSTER12> your life for the sword[m
+
+[19:04:50] [Async Chat Thread - #18/INFO]: <TJ_BLUMIE> 7 wood planks and 10 sticks[m
+
+[19:04:52] [Async Chat Thread - #18/INFO]: <Thediddler_> a toy[m
+
+[19:04:54] [Server thread/INFO]: Fishyboi6879 issued server command: /tpa madmax
+[19:05:02] [Async Chat Thread - #18/INFO]: <TJ_BLUMIE> thats what ill give for the sword[m
+
+[19:05:07] [Server thread/INFO]: Fishyboi6879 issued server command: /tpa madmax
+[19:05:10] [Async Chat Thread - #18/INFO]: <SpookyScarySkely> no tj and no noah[m
+
+[19:05:19] [Server thread/INFO]: madmax issued server command: /tpaccept
+[19:05:24] [Server thread/INFO]: Fishyboi6879 issued server command: /tpa madmax
+[19:05:29] [Async Chat Thread - #18/INFO]: <SpookyScarySkely> one stack of spruce logs?[m
+
+[19:05:30] [Async Chat Thread - #18/INFO]: <Thediddler_> Its long and made with plastic[m
+
+[19:05:32] [Server thread/INFO]: Fishyboi6879 issued server command: /tpa madmax
+[19:05:40] [Server thread/INFO]: Fishyboi6879 issued server command: /tpa madmax
+[19:05:55] [Server thread/INFO]: madmax issued server command: /tpdeny
+[19:05:58] [Server thread/INFO]: TJ_BLUMIE issued server command: /tpa Paytons_Man
+[19:06:03] [Server thread/INFO]: Paytons_Man issued server command: /tpaccept
+[19:06:07] [Server thread/INFO]: Fishyboi6879 issued server command: /tpa Peytons_Man
+[19:06:16] [Server thread/INFO]: Fishyboi6879 issued server command: /tpa Paytons_Man
+[19:06:18] [Server thread/INFO]: SpookyScarySkely issued server command: /home Spawn
+[19:06:25] [Server thread/INFO]: SpookyScarySkely issued server command: /home Spawn
+[19:06:36] [Server thread/INFO]: [@: Teleported SpookyScarySkely to -26.239798376384982, 76.0, 275.0223819290989]
+[19:06:36] [Server thread/INFO]: Fishyboi6879 issued server command: /tpa Paytons_Man
+[19:06:37] [Server thread/INFO]: qh5678 issued server command: /home <Base>
+[19:06:53] [Server thread/INFO]: SpookyScarySkely issued server command: /home HOME
+[19:07:52] [Server thread/INFO]: qh5678 issued server command: /home <1>
+[19:08:12] [Server thread/INFO]: Fishyboi6879 was blown up by Creeper
+[19:08:17] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to Fishyboi6879 for 10 seconds]
+[19:08:18] [Async Chat Thread - #19/INFO]: <Fishyboi6879> back[m
+
+[19:08:21] [Server thread/INFO]: Fishyboi6879 issued server command: /back
+[19:08:24] [Async Chat Thread - #19/INFO]: <SpookyScarySkely> NOah are you teaming with chris?[m
+
+[19:08:58] [Async Chat Thread - #19/INFO]: <SpookyScarySkely> ???[m
+
+[19:09:24] [Server thread/INFO]: TJ_BLUMIE fell from a high place
+[19:09:31] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to TJ_BLUMIE for 10 seconds]
+[19:09:32] [Server thread/INFO]: Fishyboi6879 has just earned the achievement [Acquire Hardware]
+[19:09:32] [Server thread/INFO]: TJ_BLUMIE issued server command: /back
+[19:09:52] [Server thread/INFO]: SOCKSTER12 issued server command: /tpa Paytons_Man
+[19:09:58] [Server thread/INFO]: Paytons_Man issued server command: /tpaccept
+[19:10:06] [Server thread/INFO]: SOCKSTER12 issued server command: /sethome 5
+[19:10:18] [Server thread/INFO]: Fishyboi6879 issued server command: /tpa TJ_BLUMIE
+[19:10:19] [Server thread/INFO]: SOCKSTER12 issued server command: /home 3
+[19:10:31] [Server thread/INFO]: madmax issued server command: /tp
+[19:10:36] [Server thread/INFO]: Fishyboi6879 has just earned the achievement [DIAMONDS!]
+[19:10:39] [Server thread/INFO]: SOCKSTER12 issued server command: /home mine
+[19:10:41] [Server thread/INFO]: SpookyScarySkely issued server command: /home HOME
+[19:10:52] [Server thread/INFO]: MiloIsSigma lost connection: Disconnected
+[19:10:52] [Server thread/INFO]: MiloIsSigma left the game.
+[19:10:57] [Server thread/INFO]: SOCKSTER12 issued server command: /tell Fishyboi6879 since im no longer admin wanna join up together?
+[19:11:02] [Server thread/INFO]: Fishyboi6879 issued server command: /tpa SOCKSTER12
+[19:11:11] [Server thread/INFO]: Fishyboi6879 issued server command: /tell SOCKSTER12 yeah
+[19:11:15] [Server thread/INFO]: SOCKSTER12 issued server command: /tpaccept
+[19:11:25] [Server thread/INFO]: SOCKSTER12 issued server command: /home 3
+[19:11:31] [Server thread/INFO]: Fishyboi6879 issued server command: /tell SOCKSTER12 we have a bse
+[19:11:34] [Thread-66/INFO]: UUID of player Ultimate_C is f412305d-74d0-3911-b252-d2a07b348820
+[19:11:34] [Server thread/INFO]: Ultimate_C[/[0:0:0:0:0:0:0:1]:52320] logged in with entity id 72086 at ([world]-93.69999998807907, 70.0, 546.7589566795907)
+[19:11:39] [Async Chat Thread - #20/INFO]: <SOCKSTER12> not yet tpa me a gain[m
+
+[19:11:47] [Server thread/INFO]: SOCKSTER12 issued server command: /tell Fishyboi6879 whoope
+[19:11:58] [Server thread/INFO]: Fishyboi6879 issued server command: /tpa Thediddler_
+[19:12:05] [Server thread/INFO]: Thediddler_ issued server command: /tpaccept
+[19:12:28] [Server thread/INFO]: SOCKSTER12 issued server command: /tpaccept
+[19:12:29] [Async Chat Thread - #20/INFO]: <Ultimate_C> noah how to add tplogin?w[m
+
+[19:12:29] [Server thread/INFO]: Thediddler_ lost connection: Disconnected
+[19:12:29] [Server thread/INFO]: Thediddler_ left the game.
+[19:12:36] [Server thread/INFO]: SpookyScarySkely issued server command: /tpa SOCKSTER12
+[19:12:38] [Server thread/INFO]: SOCKSTER12 issued server command: /tpaccept
+[19:12:47] [Server thread/INFO]: SOCKSTER12 issued server command: /look up eaglercraft plugins
+[19:12:47] [Thread-67/INFO]: UUID of player NXTRND11 is 78bd3f94-2fa9-373a-831c-c85a643110a7
+[19:12:47] [Server thread/INFO]: NXTRND11[/[0:0:0:0:0:0:0:1]:34128] logged in with entity id 72744 at ([world]374.87788745183275, 49.0, 169.43143010231594)
+[19:12:56] [Server thread/INFO]: Ultimate_C has just earned the achievement [Time to Mine!]
+[19:13:01] [Server thread/INFO]: SOCKSTER12 lost connection: Disconnected
+[19:13:01] [Server thread/INFO]: SOCKSTER12 left the game.
+[19:13:21] [Thread-68/INFO]: UUID of player Madden_humes_ is 8fe50fda-a2e3-39a2-90c1-0f1e9bb7f604
+[19:13:21] [Server thread/INFO]: Madden_humes_[/[0:0:0:0:0:0:0:1]:51218] logged in with entity id 73019 at ([world]168.6693912652769, 66.0, 301.7269858207173)
+[19:13:31] [Async Chat Thread - #21/INFO]: <Ultimate_C> is noah mad aat me?[m
+
+[19:13:32] [Thread-69/INFO]: UUID of player Thediddler_ is 650691d1-7661-3486-9a53-f4c8b96b384a
+[19:13:32] [Server thread/INFO]: Thediddler_[/[0:0:0:0:0:0:0:1]:36994] logged in with entity id 73103 at ([world]1090.452967821206, 7.0, 1173.699999988079)
+[19:13:39] [Server thread/INFO]: Fishyboi6879 has just earned the achievement [Time to Strike!]
+[19:13:41] [Server thread/INFO]: Ultimate_C has just earned the achievement [Hot Topic]
+[19:13:51] [Async Chat Thread - #21/INFO]: <SpookyScarySkely> noah is very poor[m
+
+[19:13:55] [Server thread/INFO]: Ultimate_C has just earned the achievement [Getting an Upgrade]
+[19:14:01] [Server thread/INFO]: Fishyboi6879 issued server command: /tpa SOCKSTER12
+[19:14:03] [Thread-70/INFO]: UUID of player SOCKSTER12 is ae21b9e8-cc05-3df1-9a49-196f16621723
+[19:14:03] [Server thread/INFO]: SOCKSTER12[/[0:0:0:0:0:0:0:1]:54836] logged in with entity id 73339 at ([world]164.87154548004528, 71.0, 273.2881832422549)
+[19:14:04] [Async Chat Thread - #21/INFO]: <Ultimate_C> k[m
+
+[19:14:07] [Server thread/INFO]: Fishyboi6879 issued server command: /tpa SOCKSTER12
+[19:14:20] [Async Chat Thread - #21/INFO]: <Ultimate_C> noah how add tp login[m
+
+[19:14:25] [Server thread/INFO]: SOCKSTER12 issued server command: /
+[19:14:32] [Server thread/INFO]: Fishyboi6879 issued server command: /sethome 1
+[19:14:43] [Server thread/INFO]: Fishyboi6879 issued server command: /delhome 1
+[19:14:47] [Server thread/INFO]: SOCKSTER12 issued server command: /tpaaccept
+[19:14:47] [Server thread/INFO]: Fishyboi6879 issued server command: /sethome 1
+[19:14:49] [Server thread/INFO]: Madden_humes_ has just earned the achievement [Monster Hunter]
+[19:14:53] [Server thread/INFO]: SOCKSTER12 issued server command: /tpaccept
+[19:14:59] [Async Chat Thread - #21/INFO]: <Ultimate_C> noah?[m
+
+[19:15:25] [Server thread/INFO]: SOCKSTER12 lost connection: Disconnected
+[19:15:25] [Server thread/INFO]: SOCKSTER12 left the game.
+[19:15:31] [Server thread/INFO]: Fishyboi6879 issued server command: /home 1
+[19:15:34] [Async Chat Thread - #21/INFO]: <Ultimate_C> -_-[m
+
+[19:15:41] [Server thread/INFO]: TJ_BLUMIE fell from a high place
+[19:15:43] [Server thread/INFO]: Madden_humes_ has just earned the achievement [Getting an Upgrade]
+[19:15:44] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to TJ_BLUMIE for 10 seconds]
+[19:15:46] [Server thread/INFO]: TJ_BLUMIE issued server command: /back
+[19:15:51] [Server thread/INFO]: Paytons_Man lost connection: Disconnected
+[19:15:51] [Server thread/INFO]: Paytons_Man left the game.
+[19:15:54] [Thread-71/INFO]: UUID of player SOCKSTER12 is ae21b9e8-cc05-3df1-9a49-196f16621723
+[19:15:54] [Server thread/INFO]: SOCKSTER12[/[0:0:0:0:0:0:0:1]:42742] logged in with entity id 74484 at ([world]179.12519034438134, 68.0, 134.0235780324106)
+[19:15:59] [Server thread/INFO]: SpookyScarySkely issued server command: /sethome N
+[19:16:05] [Thread-72/INFO]: UUID of player Paytons_Man is 22a2ca9b-8310-30b2-841b-2f570393832f
+[19:16:05] [Server thread/INFO]: Paytons_Man[/[0:0:0:0:0:0:0:1]:58560] logged in with entity id 74561 at ([world]1509.3161048185957, 29.0, 1669.300000011921)
+[19:16:05] [Server thread/INFO]: SOCKSTER12 issued server command: /home 3
+[19:16:12] [Server thread/INFO]: Fishyboi6879 lost connection: Disconnected
+[19:16:12] [Server thread/INFO]: Fishyboi6879 left the game.
+[19:16:16] [Async Chat Thread - #21/INFO]: <Ultimate_C> noa how add tplogin[m
+
+[19:16:20] [Thread-73/INFO]: UUID of player Fishyboi is 67b7ffe9-834b-30ff-a8e6-f07e51cc3e49
+[19:16:20] [Server thread/INFO]: Fishyboi[/[0:0:0:0:0:0:0:1]:56510] logged in with entity id 74721 at ([world]114.5, 68.0, 239.5)
+[19:16:35] [Thread-74/INFO]: UUID of player MiloIsSigma is b9f0a523-f67f-3d19-83f2-2da709742dd8
+[19:16:35] [Server thread/INFO]: MiloIsSigma[/[0:0:0:0:0:0:0:1]:48320] logged in with entity id 74838 at ([world]677.3517689034752, 77.0, 593.779786799153)
+[19:16:42] [Server thread/INFO]: Madden_humes_ lost connection: Disconnected
+[19:16:42] [Server thread/INFO]: Madden_humes_ left the game.
+[19:16:47] [Server thread/INFO]: SOCKSTER12 lost connection: Disconnected
+[19:16:47] [Server thread/INFO]: SOCKSTER12 left the game.
+[19:16:52] [Server thread/INFO]: Fishyboi has just earned the achievement [Taking Inventory]
+[19:16:55] [Thread-75/INFO]: UUID of player Fishyboi6879 is 286244fb-ee9b-3fe3-8b72-a1f3ca29fd8b
+[19:16:55] [Server thread/INFO]: Fishyboi6879[/[0:0:0:0:0:0:0:1]:56912] logged in with entity id 75192 at ([world]1213.9923604007142, 6.0, 1170.0537866524885)
+[19:17:02] [Async Chat Thread - #21/INFO]: <Paytons_Man> milo do /tpa then type my user name[m
+
+[19:17:13] [Server thread/INFO]: Fishyboi6879 issued server command: /tpa Fishyboi
+[19:17:19] [Thread-76/INFO]: UUID of player gestapo is ec2d5698-c720-3eb9-a0eb-591ae2879a6e
+[19:17:19] [Server thread/INFO]: gestapo[/[0:0:0:0:0:0:0:1]:50862] logged in with entity id 75811 at ([world]1238.6032282403057, 99.0, -235.8208937500153)
+[19:17:29] [Server thread/INFO]: madmax issued server command: /tell Paytons_Man lava at bottom
+[19:17:30] [Async Chat Thread - #21/INFO]: <gestapo> yooo[m
+
+[19:17:39] [Server thread/INFO]: Fishyboi issued server command: /tpa Fishyboi6879
+[19:17:46] [Server thread/INFO]: Fishyboi6879 issued server command: /tpaccept
+[19:18:02] [Server thread/INFO]: Fishyboi issued server command: /tpa Fishyboi6879
+[19:18:03] [Server thread/INFO]: qh5678 issued server command: /home <Base>
+[19:18:10] [Server thread/INFO]: Ultimate_C issued server command: /give gestapo iron_boots 1 0 {ench:[{id:7, lvl:2}], Unbreakable:1}
+[19:18:10] [Server thread/INFO]: [Ultimate_C: Given [Iron Boots] * 1 to gestapo]
+[19:18:12] [Server thread/INFO]: MiloIsSigma lost connection: Disconnected
+[19:18:12] [Server thread/INFO]: MiloIsSigma left the game.
+[19:18:15] [Server thread/INFO]: NXTRND11 lost connection: Timed out
+[19:18:15] [Server thread/INFO]: NXTRND11 left the game.
+[19:18:16] [Async Chat Thread - #21/INFO]: <SpookyScarySkely> is combat loggin leagal?[m
+
+[19:18:17] [Server thread/INFO]: Fishyboi6879 lost connection: Disconnected
+[19:18:17] [Server thread/INFO]: Fishyboi6879 left the game.
+[19:18:19] [Thread-77/INFO]: UUID of player Fishyboi6879 is 286244fb-ee9b-3fe3-8b72-a1f3ca29fd8b
+[19:18:19] [Server thread/INFO]: Fishyboi6879[/[0:0:0:0:0:0:0:1]:37750] logged in with entity id 76597 at ([world]1214.009339788159, 6.0, 1169.8377535557215)
+[19:18:20] [Async Chat Thread - #21/INFO]: <Ultimate_C> yes[m
+
+[19:18:23] [Async Chat Thread - #21/INFO]: <SpookyScarySkely> ok[m
+
+[19:18:26] [Server thread/INFO]: qh5678 lost connection: Disconnected
+[19:18:26] [Server thread/INFO]: qh5678 left the game.
+[19:18:26] [Server thread/INFO]: TJ_BLUMIE fell from a high place
+[19:18:29] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to TJ_BLUMIE for 10 seconds]
+[19:18:31] [Server thread/INFO]: TJ_BLUMIE issued server command: /back
+[19:18:32] [Thread-78/INFO]: UUID of player qh5678 is e01a55ef-f931-318c-8b7f-9ffe2712a35e
+[19:18:33] [Server thread/INFO]: qh5678[/[0:0:0:0:0:0:0:1]:38458] logged in with entity id 76724 at ([world]-589.6927528971175, 12.0, 217.28656729081507)
+[19:18:37] [Async Chat Thread - #21/INFO]: <Ultimate_C> gable can you burn those?[m
+
+[19:18:38] [Async Chat Thread - #21/INFO]: <SpookyScarySkely> I am waiting for noah to spawn in[m
+
+[19:18:41] [Async Chat Thread - #21/INFO]: <Ultimate_C> k[m
+
+[19:18:46] [Server thread/INFO]: Fishyboi issued server command: /tpa Fishyboi6879
+[19:18:52] [Server thread/INFO]: Fishyboi6879 issued server command: /tpaccept
+[19:19:02] [Async Chat Thread - #21/INFO]: <Ultimate_C> gable burn those boots plz[m
+
+[19:19:05] [Server thread/INFO]: Fishyboi6879 lost connection: Disconnected
+[19:19:05] [Server thread/INFO]: Fishyboi6879 left the game.
+[19:19:12] [Server thread/INFO]: gestapo issued server command: /ok
+[19:19:13] [Server thread/INFO]: SpookyScarySkely issued server command: /delhome N
+[19:19:17] [Async Chat Thread - #21/INFO]: <gestapo> i dont have fire[m
+
+[19:19:17] [Server thread/INFO]: SpookyScarySkely issued server command: /sethome N
+[19:19:18] [Async Chat Thread - #21/INFO]: <qh5678> what does he have[m
+
+[19:19:25] [Async Chat Thread - #21/INFO]: <gestapo> tp to me and ill give it to you cedar[m
+
+[19:19:28] [Async Chat Thread - #21/INFO]: <Ultimate_C> just throw tthem and leave them[m
+
+[19:19:30] [Thread-79/INFO]: UUID of player MiloIsSigma is b9f0a523-f67f-3d19-83f2-2da709742dd8
+[19:19:30] [Server thread/INFO]: MiloIsSigma[/[0:0:0:0:0:0:0:1]:36218] logged in with entity id 77017 at ([world]745.5252376794016, 63.0, 572.3056436988985)
+[19:19:33] [Async Chat Thread - #21/INFO]: <gestapo> ok[m
+
+[19:19:43] [Server thread/INFO]: MiloIsSigma issued server command: /tpa Paytons_Man
+[19:19:43] [Async Chat Thread - #21/INFO]: <SpookyScarySkely> I need to go get lava to trap noah[m
+
+[19:19:45] [Async Chat Thread - #21/INFO]: <Thediddler_> Cedar did you see my emaiL?[m
+
+[19:19:51] [Async Chat Thread - #21/INFO]: <Ultimate_C> no?[m
+
+[19:19:54] [Server thread/INFO]: Ultimate_C issued server command: /give @p iron_boots 1 0 {ench:[{id:8, lvl:5}], Unbreakable:1}
+[19:19:54] [Server thread/INFO]: [Ultimate_C: Given [Iron Boots] * 1 to Ultimate_C]
+[19:19:57] [Async Chat Thread - #21/INFO]: <SpookyScarySkely> he going to spawn in under fire[m
+
+[19:20:04] [Async Chat Thread - #21/INFO]: <Thediddler_> I sent one like 30 mins ago[m
+
+[19:20:09] [Async Chat Thread - #21/INFO]: <SpookyScarySkely> can anyone give me lava[m
+
+[19:20:16] [Server thread/INFO]: Ultimate_C issued server command: /give gestapo iron_boots 1 0 {ench:[{id:8, lvl:5}], Unbreakable:1}
+[19:20:16] [Server thread/INFO]: [Ultimate_C: Given [Iron Boots] * 1 to gestapo]
+[19:20:17] [Server thread/INFO]: MiloIsSigma lost connection: Disconnected
+[19:20:17] [Server thread/INFO]: MiloIsSigma left the game.
+[19:20:20] [Thread-80/INFO]: UUID of player MiloIsSigma is b9f0a523-f67f-3d19-83f2-2da709742dd8
+[19:20:20] [Server thread/INFO]: MiloIsSigma[/[0:0:0:0:0:0:0:1]:41976] logged in with entity id 77242 at ([world]774.8049686993371, 64.0, 601.7020735979801)
+[19:20:22] [Async Chat Thread - #21/INFO]: <SpookyScarySkely> just tpa me[m
+
+[19:20:26] [Async Chat Thread - #21/INFO]: <Ultimate_C> gabe that is your reward[m
+
+[19:20:35] [Server thread/INFO]: qh5678 issued server command: /homes
+[19:20:38] [Async Chat Thread - #21/INFO]: <gestapo> thanks[m
+
+[19:20:43] [Async Chat Thread - #21/INFO]: <SpookyScarySkely> what you get[m
+
+[19:20:46] [Async Chat Thread - #21/INFO]: <Ultimate_C> they cant break as well[m
+
+[19:20:52] [Server thread/INFO]: qh5678 issued server command: /delHome <Spawner>
+[19:21:52] [Server thread/INFO]: Thediddler_ lost connection: Disconnected
+[19:21:52] [Server thread/INFO]: Thediddler_ left the game.
+[19:22:11] [Server thread/INFO]: SpookyScarySkely issued server command: /home HOME
+[19:22:37] [Server thread/INFO]: SpookyScarySkely issued server command: /home Stuff
+[19:22:54] [Async Chat Thread - #22/INFO]: <SpookyScarySkely> anyoone know where lava is[m
+
+[19:22:59] [Async Chat Thread - #22/INFO]: <Ultimate_C> no[m
+
+[19:23:02] [Async Chat Thread - #22/INFO]: <qh5678> nether[m
+
+[19:23:02] [Async Chat Thread - #22/INFO]: <Fishyboi> up your but[m
+
+[19:23:10] [Server thread/INFO]: SpookyScarySkely issued server command: /home N
+[19:23:12] [Async Chat Thread - #22/INFO]: <Ultimate_C> that would hurt[m
+
+[19:23:13] [Server thread/INFO]: Ultimate_C has just earned the achievement [Acquire Hardware]
+[19:23:24] [Server thread/INFO]: Paytons_Man issued server command: /sethome 2
+[19:23:46] [Async Chat Thread - #22/INFO]: <Ultimate_C> gabe how good are the boots[m
+
+[19:23:51] [Async Chat Thread - #22/INFO]: <Ultimate_C> gable#[m
+
+[19:23:52] [Async Chat Thread - #22/INFO]: <SpookyScarySkely> for what[m
+
+[19:23:57] [Async Chat Thread - #22/INFO]: <Ultimate_C> i meant gable[m
+
+[19:23:57] [Async Chat Thread - #22/INFO]: <SpookyScarySkely> ok[m
+
+[19:24:08] [Async Chat Thread - #22/INFO]: <Ultimate_C> gable are they good?[m
+
+[19:24:08] [Async Chat Thread - #22/INFO]: <gestapo> depth strider 5[m
+
+[19:24:15] [Async Chat Thread - #22/INFO]: <gestapo> i havent tested them yet[m
+
+[19:24:17] [Async Chat Thread - #22/INFO]: <Ultimate_C> how fast in water?[m
+
+[19:24:23] [Async Chat Thread - #22/INFO]: <Ultimate_C> k[m
+
+[19:24:23] [Async Chat Thread - #22/INFO]: <gestapo> hane on[m
+
+[19:24:27] [Server thread/INFO]: TJ_BLUMIE issued server command: /tpa Paytons_Man
+[19:24:30] [Async Chat Thread - #22/INFO]: <gestapo> ima goo test[m
+
+[19:24:32] [Server thread/INFO]: Paytons_Man issued server command: /tpaccept
+[19:24:38] [Server thread/INFO]: TJ_BLUMIE suffocated in a wall
+[19:24:38] [Async Chat Thread - #22/INFO]: <Ultimate_C> okay :)[m
+
+[19:24:42] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to TJ_BLUMIE for 10 seconds]
+[19:24:51] [Server thread/INFO]: TJ_BLUMIE issued server command: /back
+[19:25:21] [Async Chat Thread - #22/INFO]: <SpookyScarySkely> I cannot find lava[m
+
+[19:25:30] [Async Chat Thread - #22/INFO]: <Ultimate_C> thats not good[m
+
+[19:25:34] [Async Chat Thread - #22/INFO]: <gestapo> its the same speed as on land[m
+
+[19:25:40] [Async Chat Thread - #22/INFO]: <Ultimate_C> nice[m
+
+[19:25:40] [Thread-81/INFO]: UUID of player SOCKSTER12 is ae21b9e8-cc05-3df1-9a49-196f16621723
+[19:25:41] [Server thread/INFO]: SOCKSTER12[/[0:0:0:0:0:0:0:1]:39134] logged in with entity id 83634 at ([world]213.30000001192093, 76.0, 246.69999998807907)
+[19:25:43] [Async Chat Thread - #22/INFO]: <Ultimate_C> sprinting?[m
+
+[19:25:44] [Server thread/INFO]: SpookyScarySkely issued server command: /home N
+[19:25:51] [Async Chat Thread - #22/INFO]: <gestapo> both[m
+
+[19:25:53] [Server thread/INFO]: TJ_BLUMIE lost connection: Disconnected
+[19:25:53] [Server thread/INFO]: TJ_BLUMIE left the game.
+[19:25:55] [Server thread/INFO]: Ultimate_C has just earned the achievement [Cow Tipper]
+[19:26:01] [Async Chat Thread - #22/INFO]: <gestapo> walking in water is like walking on land[m
+
+[19:26:01] [Server thread/INFO]: Paytons_Man lost connection: Disconnected
+[19:26:01] [Server thread/INFO]: Paytons_Man left the game.
+[19:26:09] [Server thread/INFO]: qh5678 lost connection: Disconnected
+[19:26:09] [Server thread/INFO]: qh5678 left the game.
+[19:26:11] [Server thread/INFO]: SOCKSTER12 lost connection: Login timed out!
+[19:26:11] [Server thread/INFO]: SOCKSTER12 left the game.
+[19:26:11] [Server thread/WARN]: handleDisconnection() called twice
+[19:26:13] [Async Chat Thread - #22/INFO]: <Ultimate_C> you like reward?[m
+
+[19:26:14] [Async Chat Thread - #22/INFO]: <gestapo> and sprinttig in water is like sprinting on land[m
+
+[19:26:15] [Server thread/INFO]: MiloIsSigma has just earned the achievement [Time to Strike!]
+[19:26:20] [Async Chat Thread - #22/INFO]: <gestapo> yes[m
+
+[19:26:24] [Async Chat Thread - #22/INFO]: <Ultimate_C> nice[m
+
+[19:26:26] [Async Chat Thread - #22/INFO]: <SpookyScarySkely> noah has hacks[m
+
+[19:26:32] [Async Chat Thread - #22/INFO]: <Ultimate_C> really[m
+
+[19:26:34] [Async Chat Thread - #22/INFO]: <SpookyScarySkely> I couldn't hit him[m
+
+[19:26:37] [Async Chat Thread - #22/INFO]: <SpookyScarySkely> and he flew[m
+
+[19:26:44] [Server thread/INFO]: SpookyScarySkely issued server command: /home HOME
+[19:26:46] [Async Chat Thread - #22/INFO]: <Ultimate_C> rreally?[m
+
+[19:26:46] [Thread-82/INFO]: UUID of player SOCKSTER12 is ae21b9e8-cc05-3df1-9a49-196f16621723
+[19:26:46] [Server thread/INFO]: SOCKSTER12[/[0:0:0:0:0:0:0:1]:33980] logged in with entity id 85095 at ([world]213.91245303997994, 75.1707870772188, 246.61544541512285)
+[19:26:50] [Async Chat Thread - #22/INFO]: <Fishyboi> no he just was not logged in[m
+
+[19:26:51] [Thread-83/INFO]: UUID of player Paytons_Man is 22a2ca9b-8310-30b2-841b-2f570393832f
+[19:26:51] [Server thread/INFO]: Paytons_Man[/[0:0:0:0:0:0:0:1]:38240] logged in with entity id 85375 at ([world]1509.625096122365, 71.0, 1671.699999988079)
+[19:27:01] [Thread-84/INFO]: UUID of player Madden_humes_ is 8fe50fda-a2e3-39a2-90c1-0f1e9bb7f604
+[19:27:01] [Server thread/INFO]: Madden_humes_[/[0:0:0:0:0:0:0:1]:57572] logged in with entity id 85481 at ([world]211.73012854726423, 40.0, 296.69999998807907)
+[19:27:03] [Async Chat Thread - #22/INFO]: <Ultimate_C> noah u hacking?[m
+
+[19:27:05] [Async Chat Thread - #22/INFO]: <SpookyScarySkely> yes[m
+
+[19:27:11] [Async Chat Thread - #22/INFO]: <SpookyScarySkely> cant hit him and he is moving[m
+
+[19:27:17] [Server thread/INFO]: SOCKSTER12 lost connection: Login timed out!
+[19:27:17] [Server thread/INFO]: SOCKSTER12 left the game.
+[19:27:17] [Server thread/WARN]: handleDisconnection() called twice
+[19:27:24] [Async Chat Thread - #22/INFO]: <Ultimate_C> he isnt logged in[m
+
+[19:27:24] [Async Chat Thread - #22/INFO]: <Fishyboi> no he is not logged in[m
+
+[19:27:28] [Thread-86/INFO]: UUID of player SOCKSTER12 is ae21b9e8-cc05-3df1-9a49-196f16621723
+[19:27:28] [Server thread/INFO]: SOCKSTER12[/[0:0:0:0:0:0:0:1]:58838] logged in with entity id 85604 at ([world]213.30000001192093, 74.0, 246.69139448153686)
+[19:27:48] [Thread-87/INFO]: UUID of player qh5678 is e01a55ef-f931-318c-8b7f-9ffe2712a35e
+[19:27:48] [Server thread/INFO]: qh5678[/[0:0:0:0:0:0:0:1]:54728] logged in with entity id 85712 at ([world_nether]-334.8452929518424, 53.0, 75.69999998807906)
+[19:27:56] [Thread-88/INFO]: UUID of player NXTRND11 is 78bd3f94-2fa9-373a-831c-c85a643110a7
+[19:27:56] [Server thread/INFO]: NXTRND11[/[0:0:0:0:0:0:0:1]:54730] logged in with entity id 85814 at ([world]499.81179512816277, 62.207487991237166, 32.00370700961688)
+[19:27:59] [Server thread/INFO]: SOCKSTER12 lost connection: Login timed out!
+[19:27:59] [Server thread/INFO]: SOCKSTER12 left the game.
+[19:27:59] [Server thread/WARN]: handleDisconnection() called twice
+[19:28:02] [Thread-89/INFO]: UUID of player SOCKSTER12 is ae21b9e8-cc05-3df1-9a49-196f16621723
+[19:28:02] [Server thread/INFO]: SOCKSTER12[/[0:0:0:0:0:0:0:1]:43456] logged in with entity id 85978 at ([world]213.3518733658136, 74.0, 246.69139448153686)
+[19:28:07] [Server thread/INFO]: madmax lost connection: Disconnected
+[19:28:07] [Server thread/INFO]: madmax left the game.
+[19:28:09] [Async Chat Thread - #22/INFO]: <Ultimate_C> hmmm[m
+
+[19:28:25] [Async Chat Thread - #22/INFO]: <SpookyScarySkely> wait can you hit befoore logged in?[m
+
+[19:28:28] [Async Chat Thread - #22/INFO]: <Ultimate_C> no[m
+
+[19:28:32] [Server thread/INFO]: SOCKSTER12 lost connection: Login timed out!
+[19:28:32] [Server thread/INFO]: SOCKSTER12 left the game.
+[19:28:32] [Server thread/WARN]: handleDisconnection() called twice
+[19:28:33] [Async Chat Thread - #22/INFO]: <SpookyScarySkely> then noah is hacking[m
+
+[19:28:37] [Async Chat Thread - #22/INFO]: <SpookyScarySkely> he hit me[m
+
+[19:28:47] [Thread-90/INFO]: UUID of player SOCKSTER12 is ae21b9e8-cc05-3df1-9a49-196f16621723
+[19:28:47] [Server thread/INFO]: SOCKSTER12[/[0:0:0:0:0:0:0:1]:45976] logged in with entity id 86850 at ([world]213.95435689574148, 74.0, 246.51811684316047)
+[19:29:14] [Server thread/INFO]: SOCKSTER12 lost connection: Disconnected
+[19:29:14] [Server thread/INFO]: SOCKSTER12 left the game.
+[19:29:25] [Thread-91/INFO]: UUID of player SOCKSTER12 is ae21b9e8-cc05-3df1-9a49-196f16621723
+[19:29:25] [Server thread/INFO]: SOCKSTER12[/[0:0:0:0:0:0:0:1]:36578] logged in with entity id 87266 at ([world]213.30000001192093, 74.0, 246.30000001192093)
+[19:29:26] [Async Chat Thread - #22/INFO]: <SpookyScarySkely> he is hitting me and I cant hit him[m
+
+[19:29:33] [Async Chat Thread - #22/INFO]: <qh5678> he isnt logged in[m
+
+[19:29:34] [Server thread/INFO]: Ultimate_C issued server command: /kick SOCKSTER12
+[19:29:34] [Server thread/INFO]: SOCKSTER12 lost connection: Kicked by an operator.
+[19:29:34] [Server thread/INFO]: SOCKSTER12 left the game.
+[19:29:34] [Server thread/INFO]: [Ultimate_C: Kicked SOCKSTER12 from the game]
+[19:29:34] [Server thread/WARN]: handleDisconnection() called twice
+[19:29:37] [Async Chat Thread - #22/INFO]: <Fishyboi> he is not logged in DUR DUR[m
+
+[19:29:39] [Thread-92/INFO]: UUID of player SOCKSTER12 is ae21b9e8-cc05-3df1-9a49-196f16621723
+[19:29:39] [Server thread/INFO]: SOCKSTER12[/[0:0:0:0:0:0:0:1]:38798] logged in with entity id 87381 at ([world]213.30000001192093, 74.0, 246.30000001192093)
+[19:29:43] [Server thread/INFO]: Ultimate_C issued server command: /kick SOCKSTER12
+[19:29:43] [Server thread/INFO]: SOCKSTER12 lost connection: Kicked by an operator.
+[19:29:43] [Server thread/INFO]: SOCKSTER12 left the game.
+[19:29:43] [Server thread/INFO]: [Ultimate_C: Kicked SOCKSTER12 from the game]
+[19:29:43] [Server thread/WARN]: handleDisconnection() called twice
+[19:29:46] [Thread-93/INFO]: UUID of player SOCKSTER12 is ae21b9e8-cc05-3df1-9a49-196f16621723
+[19:29:46] [Server thread/INFO]: SOCKSTER12[/[0:0:0:0:0:0:0:1]:38812] logged in with entity id 87432 at ([world]213.30000001192093, 74.7531999805212, 246.30000001192093)
+[19:29:52] [Async Chat Thread - #22/INFO]: <Ultimate_C> stop cheating noah[m
+
+[19:29:53] [Server thread/INFO]: Madden_humes_ has just earned the achievement [Hot Topic]
+[19:30:10] [Server thread/INFO]: SOCKSTER12 lost connection: Disconnected
+[19:30:10] [Server thread/INFO]: SOCKSTER12 left the game.
+[19:30:13] [Async Chat Thread - #22/INFO]: <SpookyScarySkely> can you hit before loggin?[m
+
+[19:30:18] [Async Chat Thread - #22/INFO]: <Ultimate_C> no[m
+
+[19:30:18] [Async Chat Thread - #22/INFO]: <qh5678> yes[m
+
+[19:30:19] [Async Chat Thread - #22/INFO]: <Fishyboi> yes DUR DUR DUR[m
+
+[19:30:20] [Async Chat Thread - #22/INFO]: <SpookyScarySkely> thhen he wouldnt be hacking[m
+
+[19:30:22] [Async Chat Thread - #22/INFO]: <Ultimate_C> but he can be hit[m
+
+[19:30:35] [Async Chat Thread - #22/INFO]: <SpookyScarySkely> not before he loggs in[m
+
+[19:30:36] [Async Chat Thread - #22/INFO]: <Fishyboi> no cause hes not logged in[m
+
+[19:30:38] [Async Chat Thread - #22/INFO]: <SpookyScarySkely> I give up[m
+
+[19:30:48] [Async Chat Thread - #22/INFO]: <Fishyboi> good boy[m
+
+[19:30:53] [Async Chat Thread - #22/INFO]: <SpookyScarySkely> taking forever[m
+
+[19:30:53] [Thread-94/INFO]: UUID of player madmax is 2d293e6d-f8e8-3576-837e-8ee6ba0da811
+[19:30:53] [Server thread/INFO]: madmax[/[0:0:0:0:0:0:0:1]:50284] logged in with entity id 88485 at ([world]1478.1930231300075, 5.0, 1650.699999988079)
+[19:30:58] [Async Chat Thread - #22/INFO]: <Ultimate_C> agreed[m
+
+[19:30:58] [Async Chat Thread - #22/INFO]: <SpookyScarySkely> and he only has iron[m
+
+[19:31:06] [Server thread/INFO]: MiloIsSigma issued server command: /tpa MadMax
+[19:31:19] [Server thread/INFO]: madmax issued server command: /tpaccept
+[19:31:23] [Server thread/INFO]: madmax lost connection: Login timed out!
+[19:31:23] [Server thread/INFO]: madmax left the game.
+[19:31:23] [Server thread/WARN]: handleDisconnection() called twice
+[19:31:26] [Thread-95/INFO]: UUID of player madmax is 2d293e6d-f8e8-3576-837e-8ee6ba0da811
+[19:31:27] [Server thread/INFO]: madmax[/[0:0:0:0:0:0:0:1]:42396] logged in with entity id 89317 at ([world]1478.1930231300075, 5.0, 1650.699999988079)
+[19:31:44] [Server thread/INFO]: madmax issued server command: /tpaccept
+[19:32:10] [Thread-96/INFO]: UUID of player SOCKSTER12 is ae21b9e8-cc05-3df1-9a49-196f16621723
+[19:32:10] [Server thread/INFO]: SOCKSTER12[/[0:0:0:0:0:0:0:1]:35252] logged in with entity id 90014 at ([world]213.30000001192093, 74.0, 246.30000001192093)
+[19:32:22] [Server thread/INFO]: MiloIsSigma lost connection: Disconnected
+[19:32:22] [Server thread/INFO]: MiloIsSigma left the game.
+[19:32:22] [Server thread/INFO]: SOCKSTER12 lost connection: Disconnected
+[19:32:22] [Server thread/INFO]: SOCKSTER12 left the game.
+[19:32:31] [Thread-97/INFO]: UUID of player SOCKSTER12 is ae21b9e8-cc05-3df1-9a49-196f16621723
+[19:32:31] [Server thread/INFO]: SOCKSTER12[/[0:0:0:0:0:0:0:1]:36720] logged in with entity id 90244 at ([world]213.30000001192093, 74.0, 246.30000001192093)
+[19:32:44] [Async Chat Thread - #23/INFO]: <Ultimate_C> is someone hacking noah>[m
+
+[19:32:55] [Async Chat Thread - #23/INFO]: <Fishyboi> no he is not[m
+
+[19:33:01] [Server thread/INFO]: SOCKSTER12 lost connection: Login timed out!
+[19:33:01] [Server thread/INFO]: SOCKSTER12 left the game.
+[19:33:01] [Server thread/WARN]: handleDisconnection() called twice
+[19:33:02] [Async Chat Thread - #23/INFO]: <Fishyboi> check your gmail he sent you something[m
+
+[19:33:03] [Async Chat Thread - #23/INFO]: <Ultimate_C> is someone hacking him[m
+
+[19:33:04] [Thread-98/INFO]: UUID of player SOCKSTER12 is ae21b9e8-cc05-3df1-9a49-196f16621723
+[19:33:04] [Server thread/INFO]: SOCKSTER12[/[0:0:0:0:0:0:0:1]:35042] logged in with entity id 90544 at ([world]213.30000001192093, 74.0, 246.30000001192093)
+[19:33:11] [Async Chat Thread - #23/INFO]: <Fishyboi> no hes sitting right next to me[m
+
+[19:33:21] [Server thread/INFO]: SOCKSTER12 lost connection: Disconnected
+[19:33:21] [Server thread/INFO]: SOCKSTER12 left the game.
+[19:33:24] [Server thread/INFO]: Madden_humes_ issued server command: /home
+[19:33:25] [Async Chat Thread - #23/INFO]: <Fishyboi> he is getting the cords of his trap[m
+
+[19:33:40] [Server thread/INFO]: SpookyScarySkely issued server command: /home HOME
+[19:33:44] [Server thread/INFO]: qh5678 issued server command: /homes
+[19:33:50] [Server thread/INFO]: qh5678 issued server command: /setHome <New>
+[19:33:57] [Server thread/INFO]: qh5678 issued server command: /home <Base>
+[19:34:00] [Server thread/INFO]: Madden_humes_ issued server command: /homes
+[19:34:02] [Server thread/INFO]: SpookyScarySkely issued server command: /home N
+[19:34:09] [Server thread/INFO]: qh5678 issued server command: /home <Base>
+[19:34:10] [Server thread/INFO]: Madden_humes_ issued server command: /home spwan
+[19:34:20] [Server thread/INFO]: Madden_humes_ issued server command: /home spawn
+[19:34:32] [Server thread/INFO]: Madden_humes_ issued server command: //hhome spawn
+[19:34:33] [Server thread/INFO]: Fishyboi issued server command: /sethome 2
+[19:34:38] [Server thread/INFO]: Madden_humes_ issued server command: /home spwan
+[19:34:43] [Server thread/INFO]: gestapo was blown up by Creeper
+[19:34:45] [Server thread/INFO]: Fishyboi issued server command: /home 1
+[19:34:47] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to gestapo for 10 seconds]
+[19:34:49] [Server thread/INFO]: gestapo issued server command: /back
+[19:34:50] [Server thread/INFO]: Madden_humes_ issued server command: /home spawn
+[19:34:51] [Async Chat Thread - #24/INFO]: <Ultimate_C> not the boots>!!>!>![m
+
+[19:34:55] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to Madden_humes_ for 10 seconds]
+[19:34:57] [Server thread/INFO]: Fishyboi issued server command: /home 1
+[19:35:03] [Async Chat Thread - #24/INFO]: <madmax> kill fisher and noah[m
+
+[19:35:07] [Async Chat Thread - #24/INFO]: <Fishyboi> who[m
+
+[19:35:10] [Async Chat Thread - #24/INFO]: <SpookyScarySkely> trying[m
+
+[19:35:14] [Server thread/INFO]: [@: Teleported Madden_humes_ to -26.563962184246847, 76.0, 275.16836706428063]
+[19:35:15] [Server thread/INFO]: Madden_humes_ fell from a high place
+[19:35:17] [Async Chat Thread - #24/INFO]: <SpookyScarySkely> I need lava to kill noah[m
+
+[19:35:19] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to Madden_humes_ for 10 seconds]
+[19:35:20] [Server thread/INFO]: qh5678 issued server command: /homes
+[19:35:23] [Thread-99/INFO]: UUID of player SOCKSTER12 is ae21b9e8-cc05-3df1-9a49-196f16621723
+[19:35:23] [Server thread/INFO]: SOCKSTER12[/[0:0:0:0:0:0:0:1]:34974] logged in with entity id 92143 at ([world]213.30000001192093, 74.0, 246.30000001192093)
+[19:35:24] [Async Chat Thread - #24/INFO]: <SpookyScarySkely> tpa and[m
+
+[19:35:26] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to Madden_humes_ for 10 seconds]
+[19:35:28] [Server thread/INFO]: [@: Teleported Madden_humes_ to -26.477704687548723, 76.0, 275.69999998807907]
+[19:35:34] [Server thread/INFO]: qh5678 issued server command: /home <Spawn>
+[19:35:47] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to qh5678 for 10 seconds]
+[19:35:50] [Server thread/INFO]: [@: Teleported qh5678 to 177.1915893399625, 81.0, 275.38270063340576]
+[19:35:53] [Server thread/INFO]: SOCKSTER12 lost connection: Login timed out!
+[19:35:53] [Server thread/INFO]: SOCKSTER12 left the game.
+[19:35:53] [Server thread/WARN]: handleDisconnection() called twice
+[19:35:57] [Thread-100/INFO]: UUID of player SOCKSTER12 is ae21b9e8-cc05-3df1-9a49-196f16621723
+[19:35:57] [Server thread/INFO]: SOCKSTER12[/[0:0:0:0:0:0:0:1]:56666] logged in with entity id 92615 at ([world]213.30000001192093, 74.0, 246.30000001192093)
+[19:36:04] [Async Chat Thread - #24/INFO]: <Ultimate_C> noah can we play or not?[m
+
+[19:36:12] [Server thread/INFO]: gestapo has just earned the achievement [Time to Strike!]
+[19:36:19] [Server thread/INFO]: Fishyboi issued server command: /sethome 1
+[19:36:24] [Async Chat Thread - #24/INFO]: <qh5678> gabe is camping noah[m
+
+[19:36:24] [Server thread/INFO]: Fishyboi issued server command: /home 2
+[19:36:27] [Server thread/INFO]: gestapo has just earned the achievement [Hot Topic]
+[19:36:27] [Server thread/INFO]: SOCKSTER12 lost connection: Login timed out!
+[19:36:27] [Server thread/INFO]: SOCKSTER12 left the game.
+[19:36:27] [Server thread/WARN]: handleDisconnection() called twice
+[19:36:32] [Async Chat Thread - #24/INFO]: <SpookyScarySkely> yes[m
+
+[19:36:42] [Async Chat Thread - #24/INFO]: <SpookyScarySkely> cause he combat llog which make me mad[m
+
+[19:36:45] [Async Chat Thread - #24/INFO]: <Fishyboi> i see you gabe[m
+
+[19:36:51] [Async Chat Thread - #24/INFO]: <SpookyScarySkely> come and get me[m
+
+[19:36:58] [Async Chat Thread - #24/INFO]: <Ultimate_C> noah is combat logging[m
+
+[19:37:00] [Async Chat Thread - #24/INFO]: <Fishyboi> no you have enchanted diamond armor[m
+
+[19:37:09] [Server thread/INFO]: SpookyScarySkely issued server command: /home HOME
+[19:37:18] [Thread-101/INFO]: UUID of player MiloIsSigma is b9f0a523-f67f-3d19-83f2-2da709742dd8
+[19:37:18] [Server thread/INFO]: MiloIsSigma[/[0:0:0:0:0:0:0:1]:40680] logged in with entity id 93774 at ([world]1167.300000011921, 60.0, 1273.5425247115288)
+[19:37:19] [Server thread/INFO]: Ultimate_C issued server command: /tell SpookyScarySkely you really want that carrot huh?
+[19:37:25] [Server thread/INFO]: SpookyScarySkely issued server command: /home N
+[19:37:31] [Server thread/INFO]: SpookyScarySkely issued server command: /tell Ultimate_C yes
+[19:37:34] [Server thread/INFO]: MiloIsSigma issued server command: /tpcancel MadMax
+[19:37:37] [Async Chat Thread - #24/INFO]: <gestapo> i got hem back[m
+
+[19:37:44] [Async Chat Thread - #24/INFO]: <Ultimate_C> nice[m
+
+[19:37:59] [Async Chat Thread - #24/INFO]: <Fishyboi> max betrayed you chris[m
+
+[19:38:14] [Async Chat Thread - #24/INFO]: <madmax> fisher stole coords[m
+
+[19:38:16] [Async Chat Thread - #24/INFO]: <SpookyScarySkely> where are you fisher...[m
+
+[19:38:24] [Async Chat Thread - #24/INFO]: <Fishyboi> no you gave them to me[m
+
+[19:38:29] [Server thread/INFO]: Ultimate_C lost connection: Disconnected
+[19:38:29] [Server thread/INFO]: Ultimate_C left the game.
+[19:38:43] [Server thread/INFO]: qh5678 issued server command: /home <Base>
+[19:38:46] [Async Chat Thread - #24/INFO]: <madmax> he came to my computer and forcefully took them[m
+
+[19:38:58] [Async Chat Thread - #24/INFO]: <Fishyboi> 256 74 276[m
+
+[19:38:59] [Thread-102/INFO]: UUID of player Ultimate_C is f412305d-74d0-3911-b252-d2a07b348820
+[19:38:59] [Server thread/INFO]: Ultimate_C[/[0:0:0:0:0:0:0:1]:52264] logged in with entity id 95221 at ([world]-150.5833327281302, 11.0, 764.1043863424046)
+[19:39:12] [Server thread/INFO]: madmax issued server command: /coords
+[19:39:24] [Server thread/INFO]: madmax lost connection: Disconnected
+[19:39:24] [Server thread/INFO]: madmax left the game.
+[19:39:41] [Async Chat Thread - #24/INFO]: <Fishyboi> why gabe where are you[m
+
+[19:39:46] [Server thread/INFO]: Ultimate_C has just earned the achievement [DIAMONDS!]
+[19:39:51] [Async Chat Thread - #24/INFO]: <SpookyScarySkely> 215 78 241[m
+
+[19:39:57] [Thread-103/INFO]: UUID of player socks is 76b1b72e-5b81-378e-a3ee-dba7f2ea91dd
+[19:39:57] [Server thread/INFO]: socks[/[0:0:0:0:0:0:0:1]:45910] logged in with entity id 96105 at ([world]75.5, 60.0, 293.5)
+[19:40:01] [Async Chat Thread - #24/INFO]: <Fishyboi> ok so that is you[m
+
+[19:40:09] [Server thread/INFO]: qh5678 issued server command: /home <Spawn>
+[19:40:14] [Async Chat Thread - #24/INFO]: <SpookyScarySkely> noah on a alt[m
+
+[19:40:16] [Server thread/INFO]: Ultimate_C has just earned the achievement [Monster Hunter]
+[19:40:16] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to qh5678 for 10 seconds]
+[19:40:16] [Async Chat Thread - #24/INFO]: <Fishyboi> but i wont fight because you have better stuff[m
+
+[19:40:17] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to qh5678 for 10 seconds]
+[19:40:19] [Async Chat Thread - #24/INFO]: <Ultimate_C> it okay[m
+
+[19:40:19] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to qh5678 for 10 seconds]
+[19:40:22] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to qh5678 for 10 seconds]
+[19:40:23] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to qh5678 for 10 seconds]
+[19:40:29] [Async Chat Thread - #24/INFO]: <SpookyScarySkely> can I kill him at spawn[m
+
+[19:40:31] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to qh5678 for 10 seconds]
+[19:40:32] [Server thread/INFO]: [@: Teleported qh5678 to 177.5206885961045, 81.0, 275.69999998807907]
+[19:40:39] [Async Chat Thread - #24/INFO]: <Ultimate_C> no[m
+
+[19:40:42] [Async Chat Thread - #24/INFO]: <Ultimate_C> wait yes[m
+
+[19:40:43] [Async Chat Thread - #24/INFO]: <socks> yes[m
+
+[19:40:45] [Server thread/INFO]: gestapo has just earned the achievement [Acquire Hardware]
+[19:40:53] [Async Chat Thread - #24/INFO]: <Ultimate_C> as log as its not repated[m
+
+[19:41:04] [Async Chat Thread - #24/INFO]: <SpookyScarySkely> no he probably already left[m
+
+[19:41:55] [Thread-104/INFO]: UUID of player ____ is 623ec6ac-d56e-3c6f-b05a-671288517d3a
+[19:41:55] [Server thread/INFO]: ____[/[0:0:0:0:0:0:0:1]:56662] logged in with entity id 99057 at ([world]109.68196667223077, 67.0, 279.3011605212812)
+[19:42:04] [Server thread/INFO]: ____ lost connection: Disconnected
+[19:42:04] [Server thread/INFO]: ____ left the game.
+[19:42:11] [Server thread/INFO]: qh5678 issued server command: /home <Base>
+[19:42:24] [Server thread/INFO]: Madden_humes_ has just earned the achievement [Acquire Hardware]
+[19:43:14] [Async Chat Thread - #25/INFO]: <Ultimate_C> remenber greifing is not allowed[m
+
+[19:43:18] [Async Chat Thread - #25/INFO]: <Ultimate_C> but stealing is[m
+
+[19:43:20] [Server thread/INFO]: socks lost connection: Disconnected
+[19:43:20] [Server thread/INFO]: socks left the game.
+[19:43:27] [Server thread/INFO]: Fishyboi lost connection: Disconnected
+[19:43:27] [Server thread/INFO]: Fishyboi left the game.
+[19:43:32] [Server thread/INFO]: qh5678 lost connection: Disconnected
+[19:43:32] [Server thread/INFO]: qh5678 left the game.
+[19:43:42] [Server thread/INFO]: gestapo lost connection: Disconnected
+[19:43:42] [Server thread/INFO]: gestapo left the game.
+[19:43:59] [Server thread/INFO]: SpookyScarySkely lost connection: Disconnected
+[19:43:59] [Server thread/INFO]: SpookyScarySkely left the game.
+[19:44:00] [Server thread/INFO]: Paytons_Man lost connection: Disconnected
+[19:44:00] [Server thread/INFO]: Paytons_Man left the game.
+[19:44:39] [Server thread/INFO]: NXTRND11 lost connection: Disconnected
+[19:44:39] [Server thread/INFO]: NXTRND11 left the game.
+[19:44:54] [Server thread/INFO]: MiloIsSigma lost connection: Disconnected
+[19:44:54] [Server thread/INFO]: MiloIsSigma left the game.
+[19:45:01] [Server thread/INFO]: Madden_humes_ lost connection: Disconnected
+[19:45:01] [Server thread/INFO]: Madden_humes_ left the game.
+[19:45:04] [Server thread/INFO]: Ultimate_C lost connection: Disconnected
+[19:45:04] [Server thread/INFO]: Ultimate_C left the game.
+[19:46:30] [Thread-105/INFO]: UUID of player qh5678 is e01a55ef-f931-318c-8b7f-9ffe2712a35e
+[19:46:30] [Server thread/INFO]: qh5678[/[0:0:0:0:0:0:0:1]:40968] logged in with entity id 101405 at ([world]-590.3295137750043, 12.0, 214.32571067193064)
+[19:46:51] [Server thread/INFO]: qh5678 issued server command: /home <New>
+[19:46:52] [Thread-106/INFO]: UUID of player Fishyboi is 67b7ffe9-834b-30ff-a8e6-f07e51cc3e49
+[19:46:52] [Server thread/INFO]: Fishyboi[/[0:0:0:0:0:0:0:1]:45730] logged in with entity id 101576 at ([world]1245.917021753273, 11.0, 1041.3528791079802)
+[19:47:10] [Thread-107/INFO]: UUID of player SOCKSTER12 is ae21b9e8-cc05-3df1-9a49-196f16621723
+[19:47:10] [Server thread/INFO]: SOCKSTER12[/[0:0:0:0:0:0:0:1]:45418] logged in with entity id 101757 at ([world]213.95385323508864, 74.0, 246.30000001192093)
+[19:47:52] [Server thread/INFO]: SOCKSTER12 issued server command: /home 3
+[19:48:44] [Server thread/INFO]: SOCKSTER12 issued server command: /tpa Fishyboi
+[19:48:51] [Server thread/INFO]: Fishyboi issued server command: /tpaccept
+[19:48:54] [Thread-108/INFO]: UUID of player SpookyScarySkely is b3f1d37a-c71f-31f8-9e29-a3e1b3f2aef4
+[19:48:54] [Server thread/INFO]: SpookyScarySkely[/[0:0:0:0:0:0:0:1]:60520] logged in with entity id 102179 at ([world]167.33029746409207, 74.0, 254.30000001192096)
+[19:49:10] [Server thread/INFO]: SpookyScarySkely issued server command: /home N
+[19:49:17] [Thread-109/INFO]: UUID of player Ultimate_C is f412305d-74d0-3911-b252-d2a07b348820
+[19:49:17] [Server thread/INFO]: Ultimate_C[/[0:0:0:0:0:0:0:1]:48286] logged in with entity id 102394 at ([world]-149.9258915723297, 11.0, 763.6999999880791)
+[19:49:40] [Thread-110/INFO]: UUID of player NXTRND11 is 78bd3f94-2fa9-373a-831c-c85a643110a7
+[19:49:40] [Server thread/INFO]: NXTRND11[/[0:0:0:0:0:0:0:1]:50128] logged in with entity id 102586 at ([world]425.5134180194055, 5.0, 77.33244441072466)
+[19:49:45] [Server thread/INFO]: SpookyScarySkely issued server command: /tpa SOCKSTER12
+[19:50:11] [Thread-111/INFO]: UUID of player MiloIsSigma is b9f0a523-f67f-3d19-83f2-2da709742dd8
+[19:50:11] [Server thread/INFO]: MiloIsSigma[/[0:0:0:0:0:0:0:1]:47586] logged in with entity id 102925 at ([world]1508.0385733540616, 13.0, 1670.9855413698676)
+[19:50:16] [Async Chat Thread - #26/INFO]: <Ultimate_C> hi milo[m
+
+[19:50:24] [Server thread/INFO]: qh5678 lost connection: Disconnected
+[19:50:24] [Server thread/INFO]: qh5678 left the game.
+[19:50:27] [Server thread/INFO]: SpookyScarySkely issued server command: /home HOME
+[19:50:30] [Async Chat Thread - #26/INFO]: <MiloIsSigma> hi cedar[m
+
+[19:50:37] [Async Chat Thread - #26/INFO]: <SpookyScarySkely> where did you go noah[m
+
+[19:50:46] [Async Chat Thread - #26/INFO]: <Fishyboi> to my base[m
+
+[19:50:58] [Server thread/INFO]: SpookyScarySkely issued server command: /home Spawn
+[19:51:16] [Server thread/INFO]: SpookyScarySkely lost connection: Disconnected
+[19:51:16] [Server thread/INFO]: SpookyScarySkely left the game.
+[19:51:25] [Server thread/INFO]: Fishyboi issued server command: /home 1
+[19:51:32] [Server thread/INFO]: Fishyboi issued server command: /home 1
+[19:52:37] [Server thread/INFO]: SOCKSTER12 issued server command: /home 5
+[19:53:21] [Server thread/INFO]: MiloIsSigma has just earned the achievement [Time to Mine!]
+[19:53:21] [Server thread/INFO]: MiloIsSigma has just earned the achievement [Getting an Upgrade]
+[19:53:24] [Server thread/INFO]: NXTRND11 lost connection: Disconnected
+[19:53:24] [Server thread/INFO]: NXTRND11 left the game.
+[19:53:35] [Async Chat Thread - #27/INFO]: <Ultimate_C> good job dog[m
+
+[19:53:59] [Thread-112/INFO]: UUID of player NXTRND11 is 78bd3f94-2fa9-373a-831c-c85a643110a7
+[19:54:00] [Server thread/INFO]: NXTRND11[/[0:0:0:0:0:0:0:1]:47856] logged in with entity id 103911 at ([world]427.3775929885933, 5.0, 77.92251803751752)
+[19:54:05] [Server thread/INFO]: MiloIsSigma lost connection: Disconnected
+[19:54:05] [Server thread/INFO]: MiloIsSigma left the game.
+[19:54:10] [Thread-113/INFO]: UUID of player MiloIsSigma is b9f0a523-f67f-3d19-83f2-2da709742dd8
+[19:54:10] [Server thread/INFO]: MiloIsSigma[/[0:0:0:0:0:0:0:1]:58476] logged in with entity id 103974 at ([world]1508.574999988079, 15.443079829263482, 1670.699999988079)
+[19:54:16] [Server thread/INFO]: Fishyboi issued server command: /tpa SOCKSTER12
+[19:54:24] [Server thread/INFO]: SOCKSTER12 issued server command: /tpaccept
+[19:54:41] [Server thread/INFO]: MiloIsSigma lost connection: Disconnected
+[19:54:41] [Server thread/INFO]: MiloIsSigma left the game.
+[19:54:48] [Thread-114/INFO]: UUID of player ____ is 623ec6ac-d56e-3c6f-b05a-671288517d3a
+[19:54:48] [Server thread/INFO]: ____[/[0:0:0:0:0:0:0:1]:51928] logged in with entity id 104044 at ([world]109.68196667223077, 67.0, 279.3011605212812)
+[19:54:48] [Thread-115/INFO]: UUID of player qh5678 is e01a55ef-f931-318c-8b7f-9ffe2712a35e
+[19:54:48] [Server thread/INFO]: qh5678[/[0:0:0:0:0:0:0:1]:51944] logged in with entity id 104078 at ([world_nether]-642.3795292390025, 73.0, -168.7710219171349)
+[19:54:59] [Server thread/INFO]: SOCKSTER12 has just earned the achievement [We Need to Go Deeper]
+[19:55:12] [Async Chat Thread - #28/INFO]: <qh5678> fisher and noah are raiding milo[m
+
+[19:55:13] [Server thread/INFO]: SOCKSTER12 issued server command: /sethome nether
+[19:55:16] [Async Chat Thread - #28/INFO]: <Fishyboi> yeah[m
+
+[19:55:19] [Async Chat Thread - #28/INFO]: <Ultimate_C> raiding is okay[m
+
+[19:55:19] [Server thread/INFO]: ____ lost connection: Login timed out!
+[19:55:19] [Server thread/INFO]: ____ left the game.
+[19:55:19] [Server thread/WARN]: handleDisconnection() called twice
+[19:55:22] [Async Chat Thread - #28/INFO]: <qh5678> ik[m
+
+[19:55:22] [Async Chat Thread - #28/INFO]: <Ultimate_C> just not greifing[m
+
+[19:55:40] [Server thread/INFO]: NXTRND11 issued server command: /tpa Fishyboi
+[19:55:47] [Server thread/INFO]: Fishyboi issued server command: /tpaccept
+[19:56:11] [Server thread/INFO]: Fishyboi issued server command: /tell SOCKSTER12 lets jump teag
+[19:56:26] [Server thread/INFO]: SOCKSTER12 issued server command: /tell Fishyboi for real?
+[19:56:27] [Async Chat Thread - #29/INFO]: <Ultimate_C> noah noah...[m
+
+[19:56:32] [Server thread/INFO]: NXTRND11 was slain by Fishyboi
+[19:56:36] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to NXTRND11 for 10 seconds]
+[19:56:42] [Server thread/INFO]: NXTRND11 issued server command: /home <5>
+[19:56:46] [Async Chat Thread - #29/INFO]: <Fishyboi> get cooked[m
+
+[19:56:49] [Thread-116/INFO]: UUID of player ____ is 623ec6ac-d56e-3c6f-b05a-671288517d3a
+[19:56:49] [Server thread/INFO]: ____[/[0:0:0:0:0:0:0:1]:57658] logged in with entity id 104890 at ([world]109.922270140062, 67.0, 279.3682636273679)
+[19:56:50] [Server thread/INFO]: NXTRND11 issued server command: /home <1>
+[19:56:50] [Thread-117/INFO]: UUID of player MiloIsSigma is b9f0a523-f67f-3d19-83f2-2da709742dd8
+[19:56:50] [Server thread/INFO]: MiloIsSigma[/[0:0:0:0:0:0:0:1]:57662] logged in with entity id 104937 at ([world]1508.6055310369766, 13.0, 1680.0196104608508)
+[19:56:55] [Server thread/INFO]: NXTRND11 issued server command: /home <1>
+[19:57:02] [Server thread/INFO]: MiloIsSigma lost connection: Disconnected
+[19:57:02] [Server thread/INFO]: MiloIsSigma left the game.
+[19:57:08] [Async Chat Thread - #29/INFO]: <Fishyboi> teag im sorry[m
+
+[19:57:19] [Server thread/INFO]: ____ lost connection: Disconnected
+[19:57:19] [Server thread/INFO]: ____ left the game.
+[19:57:21] [Thread-119/INFO]: UUID of player ____ is 623ec6ac-d56e-3c6f-b05a-671288517d3a
+[19:57:21] [Server thread/INFO]: ____[/[0:0:0:0:0:0:0:1]:51370] logged in with entity id 105148 at ([world]109.922270140062, 67.0, 279.3682636273679)
+[19:57:24] [Server thread/INFO]: SOCKSTER12 issued server command: /delhome 2
+[19:57:52] [Server thread/INFO]: ____ lost connection: Login timed out!
+[19:57:52] [Server thread/INFO]: ____ left the game.
+[19:57:52] [Server thread/WARN]: handleDisconnection() called twice
+[19:58:05] [Thread-120/INFO]: UUID of player ____ is 623ec6ac-d56e-3c6f-b05a-671288517d3a
+[19:58:05] [Server thread/INFO]: ____[/[0:0:0:0:0:0:0:1]:43154] logged in with entity id 105307 at ([world]109.922270140062, 67.0, 279.3682636273679)
+[19:58:46] [Server thread/INFO]: Fishyboi issued server command: /home 1
+[19:58:50] [Async Chat Thread - #30/INFO]: <Fishyboi> thanks teag sorry[m
+
+[19:58:53] [Server thread/INFO]: SOCKSTER12 issued server command: /tpa Fishyboi
+[19:58:57] [Server thread/INFO]: Fishyboi issued server command: /tpaccept
+[19:59:02] [Server thread/INFO]: SOCKSTER12 issued server command: /tell Fishyboi thanks
+[19:59:06] [Async Chat Thread - #30/INFO]: <Ultimate_C> eveyone be readdy for the contest tommrow![m
+
+[19:59:13] [Async Chat Thread - #30/INFO]: <qh5678> when[m
+
+[19:59:17] [Async Chat Thread - #30/INFO]: <Fishyboi> im so ready[m
+
+[19:59:17] [Async Chat Thread - #30/INFO]: <Ultimate_C> ao[m
+
+[19:59:23] [Async Chat Thread - #30/INFO]: <qh5678> its early out[m
+
+[19:59:23] [Async Chat Thread - #30/INFO]: <Fishyboi> is there killing during it[m
+
+[19:59:26] [Async Chat Thread - #30/INFO]: <Ultimate_C> no[m
+
+[19:59:29] [Async Chat Thread - #30/INFO]: <Ultimate_C> wait[m
+
+[19:59:31] [Async Chat Thread - #30/INFO]: <Ultimate_C> maybe..[m
+
+[19:59:39] [Async Chat Thread - #30/INFO]: <qh5678> 2b[m
+
+[20:00:40] [Async Chat Thread - #31/INFO]: <Ultimate_C> still deciding if contest is gonna be eveyone at once or if it will just be 2 at a time[m
+
+[20:00:49] [Async Chat Thread - #31/INFO]: <qh5678> is it ffa[m
+
+[20:00:52] [Server thread/INFO]: SOCKSTER12 issued server command: /homes
+[20:00:53] [Async Chat Thread - #31/INFO]: <Ultimate_C> no[m
+
+[20:00:57] [Server thread/INFO]: SOCKSTER12 issued server command: /home 3
+[20:01:03] [Async Chat Thread - #31/INFO]: <Ultimate_C> probably bow accuaracy[m
+
+[20:01:03] [Server thread/INFO]: qh5678 issued server command: /home <New>
+[20:01:16] [Async Chat Thread - #31/INFO]: <Ultimate_C> or 1v1 bow[m
+
+[20:01:21] [Async Chat Thread - #31/INFO]: <NXTRND11> just so u know cedar fisher used hacks to kill me and steal my stuff[m
+
+[20:01:28] [Async Chat Thread - #31/INFO]: <Ultimate_C> grrrr[m
+
+[20:01:28] [Async Chat Thread - #31/INFO]: <Fishyboi> what no[m
+
+[20:01:35] [Async Chat Thread - #31/INFO]: <SOCKSTER12> no he didn;t i was there[m
+
+[20:01:38] [Async Chat Thread - #31/INFO]: <Fishyboi> hes just mad it was legit[m
+
+[20:01:42] [Server thread/INFO]: ____ has just earned the achievement [Taking Inventory]
+[20:01:43] [Async Chat Thread - #31/INFO]: <SOCKSTER12> teig just weak as F***[m
+
+[20:01:46] [Async Chat Thread - #31/INFO]: <NXTRND11> they are both using hacks[m
+
+[20:01:53] [Async Chat Thread - #31/INFO]: <Fishyboi> no you just suck[m
+
+[20:01:55] [Async Chat Thread - #31/INFO]: <SOCKSTER12> sorry frick[m
+
+[20:01:59] [Async Chat Thread - #31/INFO]: <Fishyboi> you didnt even fight back[m
+
+[20:02:15] [Server thread/INFO]: SOCKSTER12 issued server command: /home 1
+[20:02:18] [Async Chat Thread - #31/INFO]: <NXTRND11> i am looking at both of there screens rn[m
+
+[20:02:24] [Server thread/INFO]: qh5678 lost connection: Disconnected
+[20:02:24] [Server thread/INFO]: qh5678 left the game.
+[20:02:27] [Async Chat Thread - #31/INFO]: <Fishyboi> nuh uh[m
+
+[20:02:28] [Async Chat Thread - #31/INFO]: <SOCKSTER12> then record them bukko[m
+
+[20:02:28] [Async Chat Thread - #31/INFO]: <Ultimate_C> and both are hacking?[m
+
+[20:02:32] [Server thread/INFO]: ____ has just earned the achievement [Getting Wood]
+[20:02:34] [Async Chat Thread - #31/INFO]: <NXTRND11> yep[m
+
+[20:02:37] [Async Chat Thread - #31/INFO]: <SOCKSTER12> proof record them im not[m
+
+[20:02:39] [Async Chat Thread - #31/INFO]: <Ultimate_C> i need proof[m
+
+[20:02:42] [Async Chat Thread - #31/INFO]: <SOCKSTER12> don't listen pls[m
+
+[20:02:53] [Server thread/INFO]: Fishyboi lost connection: Disconnected
+[20:02:53] [Server thread/INFO]: Fishyboi left the game.
+[20:02:53] [Async Chat Thread - #31/INFO]: <SOCKSTER12> i still haven't logged off so i can't be using hacks[m
+
+[20:02:58] [Thread-121/INFO]: UUID of player Fishyboi is 67b7ffe9-834b-30ff-a8e6-f07e51cc3e49
+[20:02:58] [Server thread/INFO]: Fishyboi[/[0:0:0:0:0:0:0:1]:49586] logged in with entity id 110845 at ([world]1182.699999988079, 9.0, 1127.3386233147996)
+[20:02:59] [Server thread/INFO]: SOCKSTER12 issued server command: /home 3
+[20:02:59] [Async Chat Thread - #31/INFO]: <NXTRND11> told u so[m
+
+[20:03:07] [Thread-122/INFO]: UUID of player qh5678 is e01a55ef-f931-318c-8b7f-9ffe2712a35e
+[20:03:07] [Server thread/INFO]: qh5678[/[0:0:0:0:0:0:0:1]:49594] logged in with entity id 111029 at ([world_nether]-883.538239756453, 80.0, -176.20830981441543)
+[20:03:08] [Async Chat Thread - #31/INFO]: <NXTRND11> fisher jsut changed[m
+
+[20:03:08] [Async Chat Thread - #31/INFO]: <Fishyboi> what[m
+
+[20:03:12] [Server thread/INFO]: Ultimate_C issued server command: /kick Fishyboi
+[20:03:12] [Server thread/INFO]: Fishyboi lost connection: Kicked by an operator.
+[20:03:12] [Server thread/INFO]: Fishyboi left the game.
+[20:03:12] [Server thread/INFO]: [Ultimate_C: Kicked Fishyboi from the game]
+[20:03:12] [Server thread/WARN]: handleDisconnection() called twice
+[20:03:15] [Thread-123/INFO]: UUID of player Fishyboi is 67b7ffe9-834b-30ff-a8e6-f07e51cc3e49
+[20:03:15] [Server thread/INFO]: Fishyboi[/[0:0:0:0:0:0:0:1]:40372] logged in with entity id 111070 at ([world]1182.699999988079, 9.0, 1127.3386233147996)
+[20:03:16] [Server thread/INFO]: Ultimate_C issued server command: /kick Fishyboi
+[20:03:16] [Server thread/INFO]: Fishyboi lost connection: Kicked by an operator.
+[20:03:16] [Server thread/INFO]: Fishyboi left the game.
+[20:03:16] [Server thread/INFO]: [Ultimate_C: Kicked Fishyboi from the game]
+[20:03:17] [Server thread/WARN]: handleDisconnection() called twice
+[20:03:30] [Server thread/INFO]: qh5678 lost connection: Disconnected
+[20:03:30] [Server thread/INFO]: qh5678 left the game.
+[20:03:31] [Async Chat Thread - #31/INFO]: <SOCKSTER12> tieg closed his chromebook[m
+
+[20:03:31] [Thread-124/INFO]: UUID of player Fishyboi is 67b7ffe9-834b-30ff-a8e6-f07e51cc3e49
+[20:03:31] [Server thread/INFO]: Fishyboi[/[0:0:0:0:0:0:0:1]:44778] logged in with entity id 111721 at ([world]1182.699999988079, 9.0, 1127.3386233147996)
+[20:03:35] [Async Chat Thread - #31/INFO]: <SOCKSTER12> that wasn't fisher[m
+
+[20:03:42] [Thread-125/INFO]: UUID of player MiloIsSigma is b9f0a523-f67f-3d19-83f2-2da709742dd8
+[20:03:43] [Server thread/INFO]: MiloIsSigma[/[0:0:0:0:0:0:0:1]:48288] logged in with entity id 111929 at ([world]1508.699999988079, 12.0, 1679.3878699876482)
+[20:03:43] [Async Chat Thread - #31/INFO]: <Fishyboi> he closed my computer[m
+
+[20:03:44] [Async Chat Thread - #31/INFO]: <Ultimate_C> lets not hack okay?[m
+
+[20:03:51] [Async Chat Thread - #31/INFO]: <Fishyboi> yeah i know[m
+
+[20:03:55] [Server thread/INFO]: SOCKSTER12 issued server command: /home 5
+[20:03:57] [Async Chat Thread - #31/INFO]: <NXTRND11> fisher took my magic item too[m
+
+[20:04:01] [Async Chat Thread - #31/INFO]: <Fishyboi> yeah[m
+
+[20:04:10] [Server thread/INFO]: SOCKSTER12 issued server command: /tell Fishyboi tpa lets jump milo
+[20:04:12] [Async Chat Thread - #31/INFO]: <Ultimate_C> well if it was fair and square...[m
+
+[20:04:13] [Server thread/INFO]: MiloIsSigma lost connection: Login timed out!
+[20:04:13] [Server thread/INFO]: MiloIsSigma left the game.
+[20:04:13] [Server thread/WARN]: handleDisconnection() called twice
+[20:04:22] [Async Chat Thread - #31/INFO]: <NXTRND11> it wasn;t[m
+
+[20:04:31] [Async Chat Thread - #31/INFO]: <Fishyboi> womp womp[m
+
+[20:04:46] [Server thread/INFO]: SOCKSTER12 issued server command: /home 3
+[20:04:58] [Server thread/INFO]: Ultimate_C issued server command: /tell SOCKSTER12 is he acctualy hacking?
+[20:05:01] [Thread-126/INFO]: UUID of player qh5678 is e01a55ef-f931-318c-8b7f-9ffe2712a35e
+[20:05:01] [Server thread/INFO]: qh5678[/[0:0:0:0:0:0:0:1]:58832] logged in with entity id 112710 at ([world_nether]-889.0427321053439, 83.0, -191.6524766245875)
+[20:05:12] [Server thread/INFO]: SOCKSTER12 issued server command: /tell Ultimate_C no
+[20:05:21] [Server thread/INFO]: Ultimate_C issued server command: /tell SOCKSTER12 like for real?
+[20:05:31] [Server thread/INFO]: qh5678 lost connection: Login timed out!
+[20:05:31] [Server thread/INFO]: qh5678 left the game.
+[20:05:31] [Server thread/WARN]: handleDisconnection() called twice
+[20:05:31] [Server thread/INFO]: SOCKSTER12 issued server command: /tell Ultimate_C yeha like for real
+[20:05:34] [Thread-127/INFO]: UUID of player qh5678 is e01a55ef-f931-318c-8b7f-9ffe2712a35e
+[20:05:34] [Server thread/INFO]: qh5678[/[0:0:0:0:0:0:0:1]:39396] logged in with entity id 112991 at ([world_nether]-889.8680388510252, 83.0, -191.07858669890098)
+[20:05:37] [Server thread/INFO]: SOCKSTER12 issued server command: /home 1
+[20:05:40] [Server thread/INFO]: SOCKSTER12 issued server command: /home 1
+[20:05:47] [Server thread/INFO]: Ultimate_C issued server command: /tell SOCKSTER12 did he hack to kill teag?
+[20:05:50] [Server thread/INFO]: SOCKSTER12 issued server command: /home 3
+[20:06:00] [Server thread/INFO]: SOCKSTER12 issued server command: /tell Ultimate_C no i was there too
+[20:06:04] [Async Chat Thread - #32/INFO]: <Ultimate_C> okay[m
+
+[20:06:10] [Server thread/INFO]: qh5678 issued server command: /home <Base>
+[20:06:20] [Server thread/WARN]: Ultimate_C moved wrongly!
+[20:06:21] [Server thread/INFO]: qh5678 issued server command: /home <Base>
+[20:07:34] [Thread-128/INFO]: UUID of player MiloIsSigma is b9f0a523-f67f-3d19-83f2-2da709742dd8
+[20:07:34] [Server thread/INFO]: MiloIsSigma[/[0:0:0:0:0:0:0:1]:37142] logged in with entity id 115361 at ([world]1508.699999988079, 11.0, 1679.3878699876482)
+[20:07:39] [Async Chat Thread - #33/INFO]: <qh5678> fisher[m
+
+[20:07:40] [Server thread/INFO]: SOCKSTER12 issued server command: /home 5
+[20:07:41] [Async Chat Thread - #33/INFO]: <Fishyboi> what[m
+
+[20:07:43] [Async Chat Thread - #33/INFO]: <Ultimate_C> noa what if i kill you right now[m
+
+[20:07:46] [Async Chat Thread - #33/INFO]: <Ultimate_C> in the lava[m
+
+[20:07:46] [Async Chat Thread - #33/INFO]: <qh5678> where r u[m
+
+[20:07:50] [Async Chat Thread - #33/INFO]: <SOCKSTER12> pls no[m
+
+[20:07:53] [Server thread/INFO]: SOCKSTER12 issued server command: /home 5
+[20:07:53] [Async Chat Thread - #33/INFO]: <Fishyboi> my base[m
+
+[20:07:54] [Async Chat Thread - #33/INFO]: <Ultimate_C> why?[m
+
+[20:08:01] [Async Chat Thread - #33/INFO]: <SOCKSTER12> why would u?[m
+
+[20:08:04] [Async Chat Thread - #33/INFO]: <Fishyboi> hwy[m
+
+[20:08:06] [Async Chat Thread - #33/INFO]: <Fishyboi> why[m
+
+[20:08:10] [Server thread/INFO]: SOCKSTER12 issued server command: /tell Fishyboi tpa me
+[20:08:11] [Async Chat Thread - #33/INFO]: <Ultimate_C> admin abuse pay back[m
+
+[20:08:12] [Async Chat Thread - #33/INFO]: <qh5678> nothingg[m
+
+[20:08:15] [Server thread/INFO]: SOCKSTER12 issued server command: /tell Fishyboi jump him
+[20:08:25] [Server thread/INFO]: SOCKSTER12 issued server command: /tell Fishyboi tpa me
+[20:08:29] [Server thread/INFO]: SOCKSTER12 issued server command: /tell Fishyboi jump him
+[20:08:33] [Server thread/INFO]: Fishyboi issued server command: /tpa SOCKSTER12
+[20:08:34] [Server thread/INFO]: SOCKSTER12 issued server command: /tpaccept
+[20:08:48] [Server thread/INFO]: MiloIsSigma was slain by SOCKSTER12
+[20:08:48] [Server thread/INFO]: MiloIsSigma lost connection: Disconnected
+[20:08:48] [Server thread/INFO]: MiloIsSigma left the game.
+[20:08:51] [Server thread/INFO]: Fishyboi has just earned the achievement [Getting Wood]
+[20:08:55] [Thread-129/INFO]: UUID of player MiloIsSigma is b9f0a523-f67f-3d19-83f2-2da709742dd8
+[20:08:55] [Server thread/INFO]: MiloIsSigma[/[0:0:0:0:0:0:0:1]:36032] logged in with entity id 116629 at ([world]1508.574999988079, 12.0, 1670.699999988079)
+[20:08:55] [Async Chat Thread - #33/INFO]: <SOCKSTER12> lezzz go[m
+
+[20:09:00] [Server thread/INFO]: MiloIsSigma issued server command: /back
+[20:09:01] [Async Chat Thread - #33/INFO]: <Ultimate_C> what?[m
+
+[20:09:07] [Server thread/INFO]: [@: Given Resistance (ID 11) * 255 to MiloIsSigma for 10 seconds]
+[20:09:07] [Async Chat Thread - #33/INFO]: <SOCKSTER12> did u not c chat?[m
+
+[20:09:08] [Server thread/INFO]: MiloIsSigma issued server command: /back
+[20:09:10] [Async Chat Thread - #33/INFO]: <qh5678> he spawnkilled milo[m
+
+[20:09:11] [Async Chat Thread - #33/INFO]: <Fishyboi> why quincy[m
+
+[20:09:18] [Async Chat Thread - #33/INFO]: <MiloIsSigma> bro i didnt even do anything[m
+
+[20:09:21] [Async Chat Thread - #33/INFO]: <SOCKSTER12> no i didnt he was logged in for a while[m
+
+[20:09:22] [Async Chat Thread - #33/INFO]: <MiloIsSigma> what did i do to you[m
+
+[20:09:26] [Async Chat Thread - #33/INFO]: <Fishyboi> we woont kill you[m
+
+[20:09:26] [Async Chat Thread - #33/INFO]: <qh5678> no he wasnt[m
+
+[20:09:31] [Server thread/INFO]: [@: Teleported MiloIsSigma to 177.5164753384529, 81.0, 275.6800094045733]
+[20:09:34] [Async Chat Thread - #33/INFO]: <SOCKSTER12> i can have killed u if you weren't logged in[m
+
+[20:09:36] [Async Chat Thread - #33/INFO]: <SOCKSTER12> so he was[m
+
+[20:09:38] [Server thread/INFO]: SOCKSTER12 issued server command: /home 5
+[20:09:46] [Server thread/INFO]: SOCKSTER12 issued server command: /home 4
+[20:09:58] [Server thread/INFO]: SOCKSTER12 issued server command: /home 3
+[20:10:12] [Async Chat Thread - #33/INFO]: <SOCKSTER12> i for got to set home again[m
+
+[20:10:15] [Server thread/INFO]: qh5678 issued server command: /home <New>
+[20:10:17] [Async Chat Thread - #33/INFO]: <Ultimate_C> :([m
+
+[20:10:21] [Async Chat Thread - #33/INFO]: <SOCKSTER12> can i teleport with u back home one more time?[m
+
+[20:10:30] [Async Chat Thread - #33/INFO]: <Ultimate_C> who?[m
+
+[20:10:36] [Async Chat Thread - #33/INFO]: <SOCKSTER12> Fishyboi[m
+
+[20:10:37] [Server thread/INFO]: MiloIsSigma issued server command: /tpa Sockster12
+[20:10:37] [Server thread/INFO]: Fishyboi issued server command: /tell SOCKSTER12 i think quincy saw us in x ray
+[20:10:42] [Server thread/INFO]: SOCKSTER12 issued server command: /tpaccept
+[20:10:43] [Async Chat Thread - #33/INFO]: <Ultimate_C> u 2 are teaming?[m
+
+[20:10:45] [Server thread/INFO]: Fishyboi issued server command: /tell SOCKSTER12 at our base
+[20:11:00] [Server thread/INFO]: NXTRND11 issued server command: /home <1>
+[20:11:06] [Async Chat Thread - #33/INFO]: <Ultimate_C> nice[m
+
+[20:11:34] [Server thread/INFO]: NXTRND11 issued server command: /home <1>
+[20:11:35] [Server thread/INFO]: SOCKSTER12 issued server command: /tell MiloIsSigma good?
+[20:11:41] [Server thread/INFO]: NXTRND11 issued server command: /home <1>
+[20:11:50] [Server thread/INFO]: MiloIsSigma issued server command: /tell Sockster12 yes Ill leave now
+[20:11:52] [Async Chat Thread - #33/INFO]: <Ultimate_C> who votes to set it to day![m
+
+[20:11:57] [Async Chat Thread - #33/INFO]: <NXTRND11> me[m
+
+[20:12:01] [Async Chat Thread - #33/INFO]: <SOCKSTER12> no i need spyders pls[m
+
+[20:12:03] [Server thread/INFO]: SOCKSTER12 issued server command: /home 3
+[20:12:08] [Async Chat Thread - #33/INFO]: <Ultimate_C> okay 1 off vote[m
+
+[20:12:11] [Async Chat Thread - #33/INFO]: <Ultimate_C> therfore i cant[m
+
+[20:12:23] [Server thread/INFO]: SOCKSTER12 lost connection: Disconnected
+[20:12:23] [Server thread/INFO]: SOCKSTER12 left the game.
+[20:12:23] [Server thread/INFO]: Ultimate_C lost connection: Disconnected
+[20:12:23] [Server thread/INFO]: Ultimate_C left the game.
+[20:12:23] [Server thread/INFO]: NXTRND11 lost connection: Disconnected
+[20:12:23] [Server thread/INFO]: NXTRND11 left the game.
+[20:12:23] [Server thread/INFO]: ____ lost connection: Disconnected
+[20:12:23] [Server thread/INFO]: ____ left the game.
+[20:12:23] [Server thread/INFO]: Fishyboi lost connection: Disconnected
+[20:12:23] [Server thread/INFO]: Fishyboi left the game.
+[20:12:23] [Server thread/INFO]: qh5678 lost connection: Disconnected
+[20:12:23] [Server thread/INFO]: qh5678 left the game.
+[20:12:23] [Server thread/INFO]: MiloIsSigma lost connection: Disconnected
+[20:12:23] [Server thread/INFO]: MiloIsSigma left the game.
+[20:12:27] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Input/output error
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:291) ~[?:?]
+	at java.io.BufferedInputStream.implRead(BufferedInputStream.java:325) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:312) ~[?:?]
+	at org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:169) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:137) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:246) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:261) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:198) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2145) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2349) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer$2.run(DedicatedServer.java:79) [patched_1.8.8.jar:git-PaperSpigot-445]
+[20:12:27] [Thread-2/INFO]: Stopping server
+[20:12:27] [Thread-2/INFO]: [0;36;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[20:12:27] [Thread-2/INFO]: [0;36;1m[21m[SimpleTpa] Simple Tpa has been disabled on version 6.4[m
+
+[20:12:27] [Thread-2/INFO]: Saving players
